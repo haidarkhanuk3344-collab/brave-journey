@@ -1,0 +1,763 @@
+{
+  "effects": [
+    {
+      "id": "sword_slash",
+      "frames": [
+        "effects/sword_slash/sword_slash_01.png",
+        "effects/sword_slash/sword_slash_02.png",
+        "effects/sword_slash/sword_slash_03.png",
+        "effects/sword_slash/sword_slash_04.png",
+        "effects/sword_slash/sword_slash_05.png",
+        "effects/sword_slash/sword_slash_06.png",
+        "effects/sword_slash/sword_slash_07.png",
+        "effects/sword_slash/sword_slash_08.png"
+      ],
+      "sheet": "effects/sword_slash/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "sword_impact",
+      "frames": [
+        "effects/sword_impact/sword_impact_01.png",
+        "effects/sword_impact/sword_impact_02.png",
+        "effects/sword_impact/sword_impact_03.png",
+        "effects/sword_impact/sword_impact_04.png",
+        "effects/sword_impact/sword_impact_05.png",
+        "effects/sword_impact/sword_impact_06.png",
+        "effects/sword_impact/sword_impact_07.png",
+        "effects/sword_impact/sword_impact_08.png"
+      ],
+      "sheet": "effects/sword_impact/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "arrow_projectile",
+      "frames": [
+        "effects/arrow_projectile/arrow_projectile_01.png",
+        "effects/arrow_projectile/arrow_projectile_02.png",
+        "effects/arrow_projectile/arrow_projectile_03.png",
+        "effects/arrow_projectile/arrow_projectile_04.png"
+      ],
+      "sheet": "effects/arrow_projectile/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 4,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "projectile",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "arrow_impact",
+      "frames": [
+        "effects/arrow_impact/arrow_impact_01.png",
+        "effects/arrow_impact/arrow_impact_02.png",
+        "effects/arrow_impact/arrow_impact_03.png",
+        "effects/arrow_impact/arrow_impact_04.png",
+        "effects/arrow_impact/arrow_impact_05.png",
+        "effects/arrow_impact/arrow_impact_06.png",
+        "effects/arrow_impact/arrow_impact_07.png",
+        "effects/arrow_impact/arrow_impact_08.png"
+      ],
+      "sheet": "effects/arrow_impact/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "magic_projectile",
+      "frames": [
+        "effects/magic_projectile/magic_projectile_01.png",
+        "effects/magic_projectile/magic_projectile_02.png",
+        "effects/magic_projectile/magic_projectile_03.png",
+        "effects/magic_projectile/magic_projectile_04.png",
+        "effects/magic_projectile/magic_projectile_05.png",
+        "effects/magic_projectile/magic_projectile_06.png",
+        "effects/magic_projectile/magic_projectile_07.png",
+        "effects/magic_projectile/magic_projectile_08.png"
+      ],
+      "sheet": "effects/magic_projectile/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "projectile",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "magic_impact",
+      "frames": [
+        "effects/magic_impact/magic_impact_01.png",
+        "effects/magic_impact/magic_impact_02.png",
+        "effects/magic_impact/magic_impact_03.png",
+        "effects/magic_impact/magic_impact_04.png",
+        "effects/magic_impact/magic_impact_05.png",
+        "effects/magic_impact/magic_impact_06.png",
+        "effects/magic_impact/magic_impact_07.png",
+        "effects/magic_impact/magic_impact_08.png"
+      ],
+      "sheet": "effects/magic_impact/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "hit_flash",
+      "frames": [
+        "effects/hit_flash/hit_flash_01.png",
+        "effects/hit_flash/hit_flash_02.png",
+        "effects/hit_flash/hit_flash_03.png",
+        "effects/hit_flash/hit_flash_04.png",
+        "effects/hit_flash/hit_flash_05.png",
+        "effects/hit_flash/hit_flash_06.png",
+        "effects/hit_flash/hit_flash_07.png",
+        "effects/hit_flash/hit_flash_08.png"
+      ],
+      "sheet": "effects/hit_flash/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "pickup",
+      "frames": [
+        "effects/pickup/pickup_01.png",
+        "effects/pickup/pickup_02.png",
+        "effects/pickup/pickup_03.png",
+        "effects/pickup/pickup_04.png",
+        "effects/pickup/pickup_05.png",
+        "effects/pickup/pickup_06.png",
+        "effects/pickup/pickup_07.png",
+        "effects/pickup/pickup_08.png"
+      ],
+      "sheet": "effects/pickup/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "level_up",
+      "frames": [
+        "effects/level_up/level_up_01.png",
+        "effects/level_up/level_up_02.png",
+        "effects/level_up/level_up_03.png",
+        "effects/level_up/level_up_04.png",
+        "effects/level_up/level_up_05.png",
+        "effects/level_up/level_up_06.png",
+        "effects/level_up/level_up_07.png",
+        "effects/level_up/level_up_08.png"
+      ],
+      "sheet": "effects/level_up/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "enhance_success",
+      "frames": [
+        "effects/enhance_success/enhance_success_01.png",
+        "effects/enhance_success/enhance_success_02.png",
+        "effects/enhance_success/enhance_success_03.png",
+        "effects/enhance_success/enhance_success_04.png",
+        "effects/enhance_success/enhance_success_05.png",
+        "effects/enhance_success/enhance_success_06.png",
+        "effects/enhance_success/enhance_success_07.png",
+        "effects/enhance_success/enhance_success_08.png"
+      ],
+      "sheet": "effects/enhance_success/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "recast_complete",
+      "frames": [
+        "effects/recast_complete/recast_complete_01.png",
+        "effects/recast_complete/recast_complete_02.png",
+        "effects/recast_complete/recast_complete_03.png",
+        "effects/recast_complete/recast_complete_04.png",
+        "effects/recast_complete/recast_complete_05.png",
+        "effects/recast_complete/recast_complete_06.png",
+        "effects/recast_complete/recast_complete_07.png",
+        "effects/recast_complete/recast_complete_08.png"
+      ],
+      "sheet": "effects/recast_complete/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "warning_area",
+      "frames": [
+        "effects/warning_area/warning_area_01.png",
+        "effects/warning_area/warning_area_02.png",
+        "effects/warning_area/warning_area_03.png",
+        "effects/warning_area/warning_area_04.png",
+        "effects/warning_area/warning_area_05.png",
+        "effects/warning_area/warning_area_06.png",
+        "effects/warning_area/warning_area_07.png",
+        "effects/warning_area/warning_area_08.png"
+      ],
+      "sheet": "effects/warning_area/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        140
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "persistent_area",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "root_area",
+      "frames": [
+        "effects/root_area/root_area_01.png",
+        "effects/root_area/root_area_02.png",
+        "effects/root_area/root_area_03.png",
+        "effects/root_area/root_area_04.png",
+        "effects/root_area/root_area_05.png",
+        "effects/root_area/root_area_06.png",
+        "effects/root_area/root_area_07.png",
+        "effects/root_area/root_area_08.png"
+      ],
+      "sheet": "effects/root_area/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        140
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "persistent_area",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "stone_projectile",
+      "frames": [
+        "effects/stone_projectile/stone_projectile_01.png",
+        "effects/stone_projectile/stone_projectile_02.png",
+        "effects/stone_projectile/stone_projectile_03.png",
+        "effects/stone_projectile/stone_projectile_04.png"
+      ],
+      "sheet": "effects/stone_projectile/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 4,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "projectile",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "boulder_projectile",
+      "frames": [
+        "effects/boulder_projectile/boulder_projectile_01.png",
+        "effects/boulder_projectile/boulder_projectile_02.png",
+        "effects/boulder_projectile/boulder_projectile_03.png",
+        "effects/boulder_projectile/boulder_projectile_04.png"
+      ],
+      "sheet": "effects/boulder_projectile/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 4,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "projectile",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "slam_wave",
+      "frames": [
+        "effects/slam_wave/slam_wave_01.png",
+        "effects/slam_wave/slam_wave_02.png",
+        "effects/slam_wave/slam_wave_03.png",
+        "effects/slam_wave/slam_wave_04.png",
+        "effects/slam_wave/slam_wave_05.png",
+        "effects/slam_wave/slam_wave_06.png",
+        "effects/slam_wave/slam_wave_07.png",
+        "effects/slam_wave/slam_wave_08.png"
+      ],
+      "sheet": "effects/slam_wave/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        140
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "mage_control",
+      "frames": [
+        "effects/mage_control/mage_control_01.png",
+        "effects/mage_control/mage_control_02.png",
+        "effects/mage_control/mage_control_03.png",
+        "effects/mage_control/mage_control_04.png",
+        "effects/mage_control/mage_control_05.png",
+        "effects/mage_control/mage_control_06.png",
+        "effects/mage_control/mage_control_07.png",
+        "effects/mage_control/mage_control_08.png"
+      ],
+      "sheet": "effects/mage_control/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "persistent_area",
+      "design_status": "skill_visual_placeholder",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "warrior_skill",
+      "frames": [
+        "effects/warrior_skill/warrior_skill_01.png",
+        "effects/warrior_skill/warrior_skill_02.png",
+        "effects/warrior_skill/warrior_skill_03.png",
+        "effects/warrior_skill/warrior_skill_04.png",
+        "effects/warrior_skill/warrior_skill_05.png",
+        "effects/warrior_skill/warrior_skill_06.png",
+        "effects/warrior_skill/warrior_skill_07.png",
+        "effects/warrior_skill/warrior_skill_08.png"
+      ],
+      "sheet": "effects/warrior_skill/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "skill_visual_placeholder",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "archer_skill",
+      "frames": [
+        "effects/archer_skill/archer_skill_01.png",
+        "effects/archer_skill/archer_skill_02.png",
+        "effects/archer_skill/archer_skill_03.png",
+        "effects/archer_skill/archer_skill_04.png",
+        "effects/archer_skill/archer_skill_05.png",
+        "effects/archer_skill/archer_skill_06.png",
+        "effects/archer_skill/archer_skill_07.png",
+        "effects/archer_skill/archer_skill_08.png"
+      ],
+      "sheet": "effects/archer_skill/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "skill_visual_placeholder",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "mage_skill",
+      "frames": [
+        "effects/mage_skill/mage_skill_01.png",
+        "effects/mage_skill/mage_skill_02.png",
+        "effects/mage_skill/mage_skill_03.png",
+        "effects/mage_skill/mage_skill_04.png",
+        "effects/mage_skill/mage_skill_05.png",
+        "effects/mage_skill/mage_skill_06.png",
+        "effects/mage_skill/mage_skill_07.png",
+        "effects/mage_skill/mage_skill_08.png"
+      ],
+      "sheet": "effects/mage_skill/sheet.png",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "skill_visual_placeholder",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    }
+  ],
+  "no_slow_affix": true,
+  "control_note": "mage_control is a class effect suggestion; equipment hit-slow not added",
+  "warning_visibility": "Warnings are independent below characters and foreground VFX"
+}

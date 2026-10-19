@@ -1,0 +1,19 @@
+# 山巅启程台资产
+
+使用内置 image_gen，参考已选 A 方案，背景无文字、控件和人物；实际角色与控件在网页中独立绘制。职业徽章保留透明 alpha。
+
+## 背景提示词
+
+Use case: precise-object-edit. Create a production 16:9 hand-painted 2D fantasy CHARACTER SELECT BACKGROUND from this approved concept screenshot. Keep the same sunlit layered turquoise mountain spires, waterfalls, pale sky, distant bridges, stone ruins, moss, flowers, rich painted foliage and rocky foreground. REMOVE ALL text, letters, logos, title ribbons, buttons, UI controls, form rails, emblems, circles, and REMOVE THE HERO completely. Do not bake any character, option or UI into this background. The empty hero standing area is on a broad flat blue-gray mossy rock ledge at LEFT CENTER, centered around x=30% of image width, footpoint y=74% of image height. Keep this ledge surface visible and uncluttered from x=16% to44%, y=72% to80%. The foreground ledge extends across the bottom. The RIGHT half x=57% to94%, y=23% to84% should be a calm open vista of distant hazy ridges and softly shaded mountains, without large foreground objects, so separate stone UI controls can be added later. Clear open sky around top-left for a separately rendered title. Keep a weathered stone ruin and blue banner with no writing at far left edge, peripheral foliage framing, foreground darker than luminous misty distance. Match approved richly textured hand-painted stylized environment, NOT pixel art, NOT photorealistic, no flat vector shapes. This is a background asset only. No text anywhere. No people anywhere. No UI anywhere.
+
+## 职业徽章提示词
+
+Use case: stylized-concept. Production game UI asset sheet on actual TRANSPARENT background. Exactly THREE separate round blue-gray mountain stone medallions, evenly spaced in one horizontal row, identical size and dimensions. Left medallion centered at 16.666% width contains a silver slender straight sword pointing upward with a small brass hilt; middle medallion centered at50% contains a wooden bow with a silver arrow; right medallion centered at83.333% contains an elegant mage staff with spiral silver head. Each circle fits inside its equal one-third cell with 8% margin. Thick natural blue-gray carved stone rim, chiseled raised silver icon, darker engraved inset center, subtle moss along a few rim edges, natural weathering, upper-left daylight, shallow tangible thickness. Refined hand-painted 2D fantasy game art matching the rock medallions from the screenshot. No glow, no selected state baked in. The three emblems must be readable at80px size. No rectangular panel behind them, NO labels, NO text, NO letters, NO numbers, no watermark, no scenery, no hero. Actual transparent alpha between and around three circular emblems. Wide landscape 3:1 asset sheet.
+
+
+## 读档石碑
+
+使用内置 image_gen 生成透明石碑 journey-tablet.png。
+
+Production 2D hand-painted fantasy UI asset on REAL transparent background: one wide upright weathered blue-gray slate tablet for a saved-adventure list, aspect ratio about 1.25:1. Canvas landscape 4:3. Tablet fills90%width90%height, seen front-on without perspective skew. Irregular chipped corners, broad substantial stone slab, thin recessed carved border, a few natural cracks and tiny moss patches only at outer edges. Upper left daylight, muted lighter bevel top and left, dark teal stone thickness at bottom and right. Very dark desaturated blue-gray center face has subtle fine stone grain and plenty of clear EMPTY space for cream-colored text and buttons to be added in HTML. Refined game asset coherent with a bright sunlit mountainous fantasy adventure. No words, no letters, no glyphs, no symbols, no built-in lines or controls, no decorative icon, no hero, no scenery, no gold frame, no UI screenshot. Transparent alpha outside rock silhouette, no checkerboard painted. Rich tangible hand-painted rock, not a simple flat rounded rectangle, not photorealistic.
+

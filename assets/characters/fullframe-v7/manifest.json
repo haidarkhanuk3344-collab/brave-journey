@@ -1,0 +1,2241 @@
+{
+  "version": 7,
+  "cell": [
+    256,
+    256
+  ],
+  "root": [
+    128,
+    224
+  ],
+  "source": "imagegen complete-pose drawings",
+  "animations": {
+    "walk": {
+      "path": "warrior-walk.png",
+      "frames": 8,
+      "columns": 4,
+      "durations": [
+        95,
+        75,
+        80,
+        85,
+        95,
+        75,
+        80,
+        85
+      ],
+      "stride": 112,
+      "metadata": [
+        {
+          "head": [
+            134,
+            111
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            62,
+            77,
+            348,
+            484
+          ],
+          "flight": 0,
+          "bounds": [
+            63,
+            77,
+            168,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            115
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            49,
+            91,
+            311,
+            486
+          ],
+          "flight": 0,
+          "bounds": [
+            64,
+            81,
+            160,
+            224
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            20,
+            74,
+            279,
+            486
+          ],
+          "flight": 0,
+          "bounds": [
+            70,
+            75,
+            165,
+            224
+          ]
+        },
+        {
+          "head": [
+            134,
+            107
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            32,
+            66,
+            299,
+            486
+          ],
+          "flight": 0,
+          "bounds": [
+            67,
+            72,
+            165,
+            224
+          ]
+        },
+        {
+          "head": [
+            134,
+            113
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            68,
+            45,
+            358,
+            449
+          ],
+          "flight": 0,
+          "bounds": [
+            66,
+            78,
+            172,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            118
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            53,
+            60,
+            320,
+            449
+          ],
+          "flight": 0,
+          "bounds": [
+            64,
+            84,
+            162,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            112
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            34,
+            44,
+            295,
+            449
+          ],
+          "flight": 0,
+          "bounds": [
+            69,
+            78,
+            165,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            110
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            46,
+            37,
+            315,
+            449
+          ],
+          "flight": 0,
+          "bounds": [
+            66,
+            75,
+            165,
+            225
+          ]
+        }
+      ]
+    },
+    "run": {
+      "path": "warrior-run.png",
+      "frames": 8,
+      "columns": 4,
+      "durations": [
+        75,
+        60,
+        65,
+        65,
+        75,
+        60,
+        65,
+        65
+      ],
+      "stride": 168,
+      "metadata": [
+        {
+          "head": [
+            146,
+            114
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            55,
+            83,
+            381,
+            437
+          ],
+          "flight": 0,
+          "bounds": [
+            44,
+            75,
+            181,
+            225
+          ]
+        },
+        {
+          "head": [
+            146,
+            117
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            43,
+            92,
+            356,
+            436
+          ],
+          "flight": 0,
+          "bounds": [
+            41,
+            79,
+            174,
+            225
+          ]
+        },
+        {
+          "head": [
+            146,
+            113
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            37,
+            79,
+            347,
+            436
+          ],
+          "flight": 0,
+          "bounds": [
+            46,
+            73,
+            178,
+            225
+          ]
+        },
+        {
+          "head": [
+            146,
+            116
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            46,
+            68,
+            350,
+            388
+          ],
+          "flight": 10,
+          "bounds": [
+            47,
+            78,
+            177,
+            214
+          ]
+        },
+        {
+          "head": [
+            146,
+            116
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            51,
+            62,
+            357,
+            411
+          ],
+          "flight": 0,
+          "bounds": [
+            47,
+            77,
+            177,
+            226
+          ]
+        },
+        {
+          "head": [
+            146,
+            116
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            47,
+            63,
+            361,
+            411
+          ],
+          "flight": 0,
+          "bounds": [
+            41,
+            78,
+            174,
+            226
+          ]
+        },
+        {
+          "head": [
+            146,
+            113
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            44,
+            55,
+            347,
+            411
+          ],
+          "flight": 0,
+          "bounds": [
+            48,
+            74,
+            177,
+            226
+          ]
+        },
+        {
+          "head": [
+            146,
+            114
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            46,
+            43,
+            357,
+            368
+          ],
+          "flight": 10,
+          "bounds": [
+            47,
+            77,
+            180,
+            216
+          ]
+        }
+      ]
+    },
+    "idle": {
+      "path": "../fullframe-v4/warrior-idle.png",
+      "frames": 4,
+      "columns": 4,
+      "durations": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "stride": 0,
+      "metadata": [
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-idle-source.png",
+          "sourceBounds": [
+            55,
+            96,
+            413,
+            672
+          ],
+          "flight": 0,
+          "bounds": [
+            69,
+            78,
+            161,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-idle-source.png",
+          "sourceBounds": [
+            57,
+            93,
+            413,
+            672
+          ],
+          "flight": 0,
+          "bounds": [
+            70,
+            77,
+            161,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-idle-source.png",
+          "sourceBounds": [
+            56,
+            93,
+            417,
+            672
+          ],
+          "flight": 0,
+          "bounds": [
+            70,
+            77,
+            162,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-idle-source.png",
+          "sourceBounds": [
+            54,
+            97,
+            412,
+            672
+          ],
+          "flight": 0,
+          "bounds": [
+            70,
+            78,
+            161,
+            225
+          ]
+        }
+      ]
+    },
+    "jump": {
+      "path": "../fullframe-v4/warrior-jump.png",
+      "frames": 8,
+      "columns": 4,
+      "durations": [
+        45,
+        55,
+        80,
+        90,
+        80,
+        65,
+        60,
+        60
+      ],
+      "stride": 0,
+      "contactFrame": null,
+      "metadata": [
+        {
+          "head": [
+            132,
+            107
+          ],
+          "source": "warrior-jump-final-source.png",
+          "sourceBounds": [
+            178,
+            96,
+            481,
+            457
+          ],
+          "bounds": [
+            47,
+            72,
+            175,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            139,
+            176
+          ]
+        },
+        {
+          "head": [
+            134,
+            108
+          ],
+          "source": "warrior-jump-final-source.png",
+          "sourceBounds": [
+            213,
+            63,
+            471,
+            428
+          ],
+          "bounds": [
+            64,
+            73,
+            174,
+            228
+          ],
+          "airborne": true,
+          "waist": [
+            129,
+            150
+          ]
+        },
+        {
+          "head": [
+            136,
+            106
+          ],
+          "source": "warrior-jump-final-source.png",
+          "sourceBounds": [
+            172,
+            74,
+            444,
+            393
+          ],
+          "bounds": [
+            53,
+            71,
+            168,
+            206
+          ],
+          "airborne": true,
+          "waist": [
+            125,
+            147
+          ]
+        },
+        {
+          "head": [
+            136,
+            108
+          ],
+          "source": "warrior-jump-final-source.png",
+          "sourceBounds": [
+            193,
+            78,
+            441,
+            393
+          ],
+          "bounds": [
+            53,
+            72,
+            161,
+            208
+          ],
+          "airborne": true,
+          "waist": [
+            134,
+            176
+          ]
+        },
+        {
+          "head": [
+            136,
+            109
+          ],
+          "source": "warrior-jump-final-source.png",
+          "sourceBounds": [
+            171,
+            41,
+            460,
+            413
+          ],
+          "bounds": [
+            47,
+            73,
+            172,
+            233
+          ],
+          "airborne": true,
+          "waist": [
+            127,
+            151
+          ]
+        },
+        {
+          "head": [
+            140,
+            114
+          ],
+          "source": "warrior-jump-final-source.png",
+          "sourceBounds": [
+            170,
+            66,
+            461,
+            417
+          ],
+          "bounds": [
+            48,
+            79,
+            171,
+            228
+          ],
+          "airborne": true,
+          "waist": [
+            124,
+            154
+          ]
+        },
+        {
+          "head": [
+            148,
+            137
+          ],
+          "source": "warrior-jump-final-source.png",
+          "sourceBounds": [
+            182,
+            140,
+            472,
+            417
+          ],
+          "bounds": [
+            49,
+            100,
+            179,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            132,
+            189
+          ]
+        },
+        {
+          "head": [
+            138,
+            115
+          ],
+          "source": "warrior-jump-final-source.png",
+          "sourceBounds": [
+            187,
+            74,
+            459,
+            416
+          ],
+          "bounds": [
+            53,
+            80,
+            169,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            124,
+            156
+          ]
+        }
+      ]
+    },
+    "attack0": {
+      "path": "../fullframe-v4/warrior-attack0.png",
+      "frames": 12,
+      "columns": 4,
+      "durations": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "stride": 0,
+      "contactFrame": 5,
+      "metadata": [
+        {
+          "head": [
+            134,
+            113
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            192,
+            108,
+            383,
+            381
+          ],
+          "bounds": [
+            63,
+            78,
+            166,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            118,
+            168
+          ]
+        },
+        {
+          "head": [
+            134,
+            113
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            168,
+            113,
+            388,
+            382
+          ],
+          "bounds": [
+            44,
+            77,
+            165,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            120,
+            154
+          ]
+        },
+        {
+          "head": [
+            130,
+            111
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            157,
+            110,
+            397,
+            382
+          ],
+          "bounds": [
+            37,
+            75,
+            168,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            121,
+            153
+          ]
+        },
+        {
+          "head": [
+            128,
+            113
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            162,
+            77,
+            397,
+            381
+          ],
+          "bounds": [
+            37,
+            57,
+            166,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            120,
+            153
+          ]
+        },
+        {
+          "head": [
+            138,
+            118
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            188,
+            67,
+            422,
+            352
+          ],
+          "bounds": [
+            36,
+            68,
+            164,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            117,
+            157
+          ]
+        },
+        {
+          "head": [
+            148,
+            119
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            157,
+            105,
+            464,
+            352
+          ],
+          "bounds": [
+            47,
+            80,
+            226,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            124,
+            158
+          ]
+        },
+        {
+          "head": [
+            150,
+            118
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            147,
+            104,
+            476,
+            352
+          ],
+          "bounds": [
+            40,
+            79,
+            231,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            124,
+            156
+          ]
+        },
+        {
+          "head": [
+            152,
+            120
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            180,
+            107,
+            440,
+            351
+          ],
+          "bounds": [
+            56,
+            82,
+            207,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            123,
+            160
+          ]
+        },
+        {
+          "head": [
+            142,
+            115
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            184,
+            52,
+            416,
+            318
+          ],
+          "bounds": [
+            59,
+            79,
+            186,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            123,
+            155
+          ]
+        },
+        {
+          "head": [
+            134,
+            110
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            160,
+            45,
+            373,
+            320
+          ],
+          "bounds": [
+            50,
+            73,
+            166,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            124,
+            151
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            170,
+            45,
+            362,
+            322
+          ],
+          "bounds": [
+            60,
+            72,
+            165,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            127,
+            151
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-attack0-source.png",
+          "sourceBounds": [
+            182,
+            46,
+            372,
+            322
+          ],
+          "bounds": [
+            62,
+            72,
+            166,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            128,
+            150
+          ]
+        }
+      ]
+    },
+    "attack1": {
+      "path": "../fullframe-v4/warrior-attack1.png",
+      "frames": 12,
+      "columns": 4,
+      "durations": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "stride": 0,
+      "contactFrame": 5,
+      "metadata": [
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            175,
+            67,
+            382,
+            377
+          ],
+          "bounds": [
+            65,
+            75,
+            166,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            129,
+            151
+          ]
+        },
+        {
+          "head": [
+            131,
+            121
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            160,
+            89,
+            385,
+            377
+          ],
+          "bounds": [
+            49,
+            85,
+            157,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            99,
+            160
+          ]
+        },
+        {
+          "head": [
+            128,
+            124
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            155,
+            110,
+            409,
+            377
+          ],
+          "bounds": [
+            40,
+            87,
+            170,
+            223
+          ],
+          "airborne": false,
+          "waist": [
+            112,
+            179
+          ]
+        },
+        {
+          "head": [
+            126,
+            133
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            144,
+            131,
+            419,
+            377
+          ],
+          "bounds": [
+            22,
+            95,
+            166,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            110,
+            189
+          ]
+        },
+        {
+          "head": [
+            128,
+            133
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            180,
+            128,
+            485,
+            376
+          ],
+          "bounds": [
+            41,
+            97,
+            197,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            112,
+            188
+          ]
+        },
+        {
+          "head": [
+            138,
+            125
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            150,
+            122,
+            470,
+            376
+          ],
+          "bounds": [
+            53,
+            90,
+            221,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            160,
+            191
+          ]
+        },
+        {
+          "head": [
+            136,
+            132
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            149,
+            32,
+            431,
+            376
+          ],
+          "bounds": [
+            66,
+            55,
+            205,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            110,
+            199
+          ]
+        },
+        {
+          "head": [
+            133,
+            115
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            162,
+            22,
+            400,
+            376
+          ],
+          "bounds": [
+            48,
+            59,
+            159,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            120,
+            170
+          ]
+        },
+        {
+          "head": [
+            132,
+            118
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            180,
+            24,
+            407,
+            347
+          ],
+          "bounds": [
+            75,
+            74,
+            182,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            128,
+            165
+          ]
+        },
+        {
+          "head": [
+            134,
+            110
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            152,
+            51,
+            379,
+            348
+          ],
+          "bounds": [
+            55,
+            75,
+            170,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            131,
+            150
+          ]
+        },
+        {
+          "head": [
+            134,
+            104
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            157,
+            52,
+            365,
+            348
+          ],
+          "bounds": [
+            62,
+            69,
+            171,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            128,
+            147
+          ]
+        },
+        {
+          "head": [
+            134,
+            112
+          ],
+          "source": "warrior-attack1-source.png",
+          "sourceBounds": [
+            181,
+            49,
+            387,
+            348
+          ],
+          "bounds": [
+            64,
+            77,
+            165,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            129,
+            153
+          ]
+        }
+      ]
+    },
+    "attack2": {
+      "path": "../fullframe-v4/warrior-attack2.png",
+      "frames": 12,
+      "columns": 4,
+      "durations": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "stride": 0,
+      "contactFrame": 5,
+      "metadata": [
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            199,
+            119,
+            391,
+            402
+          ],
+          "bounds": [
+            61,
+            73,
+            163,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            126,
+            153
+          ]
+        },
+        {
+          "head": [
+            131,
+            114
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            190,
+            123,
+            423,
+            402
+          ],
+          "bounds": [
+            57,
+            78,
+            179,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            114,
+            169
+          ]
+        },
+        {
+          "head": [
+            128,
+            100
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            157,
+            59,
+            381,
+            402
+          ],
+          "bounds": [
+            66,
+            54,
+            179,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            132,
+            159
+          ]
+        },
+        {
+          "head": [
+            125,
+            96
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            125,
+            96,
+            373,
+            402
+          ],
+          "bounds": [
+            58,
+            72,
+            182,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            143,
+            160
+          ]
+        },
+        {
+          "head": [
+            133,
+            123
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            198,
+            56,
+            437,
+            377
+          ],
+          "bounds": [
+            35,
+            64,
+            154,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            105,
+            213
+          ]
+        },
+        {
+          "head": [
+            144,
+            124
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            149,
+            130,
+            469,
+            377
+          ],
+          "bounds": [
+            27,
+            85,
+            206,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            141,
+            188
+          ]
+        },
+        {
+          "head": [
+            148,
+            129
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            149,
+            140,
+            446,
+            377
+          ],
+          "bounds": [
+            43,
+            91,
+            210,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            133,
+            181
+          ]
+        },
+        {
+          "head": [
+            148,
+            138
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            169,
+            153,
+            424,
+            377
+          ],
+          "bounds": [
+            54,
+            98,
+            197,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            133,
+            188
+          ]
+        },
+        {
+          "head": [
+            142,
+            115
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            193,
+            82,
+            415,
+            347
+          ],
+          "bounds": [
+            47,
+            75,
+            171,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            126,
+            166
+          ]
+        },
+        {
+          "head": [
+            137,
+            106
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            181,
+            57,
+            385,
+            347
+          ],
+          "bounds": [
+            57,
+            69,
+            167,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            119,
+            148
+          ]
+        },
+        {
+          "head": [
+            134,
+            107
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            179,
+            57,
+            370,
+            349
+          ],
+          "bounds": [
+            64,
+            71,
+            165,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            127,
+            149
+          ]
+        },
+        {
+          "head": [
+            134,
+            107
+          ],
+          "source": "warrior-attack2-source.png",
+          "sourceBounds": [
+            178,
+            57,
+            370,
+            349
+          ],
+          "bounds": [
+            63,
+            71,
+            164,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            127,
+            149
+          ]
+        }
+      ]
+    },
+    "airattack": {
+      "path": "../fullframe-v4/warrior-airattack.png",
+      "frames": 8,
+      "columns": 4,
+      "durations": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "stride": 0,
+      "contactFrame": 4,
+      "metadata": [
+        {
+          "head": [
+            136,
+            108
+          ],
+          "source": "warrior-airattack-source.png",
+          "sourceBounds": [
+            151,
+            196,
+            423,
+            506
+          ],
+          "bounds": [
+            55,
+            73,
+            163,
+            195
+          ],
+          "airborne": true,
+          "waist": [
+            122,
+            175
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-airattack-source.png",
+          "sourceBounds": [
+            139,
+            196,
+            445,
+            502
+          ],
+          "bounds": [
+            45,
+            74,
+            169,
+            197
+          ],
+          "airborne": true,
+          "waist": [
+            120,
+            176
+          ]
+        },
+        {
+          "head": [
+            128,
+            101
+          ],
+          "source": "warrior-airattack-source.png",
+          "sourceBounds": [
+            140,
+            143,
+            434,
+            497
+          ],
+          "bounds": [
+            65,
+            79,
+            178,
+            215
+          ],
+          "airborne": true,
+          "waist": [
+            143,
+            164
+          ]
+        },
+        {
+          "head": [
+            140,
+            112
+          ],
+          "source": "warrior-airattack-source.png",
+          "sourceBounds": [
+            140,
+            197,
+            449,
+            529
+          ],
+          "bounds": [
+            41,
+            74,
+            167,
+            210
+          ],
+          "airborne": true,
+          "waist": [
+            123,
+            168
+          ]
+        },
+        {
+          "head": [
+            146,
+            120
+          ],
+          "source": "warrior-airattack-source.png",
+          "sourceBounds": [
+            145,
+            92,
+            569,
+            402
+          ],
+          "bounds": [
+            44,
+            84,
+            220,
+            213
+          ],
+          "airborne": true,
+          "waist": [
+            127,
+            177
+          ]
+        },
+        {
+          "head": [
+            148,
+            122
+          ],
+          "source": "warrior-airattack-source.png",
+          "sourceBounds": [
+            163,
+            98,
+            534,
+            409
+          ],
+          "bounds": [
+            54,
+            83,
+            214,
+            217
+          ],
+          "airborne": true,
+          "waist": [
+            112,
+            189
+          ]
+        },
+        {
+          "head": [
+            138,
+            111
+          ],
+          "source": "warrior-airattack-source.png",
+          "sourceBounds": [
+            163,
+            101,
+            432,
+            399
+          ],
+          "bounds": [
+            53,
+            75,
+            163,
+            198
+          ],
+          "airborne": true,
+          "waist": [
+            113,
+            177
+          ]
+        },
+        {
+          "head": [
+            136,
+            109
+          ],
+          "source": "warrior-airattack-source.png",
+          "sourceBounds": [
+            158,
+            97,
+            440,
+            406
+          ],
+          "bounds": [
+            54,
+            73,
+            168,
+            198
+          ],
+          "airborne": true,
+          "waist": [
+            121,
+            175
+          ]
+        }
+      ]
+    },
+    "spin": {
+      "path": "../fullframe-v4/warrior-spin.png",
+      "frames": 12,
+      "columns": 4,
+      "durations": [
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "stride": 0,
+      "contactFrame": 5,
+      "metadata": [
+        {
+          "head": [
+            134,
+            116
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            177,
+            75,
+            402,
+            394
+          ],
+          "bounds": [
+            65,
+            82,
+            166,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            127,
+            159
+          ]
+        },
+        {
+          "head": [
+            134,
+            119
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            149,
+            86,
+            427,
+            394
+          ],
+          "bounds": [
+            41,
+            84,
+            167,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            114,
+            160
+          ]
+        },
+        {
+          "head": [
+            134,
+            123
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            126,
+            94,
+            458,
+            394
+          ],
+          "bounds": [
+            32,
+            88,
+            183,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            117,
+            165
+          ]
+        },
+        {
+          "head": [
+            132,
+            116
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            157,
+            97,
+            427,
+            394
+          ],
+          "bounds": [
+            44,
+            78,
+            178,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            115,
+            171
+          ]
+        },
+        {
+          "head": [
+            134,
+            112
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            158,
+            69,
+            434,
+            365
+          ],
+          "bounds": [
+            35,
+            76,
+            172,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            121,
+            157
+          ]
+        },
+        {
+          "head": [
+            142,
+            111
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            135,
+            66,
+            564,
+            365
+          ],
+          "bounds": [
+            33,
+            74,
+            248,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            121,
+            155
+          ]
+        },
+        {
+          "head": [
+            134,
+            125
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            167,
+            73,
+            458,
+            365
+          ],
+          "bounds": [
+            65,
+            89,
+            200,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            119,
+            165
+          ]
+        },
+        {
+          "head": [
+            144,
+            126
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            170,
+            89,
+            449,
+            365
+          ],
+          "bounds": [
+            67,
+            88,
+            204,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            158,
+            194
+          ]
+        },
+        {
+          "head": [
+            138,
+            111
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            191,
+            40,
+            426,
+            341
+          ],
+          "bounds": [
+            61,
+            73,
+            178,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            127,
+            152
+          ]
+        },
+        {
+          "head": [
+            134,
+            115
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            180,
+            40,
+            407,
+            341
+          ],
+          "bounds": [
+            57,
+            79,
+            166,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            126,
+            156
+          ]
+        },
+        {
+          "head": [
+            134,
+            122
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            180,
+            44,
+            400,
+            341
+          ],
+          "bounds": [
+            63,
+            87,
+            165,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            125,
+            163
+          ]
+        },
+        {
+          "head": [
+            134,
+            118
+          ],
+          "source": "warrior-spin-source.png",
+          "sourceBounds": [
+            162,
+            36,
+            387,
+            345
+          ],
+          "bounds": [
+            65,
+            84,
+            168,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            127,
+            159
+          ]
+        }
+      ]
+    },
+    "hurt": {
+      "path": "../fullframe-v4/warrior-hurt.png",
+      "frames": 4,
+      "columns": 4,
+      "durations": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "stride": 0,
+      "contactFrame": null,
+      "metadata": [
+        {
+          "head": [
+            123,
+            120
+          ],
+          "source": "warrior-hurt-source.png",
+          "sourceBounds": [
+            175,
+            131,
+            617,
+            670
+          ],
+          "bounds": [
+            65,
+            90,
+            175,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            131,
+            159
+          ]
+        },
+        {
+          "head": [
+            116,
+            117
+          ],
+          "source": "warrior-hurt-source.png",
+          "sourceBounds": [
+            194,
+            138,
+            638,
+            670
+          ],
+          "bounds": [
+            76,
+            86,
+            191,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            132,
+            156
+          ]
+        },
+        {
+          "head": [
+            136,
+            107
+          ],
+          "source": "warrior-hurt-source.png",
+          "sourceBounds": [
+            169,
+            136,
+            562,
+            674
+          ],
+          "bounds": [
+            51,
+            74,
+            161,
+            225
+          ],
+          "airborne": false,
+          "waist": [
+            119,
+            148
+          ]
+        },
+        {
+          "head": [
+            134,
+            107
+          ],
+          "source": "warrior-hurt-source.png",
+          "sourceBounds": [
+            178,
+            120,
+            521,
+            674
+          ],
+          "bounds": [
+            72,
+            74,
+            165,
+            224
+          ],
+          "airborne": false,
+          "waist": [
+            131,
+            150
+          ]
+        }
+      ]
+    }
+  }
+}

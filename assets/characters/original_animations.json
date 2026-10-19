@@ -1,0 +1,5591 @@
+{
+  "animations": [
+    {
+      "id": "warrior.attack_right",
+      "character": "warrior",
+      "action": "attack_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/attack_right/attack_right_01.png",
+        "characters/warrior/attack_right/attack_right_02.png",
+        "characters/warrior/attack_right/attack_right_03.png",
+        "characters/warrior/attack_right/attack_right_04.png",
+        "characters/warrior/attack_right/attack_right_05.png",
+        "characters/warrior/attack_right/attack_right_06.png",
+        "characters/warrior/attack_right/attack_right_07.png",
+        "characters/warrior/attack_right/attack_right_08.png",
+        "characters/warrior/attack_right/attack_right_09.png",
+        "characters/warrior/attack_right/attack_right_10.png",
+        "characters/warrior/attack_right/attack_right_11.png",
+        "characters/warrior/attack_right/attack_right_12.png",
+        "characters/warrior/attack_right/attack_right_13.png",
+        "characters/warrior/attack_right/attack_right_14.png",
+        "characters/warrior/attack_right/attack_right_15.png",
+        "characters/warrior/attack_right/attack_right_16.png"
+      ],
+      "sheet": "characters/warrior/attack_right/attack_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        100,
+        85,
+        85,
+        70,
+        65,
+        55,
+        40,
+        35,
+        60,
+        55,
+        60,
+        75,
+        80,
+        80,
+        85,
+        110
+      ],
+      "loop": false,
+      "events": [
+        {
+          "frame": 8,
+          "type": "hit_window",
+          "timing_status": "preview_suggestion"
+        }
+      ],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "战士_01_攻击16帧_跳跃16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          124,
+          90,
+          296,
+          288
+        ],
+        [
+          304,
+          90,
+          477,
+          288
+        ],
+        [
+          485,
+          90,
+          660,
+          288
+        ],
+        [
+          668,
+          90,
+          842,
+          288
+        ],
+        [
+          850,
+          90,
+          1022,
+          288
+        ],
+        [
+          1030,
+          90,
+          1202,
+          288
+        ],
+        [
+          1210,
+          90,
+          1386,
+          288
+        ],
+        [
+          1394,
+          90,
+          1565,
+          288
+        ],
+        [
+          124,
+          296,
+          296,
+          494
+        ],
+        [
+          304,
+          296,
+          477,
+          494
+        ],
+        [
+          485,
+          296,
+          660,
+          494
+        ],
+        [
+          668,
+          296,
+          842,
+          494
+        ],
+        [
+          850,
+          296,
+          1022,
+          494
+        ],
+        [
+          1030,
+          296,
+          1202,
+          494
+        ],
+        [
+          1210,
+          296,
+          1386,
+          494
+        ],
+        [
+          1394,
+          296,
+          1565,
+          494
+        ]
+      ]
+    },
+    {
+      "id": "warrior.jump_right",
+      "character": "warrior",
+      "action": "jump_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_right/jump_right_01.png",
+        "characters/warrior/jump_right/jump_right_02.png",
+        "characters/warrior/jump_right/jump_right_03.png",
+        "characters/warrior/jump_right/jump_right_04.png",
+        "characters/warrior/jump_right/jump_right_05.png",
+        "characters/warrior/jump_right/jump_right_06.png",
+        "characters/warrior/jump_right/jump_right_07.png",
+        "characters/warrior/jump_right/jump_right_08.png",
+        "characters/warrior/jump_right/jump_right_09.png",
+        "characters/warrior/jump_right/jump_right_10.png",
+        "characters/warrior/jump_right/jump_right_11.png",
+        "characters/warrior/jump_right/jump_right_12.png",
+        "characters/warrior/jump_right/jump_right_13.png",
+        "characters/warrior/jump_right/jump_right_14.png",
+        "characters/warrior/jump_right/jump_right_15.png",
+        "characters/warrior/jump_right/jump_right_16.png"
+      ],
+      "sheet": "characters/warrior/jump_right/jump_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "战士_01_攻击16帧_跳跃16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          124,
+          502,
+          296,
+          715
+        ],
+        [
+          304,
+          502,
+          477,
+          715
+        ],
+        [
+          485,
+          502,
+          660,
+          715
+        ],
+        [
+          668,
+          502,
+          842,
+          715
+        ],
+        [
+          850,
+          502,
+          1022,
+          715
+        ],
+        [
+          1030,
+          502,
+          1202,
+          715
+        ],
+        [
+          1210,
+          502,
+          1386,
+          715
+        ],
+        [
+          1394,
+          502,
+          1565,
+          715
+        ],
+        [
+          124,
+          723,
+          296,
+          932
+        ],
+        [
+          304,
+          723,
+          477,
+          932
+        ],
+        [
+          485,
+          723,
+          660,
+          932
+        ],
+        [
+          668,
+          723,
+          842,
+          932
+        ],
+        [
+          850,
+          723,
+          1022,
+          932
+        ],
+        [
+          1030,
+          723,
+          1202,
+          932
+        ],
+        [
+          1210,
+          723,
+          1386,
+          932
+        ],
+        [
+          1394,
+          723,
+          1565,
+          932
+        ]
+      ]
+    },
+    {
+      "id": "warrior.walk_right",
+      "character": "warrior",
+      "action": "walk_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/walk_right/walk_right_01.png",
+        "characters/warrior/walk_right/walk_right_02.png",
+        "characters/warrior/walk_right/walk_right_03.png",
+        "characters/warrior/walk_right/walk_right_04.png",
+        "characters/warrior/walk_right/walk_right_05.png",
+        "characters/warrior/walk_right/walk_right_06.png",
+        "characters/warrior/walk_right/walk_right_07.png",
+        "characters/warrior/walk_right/walk_right_08.png",
+        "characters/warrior/walk_right/walk_right_09.png",
+        "characters/warrior/walk_right/walk_right_10.png",
+        "characters/warrior/walk_right/walk_right_11.png",
+        "characters/warrior/walk_right/walk_right_12.png",
+        "characters/warrior/walk_right/walk_right_13.png",
+        "characters/warrior/walk_right/walk_right_14.png",
+        "characters/warrior/walk_right/walk_right_15.png",
+        "characters/warrior/walk_right/walk_right_16.png"
+      ],
+      "sheet": "characters/warrior/walk_right/walk_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "战士_02_左右行走各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          114,
+          76,
+          288,
+          286
+        ],
+        [
+          296,
+          76,
+          467,
+          286
+        ],
+        [
+          475,
+          76,
+          654,
+          286
+        ],
+        [
+          662,
+          76,
+          836,
+          286
+        ],
+        [
+          844,
+          76,
+          1018,
+          286
+        ],
+        [
+          1026,
+          76,
+          1198,
+          286
+        ],
+        [
+          1206,
+          76,
+          1388,
+          286
+        ],
+        [
+          1396,
+          76,
+          1576,
+          286
+        ],
+        [
+          114,
+          294,
+          288,
+          508
+        ],
+        [
+          296,
+          294,
+          467,
+          508
+        ],
+        [
+          475,
+          294,
+          654,
+          508
+        ],
+        [
+          662,
+          294,
+          836,
+          508
+        ],
+        [
+          844,
+          294,
+          1018,
+          508
+        ],
+        [
+          1026,
+          294,
+          1198,
+          508
+        ],
+        [
+          1206,
+          294,
+          1388,
+          508
+        ],
+        [
+          1396,
+          294,
+          1576,
+          508
+        ]
+      ]
+    },
+    {
+      "id": "warrior.walk_left",
+      "character": "warrior",
+      "action": "walk_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/walk_left/walk_left_01.png",
+        "characters/warrior/walk_left/walk_left_02.png",
+        "characters/warrior/walk_left/walk_left_03.png",
+        "characters/warrior/walk_left/walk_left_04.png",
+        "characters/warrior/walk_left/walk_left_05.png",
+        "characters/warrior/walk_left/walk_left_06.png",
+        "characters/warrior/walk_left/walk_left_07.png",
+        "characters/warrior/walk_left/walk_left_08.png",
+        "characters/warrior/walk_left/walk_left_09.png",
+        "characters/warrior/walk_left/walk_left_10.png",
+        "characters/warrior/walk_left/walk_left_11.png",
+        "characters/warrior/walk_left/walk_left_12.png",
+        "characters/warrior/walk_left/walk_left_13.png",
+        "characters/warrior/walk_left/walk_left_14.png",
+        "characters/warrior/walk_left/walk_left_15.png",
+        "characters/warrior/walk_left/walk_left_16.png"
+      ],
+      "sheet": "characters/warrior/walk_left/walk_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "战士_02_左右行走各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          114,
+          516,
+          288,
+          728
+        ],
+        [
+          296,
+          516,
+          467,
+          728
+        ],
+        [
+          475,
+          516,
+          654,
+          728
+        ],
+        [
+          662,
+          516,
+          836,
+          728
+        ],
+        [
+          844,
+          516,
+          1018,
+          728
+        ],
+        [
+          1026,
+          516,
+          1198,
+          728
+        ],
+        [
+          1206,
+          516,
+          1388,
+          728
+        ],
+        [
+          1396,
+          516,
+          1576,
+          728
+        ],
+        [
+          114,
+          736,
+          288,
+          958
+        ],
+        [
+          296,
+          736,
+          467,
+          958
+        ],
+        [
+          475,
+          736,
+          654,
+          958
+        ],
+        [
+          662,
+          736,
+          836,
+          958
+        ],
+        [
+          844,
+          736,
+          1018,
+          958
+        ],
+        [
+          1026,
+          736,
+          1198,
+          958
+        ],
+        [
+          1206,
+          736,
+          1388,
+          958
+        ],
+        [
+          1396,
+          736,
+          1576,
+          958
+        ]
+      ]
+    },
+    {
+      "id": "warrior.run_right",
+      "character": "warrior",
+      "action": "run_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/run_right/run_right_01.png",
+        "characters/warrior/run_right/run_right_02.png",
+        "characters/warrior/run_right/run_right_03.png",
+        "characters/warrior/run_right/run_right_04.png",
+        "characters/warrior/run_right/run_right_05.png",
+        "characters/warrior/run_right/run_right_06.png",
+        "characters/warrior/run_right/run_right_07.png",
+        "characters/warrior/run_right/run_right_08.png",
+        "characters/warrior/run_right/run_right_09.png",
+        "characters/warrior/run_right/run_right_10.png",
+        "characters/warrior/run_right/run_right_11.png",
+        "characters/warrior/run_right/run_right_12.png",
+        "characters/warrior/run_right/run_right_13.png",
+        "characters/warrior/run_right/run_right_14.png",
+        "characters/warrior/run_right/run_right_15.png",
+        "characters/warrior/run_right/run_right_16.png"
+      ],
+      "sheet": "characters/warrior/run_right/run_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "战士_03_左右奔跑各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          104,
+          79,
+          276,
+          285
+        ],
+        [
+          284,
+          79,
+          462,
+          285
+        ],
+        [
+          470,
+          79,
+          646,
+          285
+        ],
+        [
+          654,
+          79,
+          832,
+          285
+        ],
+        [
+          840,
+          79,
+          1022,
+          285
+        ],
+        [
+          1030,
+          79,
+          1207,
+          285
+        ],
+        [
+          1215,
+          79,
+          1392,
+          285
+        ],
+        [
+          1400,
+          79,
+          1576,
+          285
+        ],
+        [
+          104,
+          293,
+          276,
+          501
+        ],
+        [
+          284,
+          293,
+          462,
+          501
+        ],
+        [
+          470,
+          293,
+          646,
+          501
+        ],
+        [
+          654,
+          293,
+          832,
+          501
+        ],
+        [
+          840,
+          293,
+          1022,
+          501
+        ],
+        [
+          1030,
+          293,
+          1207,
+          501
+        ],
+        [
+          1215,
+          293,
+          1392,
+          501
+        ],
+        [
+          1400,
+          293,
+          1576,
+          501
+        ]
+      ]
+    },
+    {
+      "id": "warrior.run_left",
+      "character": "warrior",
+      "action": "run_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/run_left/run_left_01.png",
+        "characters/warrior/run_left/run_left_02.png",
+        "characters/warrior/run_left/run_left_03.png",
+        "characters/warrior/run_left/run_left_04.png",
+        "characters/warrior/run_left/run_left_05.png",
+        "characters/warrior/run_left/run_left_06.png",
+        "characters/warrior/run_left/run_left_07.png",
+        "characters/warrior/run_left/run_left_08.png",
+        "characters/warrior/run_left/run_left_09.png",
+        "characters/warrior/run_left/run_left_10.png",
+        "characters/warrior/run_left/run_left_11.png",
+        "characters/warrior/run_left/run_left_12.png",
+        "characters/warrior/run_left/run_left_13.png",
+        "characters/warrior/run_left/run_left_14.png",
+        "characters/warrior/run_left/run_left_15.png",
+        "characters/warrior/run_left/run_left_16.png"
+      ],
+      "sheet": "characters/warrior/run_left/run_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "战士_03_左右奔跑各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          104,
+          509,
+          276,
+          718
+        ],
+        [
+          284,
+          509,
+          462,
+          718
+        ],
+        [
+          470,
+          509,
+          646,
+          718
+        ],
+        [
+          654,
+          509,
+          832,
+          718
+        ],
+        [
+          840,
+          509,
+          1022,
+          718
+        ],
+        [
+          1030,
+          509,
+          1207,
+          718
+        ],
+        [
+          1215,
+          509,
+          1392,
+          718
+        ],
+        [
+          1400,
+          509,
+          1576,
+          718
+        ],
+        [
+          104,
+          726,
+          276,
+          935
+        ],
+        [
+          284,
+          726,
+          462,
+          935
+        ],
+        [
+          470,
+          726,
+          646,
+          935
+        ],
+        [
+          654,
+          726,
+          832,
+          935
+        ],
+        [
+          840,
+          726,
+          1022,
+          935
+        ],
+        [
+          1030,
+          726,
+          1207,
+          935
+        ],
+        [
+          1215,
+          726,
+          1392,
+          935
+        ],
+        [
+          1400,
+          726,
+          1576,
+          935
+        ]
+      ]
+    },
+    {
+      "id": "warrior.attack_left",
+      "character": "warrior",
+      "action": "attack_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/attack_left/attack_left_01.png",
+        "characters/warrior/attack_left/attack_left_02.png",
+        "characters/warrior/attack_left/attack_left_03.png",
+        "characters/warrior/attack_left/attack_left_04.png",
+        "characters/warrior/attack_left/attack_left_05.png",
+        "characters/warrior/attack_left/attack_left_06.png",
+        "characters/warrior/attack_left/attack_left_07.png",
+        "characters/warrior/attack_left/attack_left_08.png",
+        "characters/warrior/attack_left/attack_left_09.png",
+        "characters/warrior/attack_left/attack_left_10.png",
+        "characters/warrior/attack_left/attack_left_11.png",
+        "characters/warrior/attack_left/attack_left_12.png",
+        "characters/warrior/attack_left/attack_left_13.png",
+        "characters/warrior/attack_left/attack_left_14.png",
+        "characters/warrior/attack_left/attack_left_15.png",
+        "characters/warrior/attack_left/attack_left_16.png"
+      ],
+      "sheet": "characters/warrior/attack_left/attack_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        100,
+        85,
+        85,
+        70,
+        65,
+        55,
+        40,
+        35,
+        60,
+        55,
+        60,
+        75,
+        80,
+        80,
+        85,
+        110
+      ],
+      "loop": false,
+      "events": [
+        {
+          "frame": 8,
+          "type": "hit_window",
+          "timing_status": "preview_suggestion"
+        }
+      ],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "mirror_of": "warrior.attack_right",
+      "mirror_pivot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "warrior.jump_left",
+      "character": "warrior",
+      "action": "jump_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_left/jump_left_01.png",
+        "characters/warrior/jump_left/jump_left_02.png",
+        "characters/warrior/jump_left/jump_left_03.png",
+        "characters/warrior/jump_left/jump_left_04.png",
+        "characters/warrior/jump_left/jump_left_05.png",
+        "characters/warrior/jump_left/jump_left_06.png",
+        "characters/warrior/jump_left/jump_left_07.png",
+        "characters/warrior/jump_left/jump_left_08.png",
+        "characters/warrior/jump_left/jump_left_09.png",
+        "characters/warrior/jump_left/jump_left_10.png",
+        "characters/warrior/jump_left/jump_left_11.png",
+        "characters/warrior/jump_left/jump_left_12.png",
+        "characters/warrior/jump_left/jump_left_13.png",
+        "characters/warrior/jump_left/jump_left_14.png",
+        "characters/warrior/jump_left/jump_left_15.png",
+        "characters/warrior/jump_left/jump_left_16.png"
+      ],
+      "sheet": "characters/warrior/jump_left/jump_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "mirror_of": "warrior.jump_right",
+      "mirror_pivot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "warrior.idle_right",
+      "character": "warrior",
+      "action": "idle_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/idle_right/idle_right_01.png",
+        "characters/warrior/idle_right/idle_right_02.png",
+        "characters/warrior/idle_right/idle_right_03.png",
+        "characters/warrior/idle_right/idle_right_04.png"
+      ],
+      "sheet": "characters/warrior/idle_right/idle_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 4,
+      "durations_ms": [
+        240,
+        240,
+        240,
+        240
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "New subtle breathing variants derived from source neutral pose; intentional symmetric timing."
+    },
+    {
+      "id": "warrior.hurt_right",
+      "character": "warrior",
+      "action": "hurt_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/hurt_right/hurt_right_01.png",
+        "characters/warrior/hurt_right/hurt_right_02.png",
+        "characters/warrior/hurt_right/hurt_right_03.png"
+      ],
+      "sheet": "characters/warrior/hurt_right/hurt_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        60,
+        110,
+        75
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit reuse of crouch poses for brief hit reaction; distinct hurt anatomy not newly drawn."
+    },
+    {
+      "id": "warrior.death_right",
+      "character": "warrior",
+      "action": "death_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/death_right/death_right_01.png",
+        "characters/warrior/death_right/death_right_02.png",
+        "characters/warrior/death_right/death_right_03.png",
+        "characters/warrior/death_right/death_right_04.png",
+        "characters/warrior/death_right/death_right_05.png",
+        "characters/warrior/death_right/death_right_06.png"
+      ],
+      "sheet": "characters/warrior/death_right/death_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        70,
+        75,
+        85,
+        100,
+        140,
+        500
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 6,
+      "coordinate_system": "top_left_pixels",
+      "after": "death_hold",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit provisional fall-over transform of neutral pose; custom death art remains optional replacement."
+    },
+    {
+      "id": "warrior.jump_takeoff_right",
+      "character": "warrior",
+      "action": "jump_takeoff_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_takeoff_right/jump_takeoff_right_01.png",
+        "characters/warrior/jump_takeoff_right/jump_takeoff_right_02.png",
+        "characters/warrior/jump_takeoff_right/jump_takeoff_right_03.png",
+        "characters/warrior/jump_takeoff_right/jump_takeoff_right_04.png",
+        "characters/warrior/jump_takeoff_right/jump_takeoff_right_05.png"
+      ],
+      "sheet": "characters/warrior/jump_takeoff_right/jump_takeoff_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 5,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.jump_rise_right",
+      "character": "warrior",
+      "action": "jump_rise_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_rise_right/jump_rise_right_01.png",
+        "characters/warrior/jump_rise_right/jump_rise_right_02.png",
+        "characters/warrior/jump_rise_right/jump_rise_right_03.png"
+      ],
+      "sheet": "characters/warrior/jump_rise_right/jump_rise_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.jump_air_right",
+      "character": "warrior",
+      "action": "jump_air_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_air_right/jump_air_right_01.png",
+        "characters/warrior/jump_air_right/jump_air_right_02.png"
+      ],
+      "sheet": "characters/warrior/jump_air_right/jump_air_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 2,
+      "durations_ms": [
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.jump_fall_right",
+      "character": "warrior",
+      "action": "jump_fall_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_fall_right/jump_fall_right_01.png",
+        "characters/warrior/jump_fall_right/jump_fall_right_02.png",
+        "characters/warrior/jump_fall_right/jump_fall_right_03.png"
+      ],
+      "sheet": "characters/warrior/jump_fall_right/jump_fall_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.jump_land_right",
+      "character": "warrior",
+      "action": "jump_land_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_land_right/jump_land_right_01.png",
+        "characters/warrior/jump_land_right/jump_land_right_02.png",
+        "characters/warrior/jump_land_right/jump_land_right_03.png"
+      ],
+      "sheet": "characters/warrior/jump_land_right/jump_land_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.idle_left",
+      "character": "warrior",
+      "action": "idle_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/idle_left/idle_left_01.png",
+        "characters/warrior/idle_left/idle_left_02.png",
+        "characters/warrior/idle_left/idle_left_03.png",
+        "characters/warrior/idle_left/idle_left_04.png"
+      ],
+      "sheet": "characters/warrior/idle_left/idle_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 4,
+      "durations_ms": [
+        240,
+        240,
+        240,
+        240
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "New subtle breathing variants derived from source neutral pose; intentional symmetric timing."
+    },
+    {
+      "id": "warrior.hurt_left",
+      "character": "warrior",
+      "action": "hurt_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/hurt_left/hurt_left_01.png",
+        "characters/warrior/hurt_left/hurt_left_02.png",
+        "characters/warrior/hurt_left/hurt_left_03.png"
+      ],
+      "sheet": "characters/warrior/hurt_left/hurt_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        60,
+        110,
+        75
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit reuse of crouch poses for brief hit reaction; distinct hurt anatomy not newly drawn."
+    },
+    {
+      "id": "warrior.death_left",
+      "character": "warrior",
+      "action": "death_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/death_left/death_left_01.png",
+        "characters/warrior/death_left/death_left_02.png",
+        "characters/warrior/death_left/death_left_03.png",
+        "characters/warrior/death_left/death_left_04.png",
+        "characters/warrior/death_left/death_left_05.png",
+        "characters/warrior/death_left/death_left_06.png"
+      ],
+      "sheet": "characters/warrior/death_left/death_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        70,
+        75,
+        85,
+        100,
+        140,
+        500
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 6,
+      "coordinate_system": "top_left_pixels",
+      "after": "death_hold",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit provisional fall-over transform of neutral pose; custom death art remains optional replacement."
+    },
+    {
+      "id": "warrior.jump_takeoff_left",
+      "character": "warrior",
+      "action": "jump_takeoff_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_takeoff_left/jump_takeoff_left_01.png",
+        "characters/warrior/jump_takeoff_left/jump_takeoff_left_02.png",
+        "characters/warrior/jump_takeoff_left/jump_takeoff_left_03.png",
+        "characters/warrior/jump_takeoff_left/jump_takeoff_left_04.png",
+        "characters/warrior/jump_takeoff_left/jump_takeoff_left_05.png"
+      ],
+      "sheet": "characters/warrior/jump_takeoff_left/jump_takeoff_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 5,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.jump_rise_left",
+      "character": "warrior",
+      "action": "jump_rise_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_rise_left/jump_rise_left_01.png",
+        "characters/warrior/jump_rise_left/jump_rise_left_02.png",
+        "characters/warrior/jump_rise_left/jump_rise_left_03.png"
+      ],
+      "sheet": "characters/warrior/jump_rise_left/jump_rise_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.jump_air_left",
+      "character": "warrior",
+      "action": "jump_air_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_air_left/jump_air_left_01.png",
+        "characters/warrior/jump_air_left/jump_air_left_02.png"
+      ],
+      "sheet": "characters/warrior/jump_air_left/jump_air_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 2,
+      "durations_ms": [
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.jump_fall_left",
+      "character": "warrior",
+      "action": "jump_fall_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_fall_left/jump_fall_left_01.png",
+        "characters/warrior/jump_fall_left/jump_fall_left_02.png",
+        "characters/warrior/jump_fall_left/jump_fall_left_03.png"
+      ],
+      "sheet": "characters/warrior/jump_fall_left/jump_fall_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "warrior.jump_land_left",
+      "character": "warrior",
+      "action": "jump_land_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/warrior/jump_land_left/jump_land_left_01.png",
+        "characters/warrior/jump_land_left/jump_land_left_02.png",
+        "characters/warrior/jump_land_left/jump_land_left_03.png"
+      ],
+      "sheet": "characters/warrior/jump_land_left/jump_land_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.attack_right",
+      "character": "archer",
+      "action": "attack_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/attack_right/attack_right_01.png",
+        "characters/archer/attack_right/attack_right_02.png",
+        "characters/archer/attack_right/attack_right_03.png",
+        "characters/archer/attack_right/attack_right_04.png",
+        "characters/archer/attack_right/attack_right_05.png",
+        "characters/archer/attack_right/attack_right_06.png",
+        "characters/archer/attack_right/attack_right_07.png",
+        "characters/archer/attack_right/attack_right_08.png",
+        "characters/archer/attack_right/attack_right_09.png",
+        "characters/archer/attack_right/attack_right_10.png",
+        "characters/archer/attack_right/attack_right_11.png",
+        "characters/archer/attack_right/attack_right_12.png",
+        "characters/archer/attack_right/attack_right_13.png",
+        "characters/archer/attack_right/attack_right_14.png",
+        "characters/archer/attack_right/attack_right_15.png",
+        "characters/archer/attack_right/attack_right_16.png"
+      ],
+      "sheet": "characters/archer/attack_right/attack_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        40,
+        30,
+        35,
+        30,
+        30,
+        25,
+        25,
+        25,
+        35,
+        35,
+        25,
+        25,
+        30,
+        30,
+        35,
+        45
+      ],
+      "loop": false,
+      "events": [
+        {
+          "frame": 10,
+          "type": "spawn_projectile",
+          "timing_status": "preview_suggestion"
+        }
+      ],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "射手_01_攻击16帧_跳跃16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          108,
+          85,
+          281,
+          292
+        ],
+        [
+          289,
+          85,
+          466,
+          292
+        ],
+        [
+          474,
+          85,
+          650,
+          292
+        ],
+        [
+          658,
+          85,
+          832,
+          292
+        ],
+        [
+          840,
+          85,
+          1018,
+          292
+        ],
+        [
+          1026,
+          85,
+          1204,
+          292
+        ],
+        [
+          1212,
+          85,
+          1388,
+          292
+        ],
+        [
+          1396,
+          85,
+          1576,
+          292
+        ],
+        [
+          108,
+          300,
+          281,
+          510
+        ],
+        [
+          289,
+          300,
+          466,
+          510
+        ],
+        [
+          474,
+          300,
+          650,
+          510
+        ],
+        [
+          658,
+          300,
+          832,
+          510
+        ],
+        [
+          840,
+          300,
+          1018,
+          510
+        ],
+        [
+          1026,
+          300,
+          1204,
+          510
+        ],
+        [
+          1212,
+          300,
+          1388,
+          510
+        ],
+        [
+          1396,
+          300,
+          1576,
+          510
+        ]
+      ]
+    },
+    {
+      "id": "archer.jump_right",
+      "character": "archer",
+      "action": "jump_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_right/jump_right_01.png",
+        "characters/archer/jump_right/jump_right_02.png",
+        "characters/archer/jump_right/jump_right_03.png",
+        "characters/archer/jump_right/jump_right_04.png",
+        "characters/archer/jump_right/jump_right_05.png",
+        "characters/archer/jump_right/jump_right_06.png",
+        "characters/archer/jump_right/jump_right_07.png",
+        "characters/archer/jump_right/jump_right_08.png",
+        "characters/archer/jump_right/jump_right_09.png",
+        "characters/archer/jump_right/jump_right_10.png",
+        "characters/archer/jump_right/jump_right_11.png",
+        "characters/archer/jump_right/jump_right_12.png",
+        "characters/archer/jump_right/jump_right_13.png",
+        "characters/archer/jump_right/jump_right_14.png",
+        "characters/archer/jump_right/jump_right_15.png",
+        "characters/archer/jump_right/jump_right_16.png"
+      ],
+      "sheet": "characters/archer/jump_right/jump_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "射手_01_攻击16帧_跳跃16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          108,
+          518,
+          281,
+          728
+        ],
+        [
+          289,
+          518,
+          466,
+          728
+        ],
+        [
+          474,
+          518,
+          650,
+          728
+        ],
+        [
+          658,
+          518,
+          832,
+          728
+        ],
+        [
+          840,
+          518,
+          1018,
+          728
+        ],
+        [
+          1026,
+          518,
+          1204,
+          728
+        ],
+        [
+          1212,
+          518,
+          1388,
+          728
+        ],
+        [
+          1396,
+          518,
+          1576,
+          728
+        ],
+        [
+          108,
+          736,
+          281,
+          946
+        ],
+        [
+          289,
+          736,
+          466,
+          946
+        ],
+        [
+          474,
+          736,
+          650,
+          946
+        ],
+        [
+          658,
+          736,
+          832,
+          946
+        ],
+        [
+          840,
+          736,
+          1018,
+          946
+        ],
+        [
+          1026,
+          736,
+          1204,
+          946
+        ],
+        [
+          1212,
+          736,
+          1388,
+          946
+        ],
+        [
+          1396,
+          736,
+          1576,
+          946
+        ]
+      ]
+    },
+    {
+      "id": "archer.walk_right",
+      "character": "archer",
+      "action": "walk_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/walk_right/walk_right_01.png",
+        "characters/archer/walk_right/walk_right_02.png",
+        "characters/archer/walk_right/walk_right_03.png",
+        "characters/archer/walk_right/walk_right_04.png",
+        "characters/archer/walk_right/walk_right_05.png",
+        "characters/archer/walk_right/walk_right_06.png",
+        "characters/archer/walk_right/walk_right_07.png",
+        "characters/archer/walk_right/walk_right_08.png",
+        "characters/archer/walk_right/walk_right_09.png",
+        "characters/archer/walk_right/walk_right_10.png",
+        "characters/archer/walk_right/walk_right_11.png",
+        "characters/archer/walk_right/walk_right_12.png",
+        "characters/archer/walk_right/walk_right_13.png",
+        "characters/archer/walk_right/walk_right_14.png",
+        "characters/archer/walk_right/walk_right_15.png",
+        "characters/archer/walk_right/walk_right_16.png"
+      ],
+      "sheet": "characters/archer/walk_right/walk_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "射手_02_左右行走各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          105,
+          78,
+          279,
+          283
+        ],
+        [
+          287,
+          78,
+          464,
+          283
+        ],
+        [
+          472,
+          78,
+          651,
+          283
+        ],
+        [
+          659,
+          78,
+          838,
+          283
+        ],
+        [
+          846,
+          78,
+          1024,
+          283
+        ],
+        [
+          1032,
+          78,
+          1211,
+          283
+        ],
+        [
+          1219,
+          78,
+          1394,
+          283
+        ],
+        [
+          1402,
+          78,
+          1580,
+          283
+        ],
+        [
+          105,
+          291,
+          279,
+          502
+        ],
+        [
+          287,
+          291,
+          464,
+          502
+        ],
+        [
+          472,
+          291,
+          651,
+          502
+        ],
+        [
+          659,
+          291,
+          838,
+          502
+        ],
+        [
+          846,
+          291,
+          1024,
+          502
+        ],
+        [
+          1032,
+          291,
+          1211,
+          502
+        ],
+        [
+          1219,
+          291,
+          1394,
+          502
+        ],
+        [
+          1402,
+          291,
+          1580,
+          502
+        ]
+      ]
+    },
+    {
+      "id": "archer.walk_left",
+      "character": "archer",
+      "action": "walk_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/walk_left/walk_left_01.png",
+        "characters/archer/walk_left/walk_left_02.png",
+        "characters/archer/walk_left/walk_left_03.png",
+        "characters/archer/walk_left/walk_left_04.png",
+        "characters/archer/walk_left/walk_left_05.png",
+        "characters/archer/walk_left/walk_left_06.png",
+        "characters/archer/walk_left/walk_left_07.png",
+        "characters/archer/walk_left/walk_left_08.png",
+        "characters/archer/walk_left/walk_left_09.png",
+        "characters/archer/walk_left/walk_left_10.png",
+        "characters/archer/walk_left/walk_left_11.png",
+        "characters/archer/walk_left/walk_left_12.png",
+        "characters/archer/walk_left/walk_left_13.png",
+        "characters/archer/walk_left/walk_left_14.png",
+        "characters/archer/walk_left/walk_left_15.png",
+        "characters/archer/walk_left/walk_left_16.png"
+      ],
+      "sheet": "characters/archer/walk_left/walk_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "射手_02_左右行走各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          105,
+          510,
+          279,
+          724
+        ],
+        [
+          287,
+          510,
+          464,
+          724
+        ],
+        [
+          472,
+          510,
+          651,
+          724
+        ],
+        [
+          659,
+          510,
+          838,
+          724
+        ],
+        [
+          846,
+          510,
+          1024,
+          724
+        ],
+        [
+          1032,
+          510,
+          1211,
+          724
+        ],
+        [
+          1219,
+          510,
+          1394,
+          724
+        ],
+        [
+          1402,
+          510,
+          1580,
+          724
+        ],
+        [
+          105,
+          732,
+          279,
+          946
+        ],
+        [
+          287,
+          732,
+          464,
+          946
+        ],
+        [
+          472,
+          732,
+          651,
+          946
+        ],
+        [
+          659,
+          732,
+          838,
+          946
+        ],
+        [
+          846,
+          732,
+          1024,
+          946
+        ],
+        [
+          1032,
+          732,
+          1211,
+          946
+        ],
+        [
+          1219,
+          732,
+          1394,
+          946
+        ],
+        [
+          1402,
+          732,
+          1580,
+          946
+        ]
+      ]
+    },
+    {
+      "id": "archer.run_right",
+      "character": "archer",
+      "action": "run_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/run_right/run_right_01.png",
+        "characters/archer/run_right/run_right_02.png",
+        "characters/archer/run_right/run_right_03.png",
+        "characters/archer/run_right/run_right_04.png",
+        "characters/archer/run_right/run_right_05.png",
+        "characters/archer/run_right/run_right_06.png",
+        "characters/archer/run_right/run_right_07.png",
+        "characters/archer/run_right/run_right_08.png",
+        "characters/archer/run_right/run_right_09.png",
+        "characters/archer/run_right/run_right_10.png",
+        "characters/archer/run_right/run_right_11.png",
+        "characters/archer/run_right/run_right_12.png",
+        "characters/archer/run_right/run_right_13.png",
+        "characters/archer/run_right/run_right_14.png",
+        "characters/archer/run_right/run_right_15.png",
+        "characters/archer/run_right/run_right_16.png"
+      ],
+      "sheet": "characters/archer/run_right/run_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "射手_03_左右奔跑各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          111,
+          78,
+          286,
+          292
+        ],
+        [
+          294,
+          78,
+          471,
+          292
+        ],
+        [
+          479,
+          78,
+          654,
+          292
+        ],
+        [
+          662,
+          78,
+          838,
+          292
+        ],
+        [
+          846,
+          78,
+          1022,
+          292
+        ],
+        [
+          1030,
+          78,
+          1204,
+          292
+        ],
+        [
+          1212,
+          78,
+          1390,
+          292
+        ],
+        [
+          1398,
+          78,
+          1574,
+          292
+        ],
+        [
+          111,
+          300,
+          286,
+          514
+        ],
+        [
+          294,
+          300,
+          471,
+          514
+        ],
+        [
+          479,
+          300,
+          654,
+          514
+        ],
+        [
+          662,
+          300,
+          838,
+          514
+        ],
+        [
+          846,
+          300,
+          1022,
+          514
+        ],
+        [
+          1030,
+          300,
+          1204,
+          514
+        ],
+        [
+          1212,
+          300,
+          1390,
+          514
+        ],
+        [
+          1398,
+          300,
+          1574,
+          514
+        ]
+      ]
+    },
+    {
+      "id": "archer.run_left",
+      "character": "archer",
+      "action": "run_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/run_left/run_left_01.png",
+        "characters/archer/run_left/run_left_02.png",
+        "characters/archer/run_left/run_left_03.png",
+        "characters/archer/run_left/run_left_04.png",
+        "characters/archer/run_left/run_left_05.png",
+        "characters/archer/run_left/run_left_06.png",
+        "characters/archer/run_left/run_left_07.png",
+        "characters/archer/run_left/run_left_08.png",
+        "characters/archer/run_left/run_left_09.png",
+        "characters/archer/run_left/run_left_10.png",
+        "characters/archer/run_left/run_left_11.png",
+        "characters/archer/run_left/run_left_12.png",
+        "characters/archer/run_left/run_left_13.png",
+        "characters/archer/run_left/run_left_14.png",
+        "characters/archer/run_left/run_left_15.png",
+        "characters/archer/run_left/run_left_16.png"
+      ],
+      "sheet": "characters/archer/run_left/run_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "射手_03_左右奔跑各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          111,
+          522,
+          286,
+          736
+        ],
+        [
+          294,
+          522,
+          471,
+          736
+        ],
+        [
+          479,
+          522,
+          654,
+          736
+        ],
+        [
+          662,
+          522,
+          838,
+          736
+        ],
+        [
+          846,
+          522,
+          1022,
+          736
+        ],
+        [
+          1030,
+          522,
+          1204,
+          736
+        ],
+        [
+          1212,
+          522,
+          1390,
+          736
+        ],
+        [
+          1398,
+          522,
+          1574,
+          736
+        ],
+        [
+          111,
+          744,
+          286,
+          958
+        ],
+        [
+          294,
+          744,
+          471,
+          958
+        ],
+        [
+          479,
+          744,
+          654,
+          958
+        ],
+        [
+          662,
+          744,
+          838,
+          958
+        ],
+        [
+          846,
+          744,
+          1022,
+          958
+        ],
+        [
+          1030,
+          744,
+          1204,
+          958
+        ],
+        [
+          1212,
+          744,
+          1390,
+          958
+        ],
+        [
+          1398,
+          744,
+          1574,
+          958
+        ]
+      ]
+    },
+    {
+      "id": "archer.attack_left",
+      "character": "archer",
+      "action": "attack_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/attack_left/attack_left_01.png",
+        "characters/archer/attack_left/attack_left_02.png",
+        "characters/archer/attack_left/attack_left_03.png",
+        "characters/archer/attack_left/attack_left_04.png",
+        "characters/archer/attack_left/attack_left_05.png",
+        "characters/archer/attack_left/attack_left_06.png",
+        "characters/archer/attack_left/attack_left_07.png",
+        "characters/archer/attack_left/attack_left_08.png",
+        "characters/archer/attack_left/attack_left_09.png",
+        "characters/archer/attack_left/attack_left_10.png",
+        "characters/archer/attack_left/attack_left_11.png",
+        "characters/archer/attack_left/attack_left_12.png",
+        "characters/archer/attack_left/attack_left_13.png",
+        "characters/archer/attack_left/attack_left_14.png",
+        "characters/archer/attack_left/attack_left_15.png",
+        "characters/archer/attack_left/attack_left_16.png"
+      ],
+      "sheet": "characters/archer/attack_left/attack_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        40,
+        30,
+        35,
+        30,
+        30,
+        25,
+        25,
+        25,
+        35,
+        35,
+        25,
+        25,
+        30,
+        30,
+        35,
+        45
+      ],
+      "loop": false,
+      "events": [
+        {
+          "frame": 10,
+          "type": "spawn_projectile",
+          "timing_status": "preview_suggestion"
+        }
+      ],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "mirror_of": "archer.attack_right",
+      "mirror_pivot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "archer.jump_left",
+      "character": "archer",
+      "action": "jump_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_left/jump_left_01.png",
+        "characters/archer/jump_left/jump_left_02.png",
+        "characters/archer/jump_left/jump_left_03.png",
+        "characters/archer/jump_left/jump_left_04.png",
+        "characters/archer/jump_left/jump_left_05.png",
+        "characters/archer/jump_left/jump_left_06.png",
+        "characters/archer/jump_left/jump_left_07.png",
+        "characters/archer/jump_left/jump_left_08.png",
+        "characters/archer/jump_left/jump_left_09.png",
+        "characters/archer/jump_left/jump_left_10.png",
+        "characters/archer/jump_left/jump_left_11.png",
+        "characters/archer/jump_left/jump_left_12.png",
+        "characters/archer/jump_left/jump_left_13.png",
+        "characters/archer/jump_left/jump_left_14.png",
+        "characters/archer/jump_left/jump_left_15.png",
+        "characters/archer/jump_left/jump_left_16.png"
+      ],
+      "sheet": "characters/archer/jump_left/jump_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "mirror_of": "archer.jump_right",
+      "mirror_pivot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "archer.idle_right",
+      "character": "archer",
+      "action": "idle_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/idle_right/idle_right_01.png",
+        "characters/archer/idle_right/idle_right_02.png",
+        "characters/archer/idle_right/idle_right_03.png",
+        "characters/archer/idle_right/idle_right_04.png"
+      ],
+      "sheet": "characters/archer/idle_right/idle_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 4,
+      "durations_ms": [
+        240,
+        240,
+        240,
+        240
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "New subtle breathing variants derived from source neutral pose; intentional symmetric timing."
+    },
+    {
+      "id": "archer.hurt_right",
+      "character": "archer",
+      "action": "hurt_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/hurt_right/hurt_right_01.png",
+        "characters/archer/hurt_right/hurt_right_02.png",
+        "characters/archer/hurt_right/hurt_right_03.png"
+      ],
+      "sheet": "characters/archer/hurt_right/hurt_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        60,
+        110,
+        75
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit reuse of crouch poses for brief hit reaction; distinct hurt anatomy not newly drawn."
+    },
+    {
+      "id": "archer.death_right",
+      "character": "archer",
+      "action": "death_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/death_right/death_right_01.png",
+        "characters/archer/death_right/death_right_02.png",
+        "characters/archer/death_right/death_right_03.png",
+        "characters/archer/death_right/death_right_04.png",
+        "characters/archer/death_right/death_right_05.png",
+        "characters/archer/death_right/death_right_06.png"
+      ],
+      "sheet": "characters/archer/death_right/death_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        70,
+        75,
+        85,
+        100,
+        140,
+        500
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 6,
+      "coordinate_system": "top_left_pixels",
+      "after": "death_hold",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit provisional fall-over transform of neutral pose; custom death art remains optional replacement."
+    },
+    {
+      "id": "archer.jump_takeoff_right",
+      "character": "archer",
+      "action": "jump_takeoff_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_takeoff_right/jump_takeoff_right_01.png",
+        "characters/archer/jump_takeoff_right/jump_takeoff_right_02.png",
+        "characters/archer/jump_takeoff_right/jump_takeoff_right_03.png",
+        "characters/archer/jump_takeoff_right/jump_takeoff_right_04.png",
+        "characters/archer/jump_takeoff_right/jump_takeoff_right_05.png"
+      ],
+      "sheet": "characters/archer/jump_takeoff_right/jump_takeoff_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 5,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.jump_rise_right",
+      "character": "archer",
+      "action": "jump_rise_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_rise_right/jump_rise_right_01.png",
+        "characters/archer/jump_rise_right/jump_rise_right_02.png",
+        "characters/archer/jump_rise_right/jump_rise_right_03.png"
+      ],
+      "sheet": "characters/archer/jump_rise_right/jump_rise_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.jump_air_right",
+      "character": "archer",
+      "action": "jump_air_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_air_right/jump_air_right_01.png",
+        "characters/archer/jump_air_right/jump_air_right_02.png"
+      ],
+      "sheet": "characters/archer/jump_air_right/jump_air_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 2,
+      "durations_ms": [
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.jump_fall_right",
+      "character": "archer",
+      "action": "jump_fall_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_fall_right/jump_fall_right_01.png",
+        "characters/archer/jump_fall_right/jump_fall_right_02.png",
+        "characters/archer/jump_fall_right/jump_fall_right_03.png"
+      ],
+      "sheet": "characters/archer/jump_fall_right/jump_fall_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.jump_land_right",
+      "character": "archer",
+      "action": "jump_land_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_land_right/jump_land_right_01.png",
+        "characters/archer/jump_land_right/jump_land_right_02.png",
+        "characters/archer/jump_land_right/jump_land_right_03.png"
+      ],
+      "sheet": "characters/archer/jump_land_right/jump_land_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.idle_left",
+      "character": "archer",
+      "action": "idle_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/idle_left/idle_left_01.png",
+        "characters/archer/idle_left/idle_left_02.png",
+        "characters/archer/idle_left/idle_left_03.png",
+        "characters/archer/idle_left/idle_left_04.png"
+      ],
+      "sheet": "characters/archer/idle_left/idle_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 4,
+      "durations_ms": [
+        240,
+        240,
+        240,
+        240
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "New subtle breathing variants derived from source neutral pose; intentional symmetric timing."
+    },
+    {
+      "id": "archer.hurt_left",
+      "character": "archer",
+      "action": "hurt_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/hurt_left/hurt_left_01.png",
+        "characters/archer/hurt_left/hurt_left_02.png",
+        "characters/archer/hurt_left/hurt_left_03.png"
+      ],
+      "sheet": "characters/archer/hurt_left/hurt_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        60,
+        110,
+        75
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit reuse of crouch poses for brief hit reaction; distinct hurt anatomy not newly drawn."
+    },
+    {
+      "id": "archer.death_left",
+      "character": "archer",
+      "action": "death_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/death_left/death_left_01.png",
+        "characters/archer/death_left/death_left_02.png",
+        "characters/archer/death_left/death_left_03.png",
+        "characters/archer/death_left/death_left_04.png",
+        "characters/archer/death_left/death_left_05.png",
+        "characters/archer/death_left/death_left_06.png"
+      ],
+      "sheet": "characters/archer/death_left/death_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        70,
+        75,
+        85,
+        100,
+        140,
+        500
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 6,
+      "coordinate_system": "top_left_pixels",
+      "after": "death_hold",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit provisional fall-over transform of neutral pose; custom death art remains optional replacement."
+    },
+    {
+      "id": "archer.jump_takeoff_left",
+      "character": "archer",
+      "action": "jump_takeoff_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_takeoff_left/jump_takeoff_left_01.png",
+        "characters/archer/jump_takeoff_left/jump_takeoff_left_02.png",
+        "characters/archer/jump_takeoff_left/jump_takeoff_left_03.png",
+        "characters/archer/jump_takeoff_left/jump_takeoff_left_04.png",
+        "characters/archer/jump_takeoff_left/jump_takeoff_left_05.png"
+      ],
+      "sheet": "characters/archer/jump_takeoff_left/jump_takeoff_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 5,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.jump_rise_left",
+      "character": "archer",
+      "action": "jump_rise_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_rise_left/jump_rise_left_01.png",
+        "characters/archer/jump_rise_left/jump_rise_left_02.png",
+        "characters/archer/jump_rise_left/jump_rise_left_03.png"
+      ],
+      "sheet": "characters/archer/jump_rise_left/jump_rise_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.jump_air_left",
+      "character": "archer",
+      "action": "jump_air_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_air_left/jump_air_left_01.png",
+        "characters/archer/jump_air_left/jump_air_left_02.png"
+      ],
+      "sheet": "characters/archer/jump_air_left/jump_air_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 2,
+      "durations_ms": [
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.jump_fall_left",
+      "character": "archer",
+      "action": "jump_fall_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_fall_left/jump_fall_left_01.png",
+        "characters/archer/jump_fall_left/jump_fall_left_02.png",
+        "characters/archer/jump_fall_left/jump_fall_left_03.png"
+      ],
+      "sheet": "characters/archer/jump_fall_left/jump_fall_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "archer.jump_land_left",
+      "character": "archer",
+      "action": "jump_land_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/archer/jump_land_left/jump_land_left_01.png",
+        "characters/archer/jump_land_left/jump_land_left_02.png",
+        "characters/archer/jump_land_left/jump_land_left_03.png"
+      ],
+      "sheet": "characters/archer/jump_land_left/jump_land_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.attack_right",
+      "character": "mage",
+      "action": "attack_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/attack_right/attack_right_01.png",
+        "characters/mage/attack_right/attack_right_02.png",
+        "characters/mage/attack_right/attack_right_03.png",
+        "characters/mage/attack_right/attack_right_04.png",
+        "characters/mage/attack_right/attack_right_05.png",
+        "characters/mage/attack_right/attack_right_06.png",
+        "characters/mage/attack_right/attack_right_07.png",
+        "characters/mage/attack_right/attack_right_08.png",
+        "characters/mage/attack_right/attack_right_09.png",
+        "characters/mage/attack_right/attack_right_10.png",
+        "characters/mage/attack_right/attack_right_11.png",
+        "characters/mage/attack_right/attack_right_12.png",
+        "characters/mage/attack_right/attack_right_13.png",
+        "characters/mage/attack_right/attack_right_14.png",
+        "characters/mage/attack_right/attack_right_15.png",
+        "characters/mage/attack_right/attack_right_16.png"
+      ],
+      "sheet": "characters/mage/attack_right/attack_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        70,
+        65,
+        60,
+        65,
+        65,
+        65,
+        60,
+        85,
+        45,
+        45,
+        50,
+        50,
+        55,
+        60,
+        65,
+        80
+      ],
+      "loop": false,
+      "events": [
+        {
+          "frame": 10,
+          "type": "spawn_projectile",
+          "timing_status": "preview_suggestion"
+        }
+      ],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "法师_01_攻击16帧_跳跃16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          122,
+          86,
+          296,
+          288
+        ],
+        [
+          304,
+          86,
+          479,
+          288
+        ],
+        [
+          487,
+          86,
+          662,
+          288
+        ],
+        [
+          670,
+          86,
+          846,
+          288
+        ],
+        [
+          854,
+          86,
+          1030,
+          288
+        ],
+        [
+          1038,
+          86,
+          1215,
+          288
+        ],
+        [
+          1223,
+          86,
+          1395,
+          288
+        ],
+        [
+          1403,
+          86,
+          1580,
+          288
+        ],
+        [
+          122,
+          296,
+          296,
+          506
+        ],
+        [
+          304,
+          296,
+          479,
+          506
+        ],
+        [
+          487,
+          296,
+          662,
+          506
+        ],
+        [
+          670,
+          296,
+          846,
+          506
+        ],
+        [
+          854,
+          296,
+          1030,
+          506
+        ],
+        [
+          1038,
+          296,
+          1215,
+          506
+        ],
+        [
+          1223,
+          296,
+          1395,
+          506
+        ],
+        [
+          1403,
+          296,
+          1580,
+          506
+        ]
+      ]
+    },
+    {
+      "id": "mage.jump_right",
+      "character": "mage",
+      "action": "jump_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_right/jump_right_01.png",
+        "characters/mage/jump_right/jump_right_02.png",
+        "characters/mage/jump_right/jump_right_03.png",
+        "characters/mage/jump_right/jump_right_04.png",
+        "characters/mage/jump_right/jump_right_05.png",
+        "characters/mage/jump_right/jump_right_06.png",
+        "characters/mage/jump_right/jump_right_07.png",
+        "characters/mage/jump_right/jump_right_08.png",
+        "characters/mage/jump_right/jump_right_09.png",
+        "characters/mage/jump_right/jump_right_10.png",
+        "characters/mage/jump_right/jump_right_11.png",
+        "characters/mage/jump_right/jump_right_12.png",
+        "characters/mage/jump_right/jump_right_13.png",
+        "characters/mage/jump_right/jump_right_14.png",
+        "characters/mage/jump_right/jump_right_15.png",
+        "characters/mage/jump_right/jump_right_16.png"
+      ],
+      "sheet": "characters/mage/jump_right/jump_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "法师_01_攻击16帧_跳跃16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          122,
+          514,
+          296,
+          734
+        ],
+        [
+          304,
+          514,
+          479,
+          734
+        ],
+        [
+          487,
+          514,
+          662,
+          734
+        ],
+        [
+          670,
+          514,
+          846,
+          734
+        ],
+        [
+          854,
+          514,
+          1030,
+          734
+        ],
+        [
+          1038,
+          514,
+          1215,
+          734
+        ],
+        [
+          1223,
+          514,
+          1395,
+          734
+        ],
+        [
+          1403,
+          514,
+          1580,
+          734
+        ],
+        [
+          122,
+          742,
+          296,
+          966
+        ],
+        [
+          304,
+          742,
+          479,
+          966
+        ],
+        [
+          487,
+          742,
+          662,
+          966
+        ],
+        [
+          670,
+          742,
+          846,
+          966
+        ],
+        [
+          854,
+          742,
+          1030,
+          966
+        ],
+        [
+          1038,
+          742,
+          1215,
+          966
+        ],
+        [
+          1223,
+          742,
+          1395,
+          966
+        ],
+        [
+          1403,
+          742,
+          1580,
+          966
+        ]
+      ]
+    },
+    {
+      "id": "mage.walk_right",
+      "character": "mage",
+      "action": "walk_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/walk_right/walk_right_01.png",
+        "characters/mage/walk_right/walk_right_02.png",
+        "characters/mage/walk_right/walk_right_03.png",
+        "characters/mage/walk_right/walk_right_04.png",
+        "characters/mage/walk_right/walk_right_05.png",
+        "characters/mage/walk_right/walk_right_06.png",
+        "characters/mage/walk_right/walk_right_07.png",
+        "characters/mage/walk_right/walk_right_08.png",
+        "characters/mage/walk_right/walk_right_09.png",
+        "characters/mage/walk_right/walk_right_10.png",
+        "characters/mage/walk_right/walk_right_11.png",
+        "characters/mage/walk_right/walk_right_12.png",
+        "characters/mage/walk_right/walk_right_13.png",
+        "characters/mage/walk_right/walk_right_14.png",
+        "characters/mage/walk_right/walk_right_15.png",
+        "characters/mage/walk_right/walk_right_16.png"
+      ],
+      "sheet": "characters/mage/walk_right/walk_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "法师_02_左右行走各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          117,
+          70,
+          292,
+          274
+        ],
+        [
+          300,
+          70,
+          474,
+          274
+        ],
+        [
+          482,
+          70,
+          656,
+          274
+        ],
+        [
+          664,
+          70,
+          838,
+          274
+        ],
+        [
+          846,
+          70,
+          1018,
+          274
+        ],
+        [
+          1026,
+          70,
+          1199,
+          274
+        ],
+        [
+          1207,
+          70,
+          1383,
+          274
+        ],
+        [
+          1391,
+          70,
+          1566,
+          274
+        ],
+        [
+          117,
+          282,
+          292,
+          500
+        ],
+        [
+          300,
+          282,
+          474,
+          500
+        ],
+        [
+          482,
+          282,
+          656,
+          500
+        ],
+        [
+          664,
+          282,
+          838,
+          500
+        ],
+        [
+          846,
+          282,
+          1018,
+          500
+        ],
+        [
+          1026,
+          282,
+          1199,
+          500
+        ],
+        [
+          1207,
+          282,
+          1383,
+          500
+        ],
+        [
+          1391,
+          282,
+          1566,
+          500
+        ]
+      ]
+    },
+    {
+      "id": "mage.walk_left",
+      "character": "mage",
+      "action": "walk_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/walk_left/walk_left_01.png",
+        "characters/mage/walk_left/walk_left_02.png",
+        "characters/mage/walk_left/walk_left_03.png",
+        "characters/mage/walk_left/walk_left_04.png",
+        "characters/mage/walk_left/walk_left_05.png",
+        "characters/mage/walk_left/walk_left_06.png",
+        "characters/mage/walk_left/walk_left_07.png",
+        "characters/mage/walk_left/walk_left_08.png",
+        "characters/mage/walk_left/walk_left_09.png",
+        "characters/mage/walk_left/walk_left_10.png",
+        "characters/mage/walk_left/walk_left_11.png",
+        "characters/mage/walk_left/walk_left_12.png",
+        "characters/mage/walk_left/walk_left_13.png",
+        "characters/mage/walk_left/walk_left_14.png",
+        "characters/mage/walk_left/walk_left_15.png",
+        "characters/mage/walk_left/walk_left_16.png"
+      ],
+      "sheet": "characters/mage/walk_left/walk_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "法师_02_左右行走各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          117,
+          508,
+          292,
+          708
+        ],
+        [
+          300,
+          508,
+          474,
+          708
+        ],
+        [
+          482,
+          508,
+          656,
+          708
+        ],
+        [
+          664,
+          508,
+          838,
+          708
+        ],
+        [
+          846,
+          508,
+          1018,
+          708
+        ],
+        [
+          1026,
+          508,
+          1199,
+          708
+        ],
+        [
+          1207,
+          508,
+          1383,
+          708
+        ],
+        [
+          1391,
+          508,
+          1566,
+          708
+        ],
+        [
+          117,
+          716,
+          292,
+          924
+        ],
+        [
+          300,
+          716,
+          474,
+          924
+        ],
+        [
+          482,
+          716,
+          656,
+          924
+        ],
+        [
+          664,
+          716,
+          838,
+          924
+        ],
+        [
+          846,
+          716,
+          1018,
+          924
+        ],
+        [
+          1026,
+          716,
+          1199,
+          924
+        ],
+        [
+          1207,
+          716,
+          1383,
+          924
+        ],
+        [
+          1391,
+          716,
+          1566,
+          924
+        ]
+      ]
+    },
+    {
+      "id": "mage.run_right",
+      "character": "mage",
+      "action": "run_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/run_right/run_right_01.png",
+        "characters/mage/run_right/run_right_02.png",
+        "characters/mage/run_right/run_right_03.png",
+        "characters/mage/run_right/run_right_04.png",
+        "characters/mage/run_right/run_right_05.png",
+        "characters/mage/run_right/run_right_06.png",
+        "characters/mage/run_right/run_right_07.png",
+        "characters/mage/run_right/run_right_08.png",
+        "characters/mage/run_right/run_right_09.png",
+        "characters/mage/run_right/run_right_10.png",
+        "characters/mage/run_right/run_right_11.png",
+        "characters/mage/run_right/run_right_12.png",
+        "characters/mage/run_right/run_right_13.png",
+        "characters/mage/run_right/run_right_14.png",
+        "characters/mage/run_right/run_right_15.png",
+        "characters/mage/run_right/run_right_16.png"
+      ],
+      "sheet": "characters/mage/run_right/run_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "法师_03_左右奔跑各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          104,
+          77,
+          275,
+          284
+        ],
+        [
+          283,
+          77,
+          462,
+          284
+        ],
+        [
+          470,
+          77,
+          650,
+          284
+        ],
+        [
+          658,
+          77,
+          835,
+          284
+        ],
+        [
+          843,
+          77,
+          1019,
+          284
+        ],
+        [
+          1027,
+          77,
+          1200,
+          284
+        ],
+        [
+          1208,
+          77,
+          1387,
+          284
+        ],
+        [
+          1395,
+          77,
+          1573,
+          284
+        ],
+        [
+          104,
+          292,
+          275,
+          503
+        ],
+        [
+          283,
+          292,
+          462,
+          503
+        ],
+        [
+          470,
+          292,
+          650,
+          503
+        ],
+        [
+          658,
+          292,
+          835,
+          503
+        ],
+        [
+          843,
+          292,
+          1019,
+          503
+        ],
+        [
+          1027,
+          292,
+          1200,
+          503
+        ],
+        [
+          1208,
+          292,
+          1387,
+          503
+        ],
+        [
+          1395,
+          292,
+          1573,
+          503
+        ]
+      ]
+    },
+    {
+      "id": "mage.run_left",
+      "character": "mage",
+      "action": "run_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/run_left/run_left_01.png",
+        "characters/mage/run_left/run_left_02.png",
+        "characters/mage/run_left/run_left_03.png",
+        "characters/mage/run_left/run_left_04.png",
+        "characters/mage/run_left/run_left_05.png",
+        "characters/mage/run_left/run_left_06.png",
+        "characters/mage/run_left/run_left_07.png",
+        "characters/mage/run_left/run_left_08.png",
+        "characters/mage/run_left/run_left_09.png",
+        "characters/mage/run_left/run_left_10.png",
+        "characters/mage/run_left/run_left_11.png",
+        "characters/mage/run_left/run_left_12.png",
+        "characters/mage/run_left/run_left_13.png",
+        "characters/mage/run_left/run_left_14.png",
+        "characters/mage/run_left/run_left_15.png",
+        "characters/mage/run_left/run_left_16.png"
+      ],
+      "sheet": "characters/mage/run_left/run_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "source_file": "法师_03_左右奔跑各16帧.png",
+      "source_frame_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source_rectangles": [
+        [
+          104,
+          511,
+          275,
+          720
+        ],
+        [
+          283,
+          511,
+          462,
+          720
+        ],
+        [
+          470,
+          511,
+          650,
+          720
+        ],
+        [
+          658,
+          511,
+          835,
+          720
+        ],
+        [
+          843,
+          511,
+          1019,
+          720
+        ],
+        [
+          1027,
+          511,
+          1200,
+          720
+        ],
+        [
+          1208,
+          511,
+          1387,
+          720
+        ],
+        [
+          1395,
+          511,
+          1573,
+          720
+        ],
+        [
+          104,
+          728,
+          275,
+          936
+        ],
+        [
+          283,
+          728,
+          462,
+          936
+        ],
+        [
+          470,
+          728,
+          650,
+          936
+        ],
+        [
+          658,
+          728,
+          835,
+          936
+        ],
+        [
+          843,
+          728,
+          1019,
+          936
+        ],
+        [
+          1027,
+          728,
+          1200,
+          936
+        ],
+        [
+          1208,
+          728,
+          1387,
+          936
+        ],
+        [
+          1395,
+          728,
+          1573,
+          936
+        ]
+      ]
+    },
+    {
+      "id": "mage.attack_left",
+      "character": "mage",
+      "action": "attack_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/attack_left/attack_left_01.png",
+        "characters/mage/attack_left/attack_left_02.png",
+        "characters/mage/attack_left/attack_left_03.png",
+        "characters/mage/attack_left/attack_left_04.png",
+        "characters/mage/attack_left/attack_left_05.png",
+        "characters/mage/attack_left/attack_left_06.png",
+        "characters/mage/attack_left/attack_left_07.png",
+        "characters/mage/attack_left/attack_left_08.png",
+        "characters/mage/attack_left/attack_left_09.png",
+        "characters/mage/attack_left/attack_left_10.png",
+        "characters/mage/attack_left/attack_left_11.png",
+        "characters/mage/attack_left/attack_left_12.png",
+        "characters/mage/attack_left/attack_left_13.png",
+        "characters/mage/attack_left/attack_left_14.png",
+        "characters/mage/attack_left/attack_left_15.png",
+        "characters/mage/attack_left/attack_left_16.png"
+      ],
+      "sheet": "characters/mage/attack_left/attack_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        70,
+        65,
+        60,
+        65,
+        65,
+        65,
+        60,
+        85,
+        45,
+        45,
+        50,
+        50,
+        55,
+        60,
+        65,
+        80
+      ],
+      "loop": false,
+      "events": [
+        {
+          "frame": 10,
+          "type": "spawn_projectile",
+          "timing_status": "preview_suggestion"
+        }
+      ],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "mirror_of": "mage.attack_right",
+      "mirror_pivot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "mage.jump_left",
+      "character": "mage",
+      "action": "jump_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_left/jump_left_01.png",
+        "characters/mage/jump_left/jump_left_02.png",
+        "characters/mage/jump_left/jump_left_03.png",
+        "characters/mage/jump_left/jump_left_04.png",
+        "characters/mage/jump_left/jump_left_05.png",
+        "characters/mage/jump_left/jump_left_06.png",
+        "characters/mage/jump_left/jump_left_07.png",
+        "characters/mage/jump_left/jump_left_08.png",
+        "characters/mage/jump_left/jump_left_09.png",
+        "characters/mage/jump_left/jump_left_10.png",
+        "characters/mage/jump_left/jump_left_11.png",
+        "characters/mage/jump_left/jump_left_12.png",
+        "characters/mage/jump_left/jump_left_13.png",
+        "characters/mage/jump_left/jump_left_14.png",
+        "characters/mage/jump_left/jump_left_15.png",
+        "characters/mage/jump_left/jump_left_16.png"
+      ],
+      "sheet": "characters/mage/jump_left/jump_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 16,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "mirror_of": "mage.jump_right",
+      "mirror_pivot": [
+        128,
+        224
+      ]
+    },
+    {
+      "id": "mage.idle_right",
+      "character": "mage",
+      "action": "idle_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/idle_right/idle_right_01.png",
+        "characters/mage/idle_right/idle_right_02.png",
+        "characters/mage/idle_right/idle_right_03.png",
+        "characters/mage/idle_right/idle_right_04.png"
+      ],
+      "sheet": "characters/mage/idle_right/idle_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 4,
+      "durations_ms": [
+        240,
+        240,
+        240,
+        240
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "New subtle breathing variants derived from source neutral pose; intentional symmetric timing."
+    },
+    {
+      "id": "mage.hurt_right",
+      "character": "mage",
+      "action": "hurt_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/hurt_right/hurt_right_01.png",
+        "characters/mage/hurt_right/hurt_right_02.png",
+        "characters/mage/hurt_right/hurt_right_03.png"
+      ],
+      "sheet": "characters/mage/hurt_right/hurt_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        60,
+        110,
+        75
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit reuse of crouch poses for brief hit reaction; distinct hurt anatomy not newly drawn."
+    },
+    {
+      "id": "mage.death_right",
+      "character": "mage",
+      "action": "death_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/death_right/death_right_01.png",
+        "characters/mage/death_right/death_right_02.png",
+        "characters/mage/death_right/death_right_03.png",
+        "characters/mage/death_right/death_right_04.png",
+        "characters/mage/death_right/death_right_05.png",
+        "characters/mage/death_right/death_right_06.png"
+      ],
+      "sheet": "characters/mage/death_right/death_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        70,
+        75,
+        85,
+        100,
+        140,
+        500
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 6,
+      "coordinate_system": "top_left_pixels",
+      "after": "death_hold",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit provisional fall-over transform of neutral pose; custom death art remains optional replacement."
+    },
+    {
+      "id": "mage.jump_takeoff_right",
+      "character": "mage",
+      "action": "jump_takeoff_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_takeoff_right/jump_takeoff_right_01.png",
+        "characters/mage/jump_takeoff_right/jump_takeoff_right_02.png",
+        "characters/mage/jump_takeoff_right/jump_takeoff_right_03.png",
+        "characters/mage/jump_takeoff_right/jump_takeoff_right_04.png",
+        "characters/mage/jump_takeoff_right/jump_takeoff_right_05.png"
+      ],
+      "sheet": "characters/mage/jump_takeoff_right/jump_takeoff_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 5,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.jump_rise_right",
+      "character": "mage",
+      "action": "jump_rise_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_rise_right/jump_rise_right_01.png",
+        "characters/mage/jump_rise_right/jump_rise_right_02.png",
+        "characters/mage/jump_rise_right/jump_rise_right_03.png"
+      ],
+      "sheet": "characters/mage/jump_rise_right/jump_rise_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.jump_air_right",
+      "character": "mage",
+      "action": "jump_air_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_air_right/jump_air_right_01.png",
+        "characters/mage/jump_air_right/jump_air_right_02.png"
+      ],
+      "sheet": "characters/mage/jump_air_right/jump_air_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 2,
+      "durations_ms": [
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.jump_fall_right",
+      "character": "mage",
+      "action": "jump_fall_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_fall_right/jump_fall_right_01.png",
+        "characters/mage/jump_fall_right/jump_fall_right_02.png",
+        "characters/mage/jump_fall_right/jump_fall_right_03.png"
+      ],
+      "sheet": "characters/mage/jump_fall_right/jump_fall_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.jump_land_right",
+      "character": "mage",
+      "action": "jump_land_right",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_land_right/jump_land_right_01.png",
+        "characters/mage/jump_land_right/jump_land_right_02.png",
+        "characters/mage/jump_land_right/jump_land_right_03.png"
+      ],
+      "sheet": "characters/mage/jump_land_right/jump_land_right_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.idle_left",
+      "character": "mage",
+      "action": "idle_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/idle_left/idle_left_01.png",
+        "characters/mage/idle_left/idle_left_02.png",
+        "characters/mage/idle_left/idle_left_03.png",
+        "characters/mage/idle_left/idle_left_04.png"
+      ],
+      "sheet": "characters/mage/idle_left/idle_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 4,
+      "durations_ms": [
+        240,
+        240,
+        240,
+        240
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "loop",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "New subtle breathing variants derived from source neutral pose; intentional symmetric timing."
+    },
+    {
+      "id": "mage.hurt_left",
+      "character": "mage",
+      "action": "hurt_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/hurt_left/hurt_left_01.png",
+        "characters/mage/hurt_left/hurt_left_02.png",
+        "characters/mage/hurt_left/hurt_left_03.png"
+      ],
+      "sheet": "characters/mage/hurt_left/hurt_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        60,
+        110,
+        75
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "idle",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit reuse of crouch poses for brief hit reaction; distinct hurt anatomy not newly drawn."
+    },
+    {
+      "id": "mage.death_left",
+      "character": "mage",
+      "action": "death_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/death_left/death_left_01.png",
+        "characters/mage/death_left/death_left_02.png",
+        "characters/mage/death_left/death_left_03.png",
+        "characters/mage/death_left/death_left_04.png",
+        "characters/mage/death_left/death_left_05.png",
+        "characters/mage/death_left/death_left_06.png"
+      ],
+      "sheet": "characters/mage/death_left/death_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        70,
+        75,
+        85,
+        100,
+        140,
+        500
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 6,
+      "coordinate_system": "top_left_pixels",
+      "after": "death_hold",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "reuse_note": "Explicit provisional fall-over transform of neutral pose; custom death art remains optional replacement."
+    },
+    {
+      "id": "mage.jump_takeoff_left",
+      "character": "mage",
+      "action": "jump_takeoff_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_takeoff_left/jump_takeoff_left_01.png",
+        "characters/mage/jump_takeoff_left/jump_takeoff_left_02.png",
+        "characters/mage/jump_takeoff_left/jump_takeoff_left_03.png",
+        "characters/mage/jump_takeoff_left/jump_takeoff_left_04.png",
+        "characters/mage/jump_takeoff_left/jump_takeoff_left_05.png"
+      ],
+      "sheet": "characters/mage/jump_takeoff_left/jump_takeoff_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 5,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.jump_rise_left",
+      "character": "mage",
+      "action": "jump_rise_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_rise_left/jump_rise_left_01.png",
+        "characters/mage/jump_rise_left/jump_rise_left_02.png",
+        "characters/mage/jump_rise_left/jump_rise_left_03.png"
+      ],
+      "sheet": "characters/mage/jump_rise_left/jump_rise_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.jump_air_left",
+      "character": "mage",
+      "action": "jump_air_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_air_left/jump_air_left_01.png",
+        "characters/mage/jump_air_left/jump_air_left_02.png"
+      ],
+      "sheet": "characters/mage/jump_air_left/jump_air_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 2,
+      "durations_ms": [
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 2,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.jump_fall_left",
+      "character": "mage",
+      "action": "jump_fall_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_fall_left/jump_fall_left_01.png",
+        "characters/mage/jump_fall_left/jump_fall_left_02.png",
+        "characters/mage/jump_fall_left/jump_fall_left_03.png"
+      ],
+      "sheet": "characters/mage/jump_fall_left/jump_fall_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": true,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    },
+    {
+      "id": "mage.jump_land_left",
+      "character": "mage",
+      "action": "jump_land_left",
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "characters/mage/jump_land_left/jump_land_left_01.png",
+        "characters/mage/jump_land_left/jump_land_left_02.png",
+        "characters/mage/jump_land_left/jump_land_left_03.png"
+      ],
+      "sheet": "characters/mage/jump_land_left/jump_land_left_sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 3,
+      "durations_ms": [
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "events": [],
+      "unique_frames": 3,
+      "coordinate_system": "top_left_pixels",
+      "after": "external_state",
+      "appearance": "original_flattened_costume",
+      "status": "extracted_review_required",
+      "driven_by": "external_vertical_velocity_or_ground_contact",
+      "jump_translation_removed": true
+    }
+  ],
+  "source_grids": [
+    {
+      "file": "战士_01_攻击16帧_跳跃16帧.png",
+      "grid_columns": [
+        120,
+        300,
+        481,
+        664,
+        846,
+        1026,
+        1206,
+        1390,
+        1569
+      ],
+      "grid_rows": [
+        86,
+        292,
+        498,
+        719,
+        936
+      ],
+      "cells": 32
+    },
+    {
+      "file": "战士_02_左右行走各16帧.png",
+      "grid_columns": [
+        110,
+        292,
+        471,
+        658,
+        840,
+        1022,
+        1202,
+        1392,
+        1580
+      ],
+      "grid_rows": [
+        72,
+        290,
+        512,
+        732,
+        962
+      ],
+      "cells": 32
+    },
+    {
+      "file": "战士_03_左右奔跑各16帧.png",
+      "grid_columns": [
+        100,
+        280,
+        466,
+        650,
+        836,
+        1026,
+        1211,
+        1396,
+        1580
+      ],
+      "grid_rows": [
+        75,
+        289,
+        505,
+        722,
+        939
+      ],
+      "cells": 32
+    },
+    {
+      "file": "射手_01_攻击16帧_跳跃16帧.png",
+      "grid_columns": [
+        104,
+        285,
+        470,
+        654,
+        836,
+        1022,
+        1208,
+        1392,
+        1580
+      ],
+      "grid_rows": [
+        81,
+        296,
+        514,
+        732,
+        950
+      ],
+      "cells": 32
+    },
+    {
+      "file": "射手_02_左右行走各16帧.png",
+      "grid_columns": [
+        101,
+        283,
+        468,
+        655,
+        842,
+        1028,
+        1215,
+        1398,
+        1584
+      ],
+      "grid_rows": [
+        74,
+        287,
+        506,
+        728,
+        950
+      ],
+      "cells": 32
+    },
+    {
+      "file": "射手_03_左右奔跑各16帧.png",
+      "grid_columns": [
+        107,
+        290,
+        475,
+        658,
+        842,
+        1026,
+        1208,
+        1394,
+        1578
+      ],
+      "grid_rows": [
+        74,
+        296,
+        518,
+        740,
+        962
+      ],
+      "cells": 32
+    },
+    {
+      "file": "法师_01_攻击16帧_跳跃16帧.png",
+      "grid_columns": [
+        118,
+        300,
+        483,
+        666,
+        850,
+        1034,
+        1219,
+        1399,
+        1584
+      ],
+      "grid_rows": [
+        82,
+        292,
+        510,
+        738,
+        970
+      ],
+      "cells": 32
+    },
+    {
+      "file": "法师_02_左右行走各16帧.png",
+      "grid_columns": [
+        113,
+        296,
+        478,
+        660,
+        842,
+        1022,
+        1203,
+        1387,
+        1570
+      ],
+      "grid_rows": [
+        66,
+        278,
+        504,
+        712,
+        928
+      ],
+      "cells": 32
+    },
+    {
+      "file": "法师_03_左右奔跑各16帧.png",
+      "grid_columns": [
+        100,
+        279,
+        466,
+        654,
+        839,
+        1023,
+        1204,
+        1391,
+        1577
+      ],
+      "grid_rows": [
+        73,
+        288,
+        507,
+        724,
+        940
+      ],
+      "cells": 32
+    }
+  ],
+  "notes": [
+    "All original 288 cells extracted.",
+    "Jump flight translation removed using hair/head landmark; no bbox centering.",
+    "Attack event/durations are provisional visual preview parameters, not confirmed balance values."
+  ]
+}

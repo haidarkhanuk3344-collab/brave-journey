@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+*.log
+__pycache__/
+*.pyc
+saves/
+verification/
+运行日志.txt
+启动日志.txt

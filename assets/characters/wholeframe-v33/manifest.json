@@ -1,0 +1,377 @@
+{
+  "version": 33,
+  "status": "attack-samples-only-not-production-ready",
+  "cell": 512,
+  "root": [
+    256,
+    448
+  ],
+  "classes": {
+    "warrior": {
+      "path": "warrior-attack.png",
+      "frames": [
+        {
+          "sourceBounds": [
+            45,
+            49,
+            428,
+            436
+          ],
+          "sourceAnchor": [
+            177,
+            436
+          ],
+          "pixelCount": 73256
+        },
+        {
+          "sourceBounds": [
+            488,
+            64,
+            809,
+            432
+          ],
+          "sourceAnchor": [
+            663,
+            433
+          ],
+          "pixelCount": 63044
+        },
+        {
+          "sourceBounds": [
+            911,
+            17,
+            1221,
+            434
+          ],
+          "sourceAnchor": [
+            1066,
+            435
+          ],
+          "pixelCount": 69949
+        },
+        {
+          "sourceBounds": [
+            1272,
+            86,
+            1764,
+            435
+          ],
+          "sourceAnchor": [
+            1432,
+            436
+          ],
+          "pixelCount": 67208
+        },
+        {
+          "sourceBounds": [
+            35,
+            499,
+            476,
+            848
+          ],
+          "sourceAnchor": [
+            199,
+            849
+          ],
+          "pixelCount": 66459
+        },
+        {
+          "sourceBounds": [
+            473,
+            500,
+            943,
+            846
+          ],
+          "sourceAnchor": [
+            641,
+            847
+          ],
+          "pixelCount": 67916
+        },
+        {
+          "sourceBounds": [
+            940,
+            471,
+            1322,
+            854
+          ],
+          "sourceAnchor": [
+            1069,
+            855
+          ],
+          "pixelCount": 70861
+        },
+        {
+          "sourceBounds": [
+            1371,
+            473,
+            1748,
+            855
+          ],
+          "sourceAnchor": [
+            1508,
+            855
+          ],
+          "pixelCount": 72140
+        }
+      ],
+      "scale": 0.7596899224806202,
+      "appearance": "male-short",
+      "clothes": "armor",
+      "weaponVariant": "concept-only",
+      "missing": [
+        "idle",
+        "walk",
+        "run",
+        "jump",
+        "hurt",
+        "equipment-variants",
+        "appearance-variants"
+      ]
+    },
+    "archer": {
+      "path": "archer-attack.png",
+      "frames": [
+        {
+          "sourceBounds": [
+            49,
+            14,
+            344,
+            445
+          ],
+          "sourceAnchor": [
+            170,
+            445
+          ],
+          "pixelCount": 74289
+        },
+        {
+          "sourceBounds": [
+            459,
+            9,
+            834,
+            444
+          ],
+          "sourceAnchor": [
+            581,
+            445
+          ],
+          "pixelCount": 72878
+        },
+        {
+          "sourceBounds": [
+            905,
+            20,
+            1306,
+            444
+          ],
+          "sourceAnchor": [
+            1041,
+            445
+          ],
+          "pixelCount": 77785
+        },
+        {
+          "sourceBounds": [
+            1373,
+            10,
+            1772,
+            444
+          ],
+          "sourceAnchor": [
+            1508,
+            445
+          ],
+          "pixelCount": 77539
+        },
+        {
+          "sourceBounds": [
+            33,
+            450,
+            374,
+            873
+          ],
+          "sourceAnchor": [
+            164,
+            874
+          ],
+          "pixelCount": 74490
+        },
+        {
+          "sourceBounds": [
+            465,
+            450,
+            812,
+            876
+          ],
+          "sourceAnchor": [
+            601,
+            877
+          ],
+          "pixelCount": 75651
+        },
+        {
+          "sourceBounds": [
+            930,
+            452,
+            1257,
+            877
+          ],
+          "sourceAnchor": [
+            1067,
+            878
+          ],
+          "pixelCount": 74453
+        },
+        {
+          "sourceBounds": [
+            1402,
+            450,
+            1698,
+            879
+          ],
+          "sourceAnchor": [
+            1524,
+            879
+          ],
+          "pixelCount": 75402
+        }
+      ],
+      "scale": 0.6821345707656613,
+      "appearance": "male-short",
+      "clothes": "tunic",
+      "weaponVariant": "concept-only",
+      "missing": [
+        "idle",
+        "walk",
+        "run",
+        "jump",
+        "hurt",
+        "equipment-variants",
+        "appearance-variants"
+      ]
+    },
+    "mage": {
+      "path": "mage-attack.png",
+      "frames": [
+        {
+          "sourceBounds": [
+            48,
+            49,
+            322,
+            444
+          ],
+          "sourceAnchor": [
+            182,
+            444
+          ],
+          "pixelCount": 80812
+        },
+        {
+          "sourceBounds": [
+            481,
+            69,
+            804,
+            445
+          ],
+          "sourceAnchor": [
+            635,
+            445
+          ],
+          "pixelCount": 75946
+        },
+        {
+          "sourceBounds": [
+            901,
+            17,
+            1296,
+            445
+          ],
+          "sourceAnchor": [
+            1083,
+            445
+          ],
+          "pixelCount": 82047
+        },
+        {
+          "sourceBounds": [
+            1353,
+            66,
+            1729,
+            445
+          ],
+          "sourceAnchor": [
+            1529,
+            445
+          ],
+          "pixelCount": 76845
+        },
+        {
+          "sourceBounds": [
+            29,
+            496,
+            497,
+            859
+          ],
+          "sourceAnchor": [
+            209,
+            860
+          ],
+          "pixelCount": 80715
+        },
+        {
+          "sourceBounds": [
+            468,
+            498,
+            950,
+            859
+          ],
+          "sourceAnchor": [
+            652,
+            860
+          ],
+          "pixelCount": 83121
+        },
+        {
+          "sourceBounds": [
+            976,
+            474,
+            1286,
+            861
+          ],
+          "sourceAnchor": [
+            1107,
+            862
+          ],
+          "pixelCount": 78692
+        },
+        {
+          "sourceBounds": [
+            1414,
+            464,
+            1689,
+            861
+          ],
+          "sourceAnchor": [
+            1536,
+            862
+          ],
+          "pixelCount": 81759
+        }
+      ],
+      "scale": 0.7443037974683544,
+      "appearance": "male-short",
+      "clothes": "robe",
+      "weaponVariant": "concept-only",
+      "missing": [
+        "idle",
+        "walk",
+        "run",
+        "jump",
+        "hurt",
+        "equipment-variants",
+        "appearance-variants"
+      ]
+    }
+  }
+}

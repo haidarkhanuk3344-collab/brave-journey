@@ -1,0 +1,15 @@
+Create the THIRD COMBO attack, a heavy OVERHEAD FINISHING CUT, for the identical reference warrior. Same face, short brown hair, grey armor, red cape, dark trousers, boots, short steel sword. 3.5-head tall slim pixel character. Exactly TWELVE complete sprites in FOUR columns x THREE rows, row-major chronology. Equal-cell atlas, all face RIGHT, consistent head/body/weapon size, grounded common baseline and body root. TRUE transparent background, no fog/glow/halo/shadows, no labels/grid, no motion trails. Keep complete blade and feet in every cell with margins.
+12 sequential full-body poses:
+1 same relaxed idle with sword hanging down/back.
+2 gather with both hands guiding sword up from hip, knees flex, elbows bent.
+3 blade lifting above forehead, near shoulder raises, rear foot takes weight.
+4 maximum windup, both elbows bent and blade behind/ABOVE head, torso coils back, knees loaded.
+5 drive, front knee and pelvis move forward, both hands begin descending from above head.
+6 CONTACT heavy VERTICAL/DOWN-FORWARD CUT, blade extended down and to the FRONT, arms thrust down past chest, deep front-knee bend and pushing back heel, cape snaps late.
+7 follow-through, blade down/front near shin level, chest leans forward and hips compress.
+8 deepest settle after impact, elbows relax, low blade at front boot height, firmly grounded, back heel off floor.
+9 absorb and begin recovering from crouched stance, wrist bringing sword toward hip.
+10 torso rising and rear foot gathers inward.
+11 shoulders relax, sword lowered beside hip.
+12 same relaxed low-sword reference idle as frame1.
+Pose6 must have dramatically different silhouette from pose4: head/shoulders lower, hips driven forward, knee loaded. Heavy chest/hip transfer, strong planted stance, natural hands and anatomical knees. No frozen torso with just rotated arms, no giant axe/sword, no extra limbs, no duplicated standing frames.

@@ -1,0 +1,11 @@
+Production 2D game transparent sprite sheet of the EXACT reference warrior: brown short hair, chibi boy, grey plate armour and shoulder, black trousers, brown boots, short red cape, short silver sword held in right hand. Use reference only for identity/style. Create natural agile RUN cycle facing RIGHT in 8 different poses, four columns by two rows, equal cells, no labels, no scenery or ground shadow. Authentic transparent background. Full figures and blades inside each cell.
+RUN rather than brisk walking: lean torso 15 degrees forward, elbows FLEXED, sword carried diagonally down and behind, free arm swings significantly. Knees fold sharply, rear heels tuck upward close to seat, boot silhouette clearly alternates between near and far leg. Head/cape lag changes in time with leg drive. Head size identical in all cells.
+1 near leg contacts forward with bent knee, FAR knee folds behind with rear heel high.
+2 near leg supports under forward torso, far thigh swings forward bent knee, deepest crouch.
+3 near leg pushes backward off toe, far knee drives up forward, body rises.
+4 flight: far knee in front flexed, near thigh trailing with heel TUCKED to buttocks, BOTH feet off ground.
+5 opposite contact: far leg grounded in front, near knee folded behind and rear heel high. Visibly exchanged leg identities.
+6 far leg supports under torso, near bent knee swings forward, deepest crouch.
+7 far toe pushes behind, near knee drives high forward, body rises.
+8 opposite flight: near knee in front flexed, far heel TUCKED backward, both feet airborne.
+Maintain coherent limb length, face, armour and sword. High contrast leg occlusion separates grounded and airborne legs. Never repeat straight splayed legs in passing frames. Free arm alternates forward/back on opposite legs. Broad arm action and angular knees make the movement readable at 90px game height. Compact clean light-pixel linework matching reference, no realism, no smooth gradients or transparent glows.

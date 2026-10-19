@@ -1,0 +1,10 @@
+Use case: precise-object-edit
+Asset type: transparent PNG sprite sheet, EXACT 1536 x 1024 pixels.
+Input image: current forest sprite atlas EDIT TARGET. Keep the same SIX object identities and ordering. Change only layout sizing/alignment and rendering simplification.
+Primary corrections:
+1. The atlas is a STRICT 3 columns x 2 rows: invisible cell boundaries at x=0,512,1024,1536 and y=0,512,1024. NO OBJECT PIXELS MAY CROSS ANY CELL BOUNDARY.
+2. Rescale/reposition each prop to remain within its own cell with generous transparent padding. Maximum first oak bounds x=60..452 and y=60..440. Pine within x=600..936 and y=60..440. Moss rock within x=1100..1460 and y=250..440. Shrub within x=60..452 and y=775..952. Blank sign within x=626..910 and y=650..952. Stone arch within x=1090..1470 and y=590..952.
+3. ALL contact bottoms align EXACTLY to y=440 for top row and y=952 for bottom row. Top row must end before y=441. First row has EMPTY TRANSPARENT gap from y=441 to512, second row begins below y=552. This is essential for game cropping.
+4. Simplify object surface into crisp smooth cartoon flat 2-3 shade blocks, thin dark-brown outlines. Reduce busy leaf flecks and rock grain. Preserve blank wood sign.
+5. Genuine alpha transparency. All empty areas FULL alpha=0, solid interiors alpha=255, smooth antialiased edges only. Do not add color glow, haze, vignette, black/green background or drop shadows. Transparent areas must be clear, including between sprites.
+Absolutely no text, symbols, checkerboard baked in, labels, characters, borders, grid lines, UI. EXACT six isolated original sprites, layout and baseline matter more than extra detail.

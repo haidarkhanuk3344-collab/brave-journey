@@ -1,0 +1,105 @@
+{
+  "id": "map_03",
+  "name_suggestion": "古树深处",
+  "name_status": "suggestion",
+  "canvas": [
+    1920,
+    640
+  ],
+  "dimensions_status": "preview_provisional",
+  "layers": {
+    "far": "environments/forest_region/layouts/map_03/far.png",
+    "mid": "environments/forest_region/layouts/map_03/mid.png",
+    "ground": "environments/forest_region/layouts/map_03/ground.png",
+    "props": "environments/forest_region/layouts/map_03/props.png",
+    "actors": "environments/forest_region/layouts/map_03/actors.png",
+    "foreground": "environments/forest_region/layouts/map_03/foreground.png"
+  },
+  "layer_order": [
+    "far",
+    "mid",
+    "ground",
+    "props",
+    "actors",
+    "foreground"
+  ],
+  "parallax_suggestion": {
+    "far": 0.2,
+    "mid": 0.5,
+    "ground": 1,
+    "props": 1,
+    "actors": 1,
+    "foreground": 1.1
+  },
+  "collisions": [
+    {
+      "x": 0,
+      "y": 520,
+      "width": 1920,
+      "height": 120,
+      "kind": "solid_ground",
+      "note": "map02 stream shown as decoration; no unconfirmed lethal water rule"
+    },
+    {
+      "x": 420,
+      "y": 374,
+      "width": 256,
+      "height": 24,
+      "kind": "platform",
+      "one_way": "TBD"
+    },
+    {
+      "x": 800,
+      "y": 286,
+      "width": 192,
+      "height": 24,
+      "kind": "platform",
+      "one_way": "TBD"
+    },
+    {
+      "x": 1220,
+      "y": 340,
+      "width": 192,
+      "height": 24,
+      "kind": "platform",
+      "one_way": "TBD"
+    }
+  ],
+  "elite": "vine_guard",
+  "spawn_root": [
+    110,
+    520
+  ],
+  "next_unlock": "permanent_on_elite_defeat",
+  "enemy_respawn": "on_reentry",
+  "props": [
+    {
+      "id": "oak",
+      "root": [
+        260,
+        520
+      ]
+    },
+    {
+      "id": "root",
+      "root": [
+        800,
+        520
+      ]
+    },
+    {
+      "id": "ruin_arch",
+      "root": [
+        1120,
+        520
+      ]
+    },
+    {
+      "id": "portal_open",
+      "root": [
+        1740,
+        520
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# v29 人物大图细化
+
+使用内置 image_gen，以原五种造型的待机帧为输入生成；保留生成原图 source.png，manifest.json 记录透明图集切分边界。未覆盖原动画。
+
+## 最终提示词
+
+Use case: identity-preserve. Production 2D game art: create a high-resolution detail refinement of FIVE EXISTING HEROES, preserving the exact cute character identity, chibi proportions and standing idle pose from the FIRST figure of each input image. Output ONE transparent atlas, exactly FIVE equal columns, ONE row. Columns left to right: input1 male short brown hair, input2 male spiky brown hair, input3 female short brown hair with leaf clip, input4 female wavy bob brown hair with leaf clip, input5 female high ponytail brown hair. These are the SAME game hero and heroine as references, no redesign. Each stands facing RIGHT three-quarter, arms gently down with the same clenched hands, same boots position, no weapon, no helmet, no ground shadow. Keep exact blue short sleeve tunic, red neck scarf, tiny gold leaf medallion, brown belt and wrist cuffs, charcoal trousers, brown boots. All five stand at exactly same ground baseline. Each full character is about 800 pixels high, leave ample gutters and fully transparent exterior. Render very high resolution, ideally 2560x2048. Refine surface texture: softly hand-painted cloth fibers and soft folds, soft chestnut leather wear, fine hair strands within broad original shapes, natural warm skin and subtle volume. Use warm thin brown contours instead of hard black sticker outlines, diffuse sunlight upper left and cool soft reflected lower right. Preserve exact facial features, large brown eyes, tiny nose, original expression; no photorealism, no 3D, no extra accessories. This detail atlas will be registered to EXISTING animation silhouettes and all original equipment will be overlaid, so preserve pose and color regions accurately. High quality transparent alpha. No text, no labels, no environment.
+
+大图绘制注册到原待机帧轮廓，并继续使用原有发色、肤色、服装染色、头盔遮罩、手部遮罩、武器与握持逻辑。只有放大预览使用细化层；战斗动作保留原有帧动画。备用头盔侧面尚未用于现有动作。

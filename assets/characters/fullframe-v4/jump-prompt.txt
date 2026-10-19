@@ -1,0 +1,12 @@
+Production character sprite animation edit. Preserve the exact warrior in image1: same recognizable face, short brown hair, grey steel armor, red cape, dark trousers, brown boots, steel short sword. Image2 defines natural whole-body motion and pixel style reference. Draw complete actual body poses, not rigid rotated limbs.
+Create EXACTLY EIGHT sprites in FOUR columns x TWO rows, equal cells, chronological row-major order. Facing RIGHT in every cell. TRUE transparent background, no text, numbers, shadows, motion streaks, grid or floor lines. Stable face size and proportions ~3.5 heads tall; torso/head remain same scale even when legs tuck. Each complete sprite fits within its cell including sword.
+This sheet is a vertical JUMP and LAND animation, each frame must have different body posture:
+1 toe-off: chest reaches upward, back heel leaves ground, near knee starts flexing, sword hangs down/back by hip, free hand low forward.
+2 ascending: both knees flex slightly, feet start gathering below pelvis, elbows bend and cape trails downward.
+3 rising tuck: near knee bends forward below waist, far lower leg folds behind under body, boots noticeably lifted; chest remains upright, head stable.
+4 apex: relaxed compact tuck, knees soft, near boot under knee, far heel tucked, cape floats upward slightly; avoid sitting or knees at chest.
+5 descending: legs extend down naturally, toes point gently toward ground, free arm opens for balance, cape drifts above back.
+6 prepare contact: boots lowered and almost shoulder-width, hips begin softening, knees slightly flexed ready for weight, sword controlled low.
+7 LAND impact: BOTH boots planted on common floor, knees bend markedly to absorb landing, pelvis lowers and shoulders dip; chest leans forward slightly, cape catches up. Keep original body anatomy, do not shrink body to look crouched.
+8 recover: both boots planted, knees still softly bent, torso rises halfway back to the relaxed standing pose, sword down/back; smoothly connects to reference warrior idle.
+Same character mass and head size across all EIGHT cells. Common body-root/pelvis horizontal position in the grid; common imaginary ground baseline for frames1/6/7/8, rising frames have lifted feet naturally. No combat stance, no raised sword, no duplicated poses, no stick knees, no hands disconnected, no giant head. Full-body sequential hand-animation appearance with organic knees, boot angles, cape, torso and elbow poses.

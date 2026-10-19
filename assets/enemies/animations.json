@@ -1,0 +1,5644 @@
+{
+  "animations": [
+    {
+      "id": "slime.idle_right",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "idle",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/idle_right/idle_right_01.png",
+        "enemies/normal/slime/idle_right/idle_right_02.png",
+        "enemies/normal/slime/idle_right/idle_right_03.png",
+        "enemies/normal/slime/idle_right/idle_right_04.png",
+        "enemies/normal/slime/idle_right/idle_right_05.png",
+        "enemies/normal/slime/idle_right/idle_right_06.png",
+        "enemies/normal/slime/idle_right/idle_right_07.png",
+        "enemies/normal/slime/idle_right/idle_right_08.png"
+      ],
+      "sheet": "enemies/normal/slime/idle_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "slime.idle_left",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "idle",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/idle_left/idle_left_01.png",
+        "enemies/normal/slime/idle_left/idle_left_02.png",
+        "enemies/normal/slime/idle_left/idle_left_03.png",
+        "enemies/normal/slime/idle_left/idle_left_04.png",
+        "enemies/normal/slime/idle_left/idle_left_05.png",
+        "enemies/normal/slime/idle_left/idle_left_06.png",
+        "enemies/normal/slime/idle_left/idle_left_07.png",
+        "enemies/normal/slime/idle_left/idle_left_08.png"
+      ],
+      "sheet": "enemies/normal/slime/idle_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "slime.move_right",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "move",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/move_right/move_right_01.png",
+        "enemies/normal/slime/move_right/move_right_02.png",
+        "enemies/normal/slime/move_right/move_right_03.png",
+        "enemies/normal/slime/move_right/move_right_04.png",
+        "enemies/normal/slime/move_right/move_right_05.png",
+        "enemies/normal/slime/move_right/move_right_06.png",
+        "enemies/normal/slime/move_right/move_right_07.png",
+        "enemies/normal/slime/move_right/move_right_08.png"
+      ],
+      "sheet": "enemies/normal/slime/move_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "slime.move_left",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "move",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/move_left/move_left_01.png",
+        "enemies/normal/slime/move_left/move_left_02.png",
+        "enemies/normal/slime/move_left/move_left_03.png",
+        "enemies/normal/slime/move_left/move_left_04.png",
+        "enemies/normal/slime/move_left/move_left_05.png",
+        "enemies/normal/slime/move_left/move_left_06.png",
+        "enemies/normal/slime/move_left/move_left_07.png",
+        "enemies/normal/slime/move_left/move_left_08.png"
+      ],
+      "sheet": "enemies/normal/slime/move_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "slime.hurt_right",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "hurt",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/hurt_right/hurt_right_01.png",
+        "enemies/normal/slime/hurt_right/hurt_right_02.png",
+        "enemies/normal/slime/hurt_right/hurt_right_03.png",
+        "enemies/normal/slime/hurt_right/hurt_right_04.png",
+        "enemies/normal/slime/hurt_right/hurt_right_05.png"
+      ],
+      "sheet": "enemies/normal/slime/hurt_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "slime.hurt_left",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "hurt",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/hurt_left/hurt_left_01.png",
+        "enemies/normal/slime/hurt_left/hurt_left_02.png",
+        "enemies/normal/slime/hurt_left/hurt_left_03.png",
+        "enemies/normal/slime/hurt_left/hurt_left_04.png",
+        "enemies/normal/slime/hurt_left/hurt_left_05.png"
+      ],
+      "sheet": "enemies/normal/slime/hurt_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "slime.death_right",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "death",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/death_right/death_right_01.png",
+        "enemies/normal/slime/death_right/death_right_02.png",
+        "enemies/normal/slime/death_right/death_right_03.png",
+        "enemies/normal/slime/death_right/death_right_04.png",
+        "enemies/normal/slime/death_right/death_right_05.png",
+        "enemies/normal/slime/death_right/death_right_06.png"
+      ],
+      "sheet": "enemies/normal/slime/death_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "slime.death_left",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "death",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/death_left/death_left_01.png",
+        "enemies/normal/slime/death_left/death_left_02.png",
+        "enemies/normal/slime/death_left/death_left_03.png",
+        "enemies/normal/slime/death_left/death_left_04.png",
+        "enemies/normal/slime/death_left/death_left_05.png",
+        "enemies/normal/slime/death_left/death_left_06.png"
+      ],
+      "sheet": "enemies/normal/slime/death_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "slime.attack_right",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "attack",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/attack_right/attack_right_01.png",
+        "enemies/normal/slime/attack_right/attack_right_02.png",
+        "enemies/normal/slime/attack_right/attack_right_03.png",
+        "enemies/normal/slime/attack_right/attack_right_04.png",
+        "enemies/normal/slime/attack_right/attack_right_05.png",
+        "enemies/normal/slime/attack_right/attack_right_06.png",
+        "enemies/normal/slime/attack_right/attack_right_07.png",
+        "enemies/normal/slime/attack_right/attack_right_08.png",
+        "enemies/normal/slime/attack_right/attack_right_09.png",
+        "enemies/normal/slime/attack_right/attack_right_10.png",
+        "enemies/normal/slime/attack_right/attack_right_11.png",
+        "enemies/normal/slime/attack_right/attack_right_12.png"
+      ],
+      "sheet": "enemies/normal/slime/attack_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        45,
+        45,
+        45,
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "hit_window",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 8,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "slime.attack_left",
+      "enemy": "slime",
+      "display_name_suggestion": "苔绿史莱姆",
+      "category": "normal",
+      "action": "attack",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/slime/attack_left/attack_left_01.png",
+        "enemies/normal/slime/attack_left/attack_left_02.png",
+        "enemies/normal/slime/attack_left/attack_left_03.png",
+        "enemies/normal/slime/attack_left/attack_left_04.png",
+        "enemies/normal/slime/attack_left/attack_left_05.png",
+        "enemies/normal/slime/attack_left/attack_left_06.png",
+        "enemies/normal/slime/attack_left/attack_left_07.png",
+        "enemies/normal/slime/attack_left/attack_left_08.png",
+        "enemies/normal/slime/attack_left/attack_left_09.png",
+        "enemies/normal/slime/attack_left/attack_left_10.png",
+        "enemies/normal/slime/attack_left/attack_left_11.png",
+        "enemies/normal/slime/attack_left/attack_left_12.png"
+      ],
+      "sheet": "enemies/normal/slime/attack_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        45,
+        45,
+        45,
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "hit_window",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 8,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "wolf.idle_right",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "idle",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/idle_right/idle_right_01.png",
+        "enemies/normal/wolf/idle_right/idle_right_02.png",
+        "enemies/normal/wolf/idle_right/idle_right_03.png",
+        "enemies/normal/wolf/idle_right/idle_right_04.png",
+        "enemies/normal/wolf/idle_right/idle_right_05.png",
+        "enemies/normal/wolf/idle_right/idle_right_06.png",
+        "enemies/normal/wolf/idle_right/idle_right_07.png",
+        "enemies/normal/wolf/idle_right/idle_right_08.png"
+      ],
+      "sheet": "enemies/normal/wolf/idle_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "wolf.idle_left",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "idle",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/idle_left/idle_left_01.png",
+        "enemies/normal/wolf/idle_left/idle_left_02.png",
+        "enemies/normal/wolf/idle_left/idle_left_03.png",
+        "enemies/normal/wolf/idle_left/idle_left_04.png",
+        "enemies/normal/wolf/idle_left/idle_left_05.png",
+        "enemies/normal/wolf/idle_left/idle_left_06.png",
+        "enemies/normal/wolf/idle_left/idle_left_07.png",
+        "enemies/normal/wolf/idle_left/idle_left_08.png"
+      ],
+      "sheet": "enemies/normal/wolf/idle_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "wolf.move_right",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "move",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/move_right/move_right_01.png",
+        "enemies/normal/wolf/move_right/move_right_02.png",
+        "enemies/normal/wolf/move_right/move_right_03.png",
+        "enemies/normal/wolf/move_right/move_right_04.png",
+        "enemies/normal/wolf/move_right/move_right_05.png",
+        "enemies/normal/wolf/move_right/move_right_06.png",
+        "enemies/normal/wolf/move_right/move_right_07.png",
+        "enemies/normal/wolf/move_right/move_right_08.png"
+      ],
+      "sheet": "enemies/normal/wolf/move_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "wolf.move_left",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "move",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/move_left/move_left_01.png",
+        "enemies/normal/wolf/move_left/move_left_02.png",
+        "enemies/normal/wolf/move_left/move_left_03.png",
+        "enemies/normal/wolf/move_left/move_left_04.png",
+        "enemies/normal/wolf/move_left/move_left_05.png",
+        "enemies/normal/wolf/move_left/move_left_06.png",
+        "enemies/normal/wolf/move_left/move_left_07.png",
+        "enemies/normal/wolf/move_left/move_left_08.png"
+      ],
+      "sheet": "enemies/normal/wolf/move_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "wolf.hurt_right",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "hurt",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/hurt_right/hurt_right_01.png",
+        "enemies/normal/wolf/hurt_right/hurt_right_02.png",
+        "enemies/normal/wolf/hurt_right/hurt_right_03.png",
+        "enemies/normal/wolf/hurt_right/hurt_right_04.png",
+        "enemies/normal/wolf/hurt_right/hurt_right_05.png"
+      ],
+      "sheet": "enemies/normal/wolf/hurt_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "wolf.hurt_left",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "hurt",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/hurt_left/hurt_left_01.png",
+        "enemies/normal/wolf/hurt_left/hurt_left_02.png",
+        "enemies/normal/wolf/hurt_left/hurt_left_03.png",
+        "enemies/normal/wolf/hurt_left/hurt_left_04.png",
+        "enemies/normal/wolf/hurt_left/hurt_left_05.png"
+      ],
+      "sheet": "enemies/normal/wolf/hurt_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "wolf.death_right",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "death",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/death_right/death_right_01.png",
+        "enemies/normal/wolf/death_right/death_right_02.png",
+        "enemies/normal/wolf/death_right/death_right_03.png",
+        "enemies/normal/wolf/death_right/death_right_04.png",
+        "enemies/normal/wolf/death_right/death_right_05.png",
+        "enemies/normal/wolf/death_right/death_right_06.png"
+      ],
+      "sheet": "enemies/normal/wolf/death_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "wolf.death_left",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "death",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/death_left/death_left_01.png",
+        "enemies/normal/wolf/death_left/death_left_02.png",
+        "enemies/normal/wolf/death_left/death_left_03.png",
+        "enemies/normal/wolf/death_left/death_left_04.png",
+        "enemies/normal/wolf/death_left/death_left_05.png",
+        "enemies/normal/wolf/death_left/death_left_06.png"
+      ],
+      "sheet": "enemies/normal/wolf/death_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "wolf.attack_right",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "attack",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/attack_right/attack_right_01.png",
+        "enemies/normal/wolf/attack_right/attack_right_02.png",
+        "enemies/normal/wolf/attack_right/attack_right_03.png",
+        "enemies/normal/wolf/attack_right/attack_right_04.png",
+        "enemies/normal/wolf/attack_right/attack_right_05.png",
+        "enemies/normal/wolf/attack_right/attack_right_06.png",
+        "enemies/normal/wolf/attack_right/attack_right_07.png",
+        "enemies/normal/wolf/attack_right/attack_right_08.png",
+        "enemies/normal/wolf/attack_right/attack_right_09.png",
+        "enemies/normal/wolf/attack_right/attack_right_10.png",
+        "enemies/normal/wolf/attack_right/attack_right_11.png",
+        "enemies/normal/wolf/attack_right/attack_right_12.png"
+      ],
+      "sheet": "enemies/normal/wolf/attack_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        105,
+        105,
+        105,
+        105,
+        45,
+        45,
+        45,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "hit_window",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 8,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "wolf.attack_left",
+      "enemy": "wolf",
+      "display_name_suggestion": "林地迅狼",
+      "category": "normal",
+      "action": "attack",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/wolf/attack_left/attack_left_01.png",
+        "enemies/normal/wolf/attack_left/attack_left_02.png",
+        "enemies/normal/wolf/attack_left/attack_left_03.png",
+        "enemies/normal/wolf/attack_left/attack_left_04.png",
+        "enemies/normal/wolf/attack_left/attack_left_05.png",
+        "enemies/normal/wolf/attack_left/attack_left_06.png",
+        "enemies/normal/wolf/attack_left/attack_left_07.png",
+        "enemies/normal/wolf/attack_left/attack_left_08.png",
+        "enemies/normal/wolf/attack_left/attack_left_09.png",
+        "enemies/normal/wolf/attack_left/attack_left_10.png",
+        "enemies/normal/wolf/attack_left/attack_left_11.png",
+        "enemies/normal/wolf/attack_left/attack_left_12.png"
+      ],
+      "sheet": "enemies/normal/wolf/attack_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        105,
+        105,
+        105,
+        105,
+        45,
+        45,
+        45,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "hit_window",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 8,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "goblin.idle_right",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "idle",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/idle_right/idle_right_01.png",
+        "enemies/normal/goblin/idle_right/idle_right_02.png",
+        "enemies/normal/goblin/idle_right/idle_right_03.png",
+        "enemies/normal/goblin/idle_right/idle_right_04.png",
+        "enemies/normal/goblin/idle_right/idle_right_05.png",
+        "enemies/normal/goblin/idle_right/idle_right_06.png",
+        "enemies/normal/goblin/idle_right/idle_right_07.png",
+        "enemies/normal/goblin/idle_right/idle_right_08.png"
+      ],
+      "sheet": "enemies/normal/goblin/idle_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "goblin.idle_left",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "idle",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/idle_left/idle_left_01.png",
+        "enemies/normal/goblin/idle_left/idle_left_02.png",
+        "enemies/normal/goblin/idle_left/idle_left_03.png",
+        "enemies/normal/goblin/idle_left/idle_left_04.png",
+        "enemies/normal/goblin/idle_left/idle_left_05.png",
+        "enemies/normal/goblin/idle_left/idle_left_06.png",
+        "enemies/normal/goblin/idle_left/idle_left_07.png",
+        "enemies/normal/goblin/idle_left/idle_left_08.png"
+      ],
+      "sheet": "enemies/normal/goblin/idle_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "goblin.move_right",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "move",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/move_right/move_right_01.png",
+        "enemies/normal/goblin/move_right/move_right_02.png",
+        "enemies/normal/goblin/move_right/move_right_03.png",
+        "enemies/normal/goblin/move_right/move_right_04.png",
+        "enemies/normal/goblin/move_right/move_right_05.png",
+        "enemies/normal/goblin/move_right/move_right_06.png",
+        "enemies/normal/goblin/move_right/move_right_07.png",
+        "enemies/normal/goblin/move_right/move_right_08.png"
+      ],
+      "sheet": "enemies/normal/goblin/move_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "goblin.move_left",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "move",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/move_left/move_left_01.png",
+        "enemies/normal/goblin/move_left/move_left_02.png",
+        "enemies/normal/goblin/move_left/move_left_03.png",
+        "enemies/normal/goblin/move_left/move_left_04.png",
+        "enemies/normal/goblin/move_left/move_left_05.png",
+        "enemies/normal/goblin/move_left/move_left_06.png",
+        "enemies/normal/goblin/move_left/move_left_07.png",
+        "enemies/normal/goblin/move_left/move_left_08.png"
+      ],
+      "sheet": "enemies/normal/goblin/move_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "goblin.hurt_right",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "hurt",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/hurt_right/hurt_right_01.png",
+        "enemies/normal/goblin/hurt_right/hurt_right_02.png",
+        "enemies/normal/goblin/hurt_right/hurt_right_03.png",
+        "enemies/normal/goblin/hurt_right/hurt_right_04.png",
+        "enemies/normal/goblin/hurt_right/hurt_right_05.png"
+      ],
+      "sheet": "enemies/normal/goblin/hurt_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "goblin.hurt_left",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "hurt",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/hurt_left/hurt_left_01.png",
+        "enemies/normal/goblin/hurt_left/hurt_left_02.png",
+        "enemies/normal/goblin/hurt_left/hurt_left_03.png",
+        "enemies/normal/goblin/hurt_left/hurt_left_04.png",
+        "enemies/normal/goblin/hurt_left/hurt_left_05.png"
+      ],
+      "sheet": "enemies/normal/goblin/hurt_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "goblin.death_right",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "death",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/death_right/death_right_01.png",
+        "enemies/normal/goblin/death_right/death_right_02.png",
+        "enemies/normal/goblin/death_right/death_right_03.png",
+        "enemies/normal/goblin/death_right/death_right_04.png",
+        "enemies/normal/goblin/death_right/death_right_05.png",
+        "enemies/normal/goblin/death_right/death_right_06.png"
+      ],
+      "sheet": "enemies/normal/goblin/death_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "goblin.death_left",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "death",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/death_left/death_left_01.png",
+        "enemies/normal/goblin/death_left/death_left_02.png",
+        "enemies/normal/goblin/death_left/death_left_03.png",
+        "enemies/normal/goblin/death_left/death_left_04.png",
+        "enemies/normal/goblin/death_left/death_left_05.png",
+        "enemies/normal/goblin/death_left/death_left_06.png"
+      ],
+      "sheet": "enemies/normal/goblin/death_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "goblin.attack_right",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "attack",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/attack_right/attack_right_01.png",
+        "enemies/normal/goblin/attack_right/attack_right_02.png",
+        "enemies/normal/goblin/attack_right/attack_right_03.png",
+        "enemies/normal/goblin/attack_right/attack_right_04.png",
+        "enemies/normal/goblin/attack_right/attack_right_05.png",
+        "enemies/normal/goblin/attack_right/attack_right_06.png",
+        "enemies/normal/goblin/attack_right/attack_right_07.png",
+        "enemies/normal/goblin/attack_right/attack_right_08.png",
+        "enemies/normal/goblin/attack_right/attack_right_09.png",
+        "enemies/normal/goblin/attack_right/attack_right_10.png",
+        "enemies/normal/goblin/attack_right/attack_right_11.png",
+        "enemies/normal/goblin/attack_right/attack_right_12.png"
+      ],
+      "sheet": "enemies/normal/goblin/attack_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        45,
+        45,
+        45,
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "spawn_stone",
+          "effect": "stone_projectile"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 8,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "goblin.attack_left",
+      "enemy": "goblin",
+      "display_name_suggestion": "林地投石怪",
+      "category": "normal",
+      "action": "attack",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/normal/goblin/attack_left/attack_left_01.png",
+        "enemies/normal/goblin/attack_left/attack_left_02.png",
+        "enemies/normal/goblin/attack_left/attack_left_03.png",
+        "enemies/normal/goblin/attack_left/attack_left_04.png",
+        "enemies/normal/goblin/attack_left/attack_left_05.png",
+        "enemies/normal/goblin/attack_left/attack_left_06.png",
+        "enemies/normal/goblin/attack_left/attack_left_07.png",
+        "enemies/normal/goblin/attack_left/attack_left_08.png",
+        "enemies/normal/goblin/attack_left/attack_left_09.png",
+        "enemies/normal/goblin/attack_left/attack_left_10.png",
+        "enemies/normal/goblin/attack_left/attack_left_11.png",
+        "enemies/normal/goblin/attack_left/attack_left_12.png"
+      ],
+      "sheet": "enemies/normal/goblin/attack_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        130,
+        130,
+        130,
+        130,
+        45,
+        45,
+        45,
+        105,
+        105,
+        105,
+        105,
+        105
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "spawn_stone",
+          "effect": "stone_projectile"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 8,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "boar.idle_right",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "idle",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/idle_right/idle_right_01.png",
+        "enemies/elite_01/boar/idle_right/idle_right_02.png",
+        "enemies/elite_01/boar/idle_right/idle_right_03.png",
+        "enemies/elite_01/boar/idle_right/idle_right_04.png",
+        "enemies/elite_01/boar/idle_right/idle_right_05.png",
+        "enemies/elite_01/boar/idle_right/idle_right_06.png",
+        "enemies/elite_01/boar/idle_right/idle_right_07.png",
+        "enemies/elite_01/boar/idle_right/idle_right_08.png"
+      ],
+      "sheet": "enemies/elite_01/boar/idle_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "boar.idle_left",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "idle",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/idle_left/idle_left_01.png",
+        "enemies/elite_01/boar/idle_left/idle_left_02.png",
+        "enemies/elite_01/boar/idle_left/idle_left_03.png",
+        "enemies/elite_01/boar/idle_left/idle_left_04.png",
+        "enemies/elite_01/boar/idle_left/idle_left_05.png",
+        "enemies/elite_01/boar/idle_left/idle_left_06.png",
+        "enemies/elite_01/boar/idle_left/idle_left_07.png",
+        "enemies/elite_01/boar/idle_left/idle_left_08.png"
+      ],
+      "sheet": "enemies/elite_01/boar/idle_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "boar.move_right",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "move",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/move_right/move_right_01.png",
+        "enemies/elite_01/boar/move_right/move_right_02.png",
+        "enemies/elite_01/boar/move_right/move_right_03.png",
+        "enemies/elite_01/boar/move_right/move_right_04.png",
+        "enemies/elite_01/boar/move_right/move_right_05.png",
+        "enemies/elite_01/boar/move_right/move_right_06.png",
+        "enemies/elite_01/boar/move_right/move_right_07.png",
+        "enemies/elite_01/boar/move_right/move_right_08.png"
+      ],
+      "sheet": "enemies/elite_01/boar/move_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "boar.move_left",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "move",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/move_left/move_left_01.png",
+        "enemies/elite_01/boar/move_left/move_left_02.png",
+        "enemies/elite_01/boar/move_left/move_left_03.png",
+        "enemies/elite_01/boar/move_left/move_left_04.png",
+        "enemies/elite_01/boar/move_left/move_left_05.png",
+        "enemies/elite_01/boar/move_left/move_left_06.png",
+        "enemies/elite_01/boar/move_left/move_left_07.png",
+        "enemies/elite_01/boar/move_left/move_left_08.png"
+      ],
+      "sheet": "enemies/elite_01/boar/move_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "boar.hurt_right",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "hurt",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/hurt_right/hurt_right_01.png",
+        "enemies/elite_01/boar/hurt_right/hurt_right_02.png",
+        "enemies/elite_01/boar/hurt_right/hurt_right_03.png",
+        "enemies/elite_01/boar/hurt_right/hurt_right_04.png",
+        "enemies/elite_01/boar/hurt_right/hurt_right_05.png"
+      ],
+      "sheet": "enemies/elite_01/boar/hurt_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "boar.hurt_left",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "hurt",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/hurt_left/hurt_left_01.png",
+        "enemies/elite_01/boar/hurt_left/hurt_left_02.png",
+        "enemies/elite_01/boar/hurt_left/hurt_left_03.png",
+        "enemies/elite_01/boar/hurt_left/hurt_left_04.png",
+        "enemies/elite_01/boar/hurt_left/hurt_left_05.png"
+      ],
+      "sheet": "enemies/elite_01/boar/hurt_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "boar.death_right",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "death",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/death_right/death_right_01.png",
+        "enemies/elite_01/boar/death_right/death_right_02.png",
+        "enemies/elite_01/boar/death_right/death_right_03.png",
+        "enemies/elite_01/boar/death_right/death_right_04.png",
+        "enemies/elite_01/boar/death_right/death_right_05.png",
+        "enemies/elite_01/boar/death_right/death_right_06.png"
+      ],
+      "sheet": "enemies/elite_01/boar/death_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "boar.death_left",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "death",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/death_left/death_left_01.png",
+        "enemies/elite_01/boar/death_left/death_left_02.png",
+        "enemies/elite_01/boar/death_left/death_left_03.png",
+        "enemies/elite_01/boar/death_left/death_left_04.png",
+        "enemies/elite_01/boar/death_left/death_left_05.png",
+        "enemies/elite_01/boar/death_left/death_left_06.png"
+      ],
+      "sheet": "enemies/elite_01/boar/death_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "boar.attack_01_right",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "attack_01",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_01.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_02.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_03.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_04.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_05.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_06.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_07.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_08.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_09.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_10.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_11.png",
+        "enemies/elite_01/boar/attack_01_right/attack_01_right_12.png"
+      ],
+      "sheet": "enemies/elite_01/boar/attack_01_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        65,
+        65,
+        65,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "charge_hit",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "boar.attack_01_left",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "attack_01",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_01.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_02.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_03.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_04.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_05.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_06.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_07.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_08.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_09.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_10.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_11.png",
+        "enemies/elite_01/boar/attack_01_left/attack_01_left_12.png"
+      ],
+      "sheet": "enemies/elite_01/boar/attack_01_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        65,
+        65,
+        65,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "charge_hit",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "boar.attack_02_right",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "attack_02",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_01.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_02.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_03.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_04.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_05.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_06.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_07.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_08.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_09.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_10.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_11.png",
+        "enemies/elite_01/boar/attack_02_right/attack_02_right_12.png"
+      ],
+      "sheet": "enemies/elite_01/boar/attack_02_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        155,
+        155,
+        155,
+        155,
+        70,
+        70,
+        70,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "hoof_stomp",
+          "effect": "slam_wave"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "boar.attack_02_left",
+      "enemy": "boar",
+      "display_name_suggestion": "獠牙野猪",
+      "category": "elite_01",
+      "action": "attack_02",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_01.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_02.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_03.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_04.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_05.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_06.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_07.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_08.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_09.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_10.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_11.png",
+        "enemies/elite_01/boar/attack_02_left/attack_02_left_12.png"
+      ],
+      "sheet": "enemies/elite_01/boar/attack_02_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        155,
+        155,
+        155,
+        155,
+        70,
+        70,
+        70,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "hoof_stomp",
+          "effect": "slam_wave"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "stone_chief.idle_right",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "idle",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/idle_right/idle_right_01.png",
+        "enemies/elite_02/stone_chief/idle_right/idle_right_02.png",
+        "enemies/elite_02/stone_chief/idle_right/idle_right_03.png",
+        "enemies/elite_02/stone_chief/idle_right/idle_right_04.png",
+        "enemies/elite_02/stone_chief/idle_right/idle_right_05.png",
+        "enemies/elite_02/stone_chief/idle_right/idle_right_06.png",
+        "enemies/elite_02/stone_chief/idle_right/idle_right_07.png",
+        "enemies/elite_02/stone_chief/idle_right/idle_right_08.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/idle_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "stone_chief.idle_left",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "idle",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/idle_left/idle_left_01.png",
+        "enemies/elite_02/stone_chief/idle_left/idle_left_02.png",
+        "enemies/elite_02/stone_chief/idle_left/idle_left_03.png",
+        "enemies/elite_02/stone_chief/idle_left/idle_left_04.png",
+        "enemies/elite_02/stone_chief/idle_left/idle_left_05.png",
+        "enemies/elite_02/stone_chief/idle_left/idle_left_06.png",
+        "enemies/elite_02/stone_chief/idle_left/idle_left_07.png",
+        "enemies/elite_02/stone_chief/idle_left/idle_left_08.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/idle_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "stone_chief.move_right",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "move",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/move_right/move_right_01.png",
+        "enemies/elite_02/stone_chief/move_right/move_right_02.png",
+        "enemies/elite_02/stone_chief/move_right/move_right_03.png",
+        "enemies/elite_02/stone_chief/move_right/move_right_04.png",
+        "enemies/elite_02/stone_chief/move_right/move_right_05.png",
+        "enemies/elite_02/stone_chief/move_right/move_right_06.png",
+        "enemies/elite_02/stone_chief/move_right/move_right_07.png",
+        "enemies/elite_02/stone_chief/move_right/move_right_08.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/move_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "stone_chief.move_left",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "move",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/move_left/move_left_01.png",
+        "enemies/elite_02/stone_chief/move_left/move_left_02.png",
+        "enemies/elite_02/stone_chief/move_left/move_left_03.png",
+        "enemies/elite_02/stone_chief/move_left/move_left_04.png",
+        "enemies/elite_02/stone_chief/move_left/move_left_05.png",
+        "enemies/elite_02/stone_chief/move_left/move_left_06.png",
+        "enemies/elite_02/stone_chief/move_left/move_left_07.png",
+        "enemies/elite_02/stone_chief/move_left/move_left_08.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/move_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "stone_chief.hurt_right",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "hurt",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/hurt_right/hurt_right_01.png",
+        "enemies/elite_02/stone_chief/hurt_right/hurt_right_02.png",
+        "enemies/elite_02/stone_chief/hurt_right/hurt_right_03.png",
+        "enemies/elite_02/stone_chief/hurt_right/hurt_right_04.png",
+        "enemies/elite_02/stone_chief/hurt_right/hurt_right_05.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/hurt_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "stone_chief.hurt_left",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "hurt",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/hurt_left/hurt_left_01.png",
+        "enemies/elite_02/stone_chief/hurt_left/hurt_left_02.png",
+        "enemies/elite_02/stone_chief/hurt_left/hurt_left_03.png",
+        "enemies/elite_02/stone_chief/hurt_left/hurt_left_04.png",
+        "enemies/elite_02/stone_chief/hurt_left/hurt_left_05.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/hurt_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "stone_chief.death_right",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "death",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/death_right/death_right_01.png",
+        "enemies/elite_02/stone_chief/death_right/death_right_02.png",
+        "enemies/elite_02/stone_chief/death_right/death_right_03.png",
+        "enemies/elite_02/stone_chief/death_right/death_right_04.png",
+        "enemies/elite_02/stone_chief/death_right/death_right_05.png",
+        "enemies/elite_02/stone_chief/death_right/death_right_06.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/death_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "stone_chief.death_left",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "death",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/death_left/death_left_01.png",
+        "enemies/elite_02/stone_chief/death_left/death_left_02.png",
+        "enemies/elite_02/stone_chief/death_left/death_left_03.png",
+        "enemies/elite_02/stone_chief/death_left/death_left_04.png",
+        "enemies/elite_02/stone_chief/death_left/death_left_05.png",
+        "enemies/elite_02/stone_chief/death_left/death_left_06.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/death_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "stone_chief.attack_01_right",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "attack_01",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_01.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_02.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_03.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_04.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_05.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_06.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_07.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_08.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_09.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_10.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_11.png",
+        "enemies/elite_02/stone_chief/attack_01_right/attack_01_right_12.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/attack_01_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        65,
+        65,
+        65,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "spawn_boulder",
+          "effect": "boulder_projectile"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "stone_chief.attack_01_left",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "attack_01",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_01.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_02.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_03.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_04.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_05.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_06.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_07.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_08.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_09.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_10.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_11.png",
+        "enemies/elite_02/stone_chief/attack_01_left/attack_01_left_12.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/attack_01_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        65,
+        65,
+        65,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "spawn_boulder",
+          "effect": "boulder_projectile"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "stone_chief.attack_02_right",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "attack_02",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_01.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_02.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_03.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_04.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_05.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_06.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_07.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_08.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_09.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_10.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_11.png",
+        "enemies/elite_02/stone_chief/attack_02_right/attack_02_right_12.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/attack_02_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        155,
+        155,
+        155,
+        155,
+        70,
+        70,
+        70,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "palm_hit",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "stone_chief.attack_02_left",
+      "enemy": "stone_chief",
+      "display_name_suggestion": "投石头目",
+      "category": "elite_02",
+      "action": "attack_02",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_01.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_02.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_03.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_04.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_05.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_06.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_07.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_08.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_09.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_10.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_11.png",
+        "enemies/elite_02/stone_chief/attack_02_left/attack_02_left_12.png"
+      ],
+      "sheet": "enemies/elite_02/stone_chief/attack_02_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        155,
+        155,
+        155,
+        155,
+        70,
+        70,
+        70,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "palm_hit",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "vine_guard.idle_right",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "idle",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/idle_right/idle_right_01.png",
+        "enemies/elite_03/vine_guard/idle_right/idle_right_02.png",
+        "enemies/elite_03/vine_guard/idle_right/idle_right_03.png",
+        "enemies/elite_03/vine_guard/idle_right/idle_right_04.png",
+        "enemies/elite_03/vine_guard/idle_right/idle_right_05.png",
+        "enemies/elite_03/vine_guard/idle_right/idle_right_06.png",
+        "enemies/elite_03/vine_guard/idle_right/idle_right_07.png",
+        "enemies/elite_03/vine_guard/idle_right/idle_right_08.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/idle_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "vine_guard.idle_left",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "idle",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/idle_left/idle_left_01.png",
+        "enemies/elite_03/vine_guard/idle_left/idle_left_02.png",
+        "enemies/elite_03/vine_guard/idle_left/idle_left_03.png",
+        "enemies/elite_03/vine_guard/idle_left/idle_left_04.png",
+        "enemies/elite_03/vine_guard/idle_left/idle_left_05.png",
+        "enemies/elite_03/vine_guard/idle_left/idle_left_06.png",
+        "enemies/elite_03/vine_guard/idle_left/idle_left_07.png",
+        "enemies/elite_03/vine_guard/idle_left/idle_left_08.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/idle_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "vine_guard.move_right",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "move",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/move_right/move_right_01.png",
+        "enemies/elite_03/vine_guard/move_right/move_right_02.png",
+        "enemies/elite_03/vine_guard/move_right/move_right_03.png",
+        "enemies/elite_03/vine_guard/move_right/move_right_04.png",
+        "enemies/elite_03/vine_guard/move_right/move_right_05.png",
+        "enemies/elite_03/vine_guard/move_right/move_right_06.png",
+        "enemies/elite_03/vine_guard/move_right/move_right_07.png",
+        "enemies/elite_03/vine_guard/move_right/move_right_08.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/move_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "vine_guard.move_left",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "move",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/move_left/move_left_01.png",
+        "enemies/elite_03/vine_guard/move_left/move_left_02.png",
+        "enemies/elite_03/vine_guard/move_left/move_left_03.png",
+        "enemies/elite_03/vine_guard/move_left/move_left_04.png",
+        "enemies/elite_03/vine_guard/move_left/move_left_05.png",
+        "enemies/elite_03/vine_guard/move_left/move_left_06.png",
+        "enemies/elite_03/vine_guard/move_left/move_left_07.png",
+        "enemies/elite_03/vine_guard/move_left/move_left_08.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/move_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "vine_guard.hurt_right",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "hurt",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/hurt_right/hurt_right_01.png",
+        "enemies/elite_03/vine_guard/hurt_right/hurt_right_02.png",
+        "enemies/elite_03/vine_guard/hurt_right/hurt_right_03.png",
+        "enemies/elite_03/vine_guard/hurt_right/hurt_right_04.png",
+        "enemies/elite_03/vine_guard/hurt_right/hurt_right_05.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/hurt_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "vine_guard.hurt_left",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "hurt",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/hurt_left/hurt_left_01.png",
+        "enemies/elite_03/vine_guard/hurt_left/hurt_left_02.png",
+        "enemies/elite_03/vine_guard/hurt_left/hurt_left_03.png",
+        "enemies/elite_03/vine_guard/hurt_left/hurt_left_04.png",
+        "enemies/elite_03/vine_guard/hurt_left/hurt_left_05.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/hurt_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "vine_guard.death_right",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "death",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/death_right/death_right_01.png",
+        "enemies/elite_03/vine_guard/death_right/death_right_02.png",
+        "enemies/elite_03/vine_guard/death_right/death_right_03.png",
+        "enemies/elite_03/vine_guard/death_right/death_right_04.png",
+        "enemies/elite_03/vine_guard/death_right/death_right_05.png",
+        "enemies/elite_03/vine_guard/death_right/death_right_06.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/death_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "vine_guard.death_left",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "death",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/death_left/death_left_01.png",
+        "enemies/elite_03/vine_guard/death_left/death_left_02.png",
+        "enemies/elite_03/vine_guard/death_left/death_left_03.png",
+        "enemies/elite_03/vine_guard/death_left/death_left_04.png",
+        "enemies/elite_03/vine_guard/death_left/death_left_05.png",
+        "enemies/elite_03/vine_guard/death_left/death_left_06.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/death_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "vine_guard.attack_01_right",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "attack_01",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_01.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_02.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_03.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_04.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_05.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_06.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_07.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_08.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_09.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_10.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_11.png",
+        "enemies/elite_03/vine_guard/attack_01_right/attack_01_right_12.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/attack_01_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        65,
+        65,
+        65,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "ground_slam",
+          "effect": "slam_wave"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "vine_guard.attack_01_left",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "attack_01",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_01.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_02.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_03.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_04.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_05.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_06.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_07.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_08.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_09.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_10.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_11.png",
+        "enemies/elite_03/vine_guard/attack_01_left/attack_01_left_12.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/attack_01_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        65,
+        65,
+        65,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "ground_slam",
+          "effect": "slam_wave"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "vine_guard.attack_02_right",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "attack_02",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_01.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_02.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_03.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_04.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_05.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_06.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_07.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_08.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_09.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_10.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_11.png",
+        "enemies/elite_03/vine_guard/attack_02_right/attack_02_right_12.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/attack_02_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        155,
+        155,
+        155,
+        155,
+        70,
+        70,
+        70,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "root_area",
+          "effect": "root_area"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "vine_guard.attack_02_left",
+      "enemy": "vine_guard",
+      "display_name_suggestion": "藤甲守卫",
+      "category": "elite_03",
+      "action": "attack_02",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_01.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_02.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_03.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_04.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_05.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_06.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_07.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_08.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_09.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_10.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_11.png",
+        "enemies/elite_03/vine_guard/attack_02_left/attack_02_left_12.png"
+      ],
+      "sheet": "enemies/elite_03/vine_guard/attack_02_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        155,
+        155,
+        155,
+        155,
+        70,
+        70,
+        70,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "root_area",
+          "effect": "root_area"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "ancient_tree.idle_right",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "idle",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/idle_right/idle_right_01.png",
+        "enemies/region_boss/ancient_tree/idle_right/idle_right_02.png",
+        "enemies/region_boss/ancient_tree/idle_right/idle_right_03.png",
+        "enemies/region_boss/ancient_tree/idle_right/idle_right_04.png",
+        "enemies/region_boss/ancient_tree/idle_right/idle_right_05.png",
+        "enemies/region_boss/ancient_tree/idle_right/idle_right_06.png",
+        "enemies/region_boss/ancient_tree/idle_right/idle_right_07.png",
+        "enemies/region_boss/ancient_tree/idle_right/idle_right_08.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/idle_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "ancient_tree.idle_left",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "idle",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/idle_left/idle_left_01.png",
+        "enemies/region_boss/ancient_tree/idle_left/idle_left_02.png",
+        "enemies/region_boss/ancient_tree/idle_left/idle_left_03.png",
+        "enemies/region_boss/ancient_tree/idle_left/idle_left_04.png",
+        "enemies/region_boss/ancient_tree/idle_left/idle_left_05.png",
+        "enemies/region_boss/ancient_tree/idle_left/idle_left_06.png",
+        "enemies/region_boss/ancient_tree/idle_left/idle_left_07.png",
+        "enemies/region_boss/ancient_tree/idle_left/idle_left_08.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/idle_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110,
+        110
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "ancient_tree.move_right",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "move",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/move_right/move_right_01.png",
+        "enemies/region_boss/ancient_tree/move_right/move_right_02.png",
+        "enemies/region_boss/ancient_tree/move_right/move_right_03.png",
+        "enemies/region_boss/ancient_tree/move_right/move_right_04.png",
+        "enemies/region_boss/ancient_tree/move_right/move_right_05.png",
+        "enemies/region_boss/ancient_tree/move_right/move_right_06.png",
+        "enemies/region_boss/ancient_tree/move_right/move_right_07.png",
+        "enemies/region_boss/ancient_tree/move_right/move_right_08.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/move_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "ancient_tree.move_left",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "move",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/move_left/move_left_01.png",
+        "enemies/region_boss/ancient_tree/move_left/move_left_02.png",
+        "enemies/region_boss/ancient_tree/move_left/move_left_03.png",
+        "enemies/region_boss/ancient_tree/move_left/move_left_04.png",
+        "enemies/region_boss/ancient_tree/move_left/move_left_05.png",
+        "enemies/region_boss/ancient_tree/move_left/move_left_06.png",
+        "enemies/region_boss/ancient_tree/move_left/move_left_07.png",
+        "enemies/region_boss/ancient_tree/move_left/move_left_08.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/move_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "ancient_tree.hurt_right",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "hurt",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/hurt_right/hurt_right_01.png",
+        "enemies/region_boss/ancient_tree/hurt_right/hurt_right_02.png",
+        "enemies/region_boss/ancient_tree/hurt_right/hurt_right_03.png",
+        "enemies/region_boss/ancient_tree/hurt_right/hurt_right_04.png",
+        "enemies/region_boss/ancient_tree/hurt_right/hurt_right_05.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/hurt_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "ancient_tree.hurt_left",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "hurt",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/hurt_left/hurt_left_01.png",
+        "enemies/region_boss/ancient_tree/hurt_left/hurt_left_02.png",
+        "enemies/region_boss/ancient_tree/hurt_left/hurt_left_03.png",
+        "enemies/region_boss/ancient_tree/hurt_left/hurt_left_04.png",
+        "enemies/region_boss/ancient_tree/hurt_left/hurt_left_05.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/hurt_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 5,
+      "durations_ms": [
+        65,
+        65,
+        65,
+        65,
+        65
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "unique_frames": 3,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "ancient_tree.death_right",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "death",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/death_right/death_right_01.png",
+        "enemies/region_boss/ancient_tree/death_right/death_right_02.png",
+        "enemies/region_boss/ancient_tree/death_right/death_right_03.png",
+        "enemies/region_boss/ancient_tree/death_right/death_right_04.png",
+        "enemies/region_boss/ancient_tree/death_right/death_right_05.png",
+        "enemies/region_boss/ancient_tree/death_right/death_right_06.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/death_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "ancient_tree.death_left",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "death",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/death_left/death_left_01.png",
+        "enemies/region_boss/ancient_tree/death_left/death_left_02.png",
+        "enemies/region_boss/ancient_tree/death_left/death_left_03.png",
+        "enemies/region_boss/ancient_tree/death_left/death_left_04.png",
+        "enemies/region_boss/ancient_tree/death_left/death_left_05.png",
+        "enemies/region_boss/ancient_tree/death_left/death_left_06.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/death_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 1,
+      "frame_count": 6,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140
+      ],
+      "loop": false,
+      "after": "death_hold",
+      "events": [],
+      "phases": {},
+      "painted_keypose_indices": [
+        4,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "unique_frames": 5,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "ancient_tree.attack_01_right",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "attack_01",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_01.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_02.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_03.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_04.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_05.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_06.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_07.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_08.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_09.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_10.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_11.png",
+        "enemies/region_boss/ancient_tree/attack_01_right/attack_01_right_12.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/attack_01_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        65,
+        65,
+        65,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "ground_slam",
+          "effect": "slam_wave"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "ancient_tree.attack_01_left",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "attack_01",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_01.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_02.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_03.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_04.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_05.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_06.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_07.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_08.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_09.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_10.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_11.png",
+        "enemies/region_boss/ancient_tree/attack_01_left/attack_01_left_12.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/attack_01_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        65,
+        65,
+        65,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "ground_slam",
+          "effect": "slam_wave"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "ancient_tree.attack_02_right",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "attack_02",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_01.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_02.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_03.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_04.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_05.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_06.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_07.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_08.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_09.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_10.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_11.png",
+        "enemies/region_boss/ancient_tree/attack_02_right/attack_02_right_12.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/attack_02_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        155,
+        155,
+        155,
+        155,
+        70,
+        70,
+        70,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "branch_sweep",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "ancient_tree.attack_02_left",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "attack_02",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_01.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_02.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_03.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_04.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_05.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_06.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_07.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_08.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_09.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_10.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_11.png",
+        "enemies/region_boss/ancient_tree/attack_02_left/attack_02_left_12.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/attack_02_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 12,
+      "durations_ms": [
+        155,
+        155,
+        155,
+        155,
+        70,
+        70,
+        70,
+        130,
+        130,
+        130,
+        130,
+        130
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 4,
+          "type": "branch_sweep",
+          "effect": "impact"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "active": [
+          4,
+          5,
+          6
+        ],
+        "recovery": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 9,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    },
+    {
+      "id": "ancient_tree.attack_03_right",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "attack_03",
+      "direction": "right",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_01.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_02.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_03.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_04.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_05.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_06.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_07.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_08.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_09.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_10.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_11.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_12.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_13.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_14.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_15.png",
+        "enemies/region_boss/ancient_tree/attack_03_right/attack_03_right_16.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/attack_03_right/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        60,
+        60,
+        60,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 8,
+          "type": "summon_root_areas",
+          "effect": "root_area",
+          "region_count": "provisional"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "active": [
+          8,
+          9,
+          10
+        ],
+        "recovery": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        5,
+        2,
+        2,
+        2,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 12,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": null
+    },
+    {
+      "id": "ancient_tree.attack_03_left",
+      "enemy": "ancient_tree",
+      "display_name_suggestion": "古树巨兽",
+      "category": "region_boss",
+      "action": "attack_03",
+      "direction": "left",
+      "canvas": [
+        320,
+        320
+      ],
+      "pivot": [
+        160,
+        256
+      ],
+      "frames": [
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_01.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_02.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_03.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_04.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_05.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_06.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_07.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_08.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_09.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_10.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_11.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_12.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_13.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_14.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_15.png",
+        "enemies/region_boss/ancient_tree/attack_03_left/attack_03_left_16.png"
+      ],
+      "sheet": "enemies/region_boss/ancient_tree/attack_03_left/sheet.png",
+      "sheet_columns": 8,
+      "sheet_rows": 2,
+      "frame_count": 16,
+      "durations_ms": [
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        145,
+        60,
+        60,
+        60,
+        120,
+        120,
+        120,
+        120,
+        120
+      ],
+      "loop": false,
+      "after": "idle",
+      "events": [
+        {
+          "frame": 8,
+          "type": "summon_root_areas",
+          "effect": "root_area",
+          "region_count": "provisional"
+        }
+      ],
+      "phases": {
+        "telegraph": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "active": [
+          8,
+          9,
+          10
+        ],
+        "recovery": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "painted_keypose_indices": [
+        0,
+        5,
+        5,
+        5,
+        5,
+        2,
+        2,
+        2,
+        6,
+        6,
+        6,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "unique_frames": 12,
+      "method": "6 or 8 AI-painted key poses; limited cutout animation, anticipation holds and recovery. Not 16 separately hand-drawn frames.",
+      "timing_status": "preview_provisional",
+      "mirror_matrix": [
+        -1,
+        0,
+        0,
+        1,
+        320,
+        0
+      ]
+    }
+  ],
+  "theme_status": "suggestion",
+  "balance_values": "TBD",
+  "event_frame_index": "zero_based",
+  "limitations": [
+    "Limited key-pose animation, movement has two painted silhouettes.",
+    "Boss third attack reuses channel pose with a distinct prolonged warning and independent root areas.",
+    "Hitboxes, movement speed, damage, radius and duration need gameplay design confirmation."
+  ]
+}

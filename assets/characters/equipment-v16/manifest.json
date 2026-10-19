@@ -1,0 +1,1704 @@
+{
+  "styles": {
+    "male-short": {
+      "idle": {
+        "path": "male-short/idle.png",
+        "metadata": [
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 952
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 1015
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 909
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1056
+          }
+        ]
+      },
+      "hurt": {
+        "path": "male-short/hurt.png",
+        "metadata": [
+          {
+            "headTilt": -0.073,
+            "foregroundPixels": 887
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 537
+          },
+          {
+            "headTilt": 0.0553,
+            "foregroundPixels": 543
+          },
+          {
+            "headTilt": -0.0248,
+            "foregroundPixels": 1065
+          }
+        ]
+      },
+      "walk": {
+        "path": "male-short/walk.png",
+        "metadata": [
+          {
+            "headTilt": -0.0186,
+            "foregroundPixels": 927
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 901
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1098
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 891
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1056
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 799
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1099
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 962
+          }
+        ]
+      },
+      "run": {
+        "path": "male-short/run.png",
+        "metadata": [
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 1084
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 565
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 707
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 330
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 718
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 679
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 633
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 638
+          }
+        ]
+      },
+      "jump": {
+        "path": "male-short/jump.png",
+        "metadata": [
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 876
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 958
+          },
+          {
+            "headTilt": 0.0432,
+            "foregroundPixels": 1191
+          },
+          {
+            "headTilt": 0.0432,
+            "foregroundPixels": 973
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 970
+          },
+          {
+            "headTilt": 0.073,
+            "foregroundPixels": 953
+          },
+          {
+            "headTilt": 0.1273,
+            "foregroundPixels": 709
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 1055
+          }
+        ]
+      },
+      "attack0": {
+        "path": "male-short/attack0.png",
+        "metadata": [
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 978
+          },
+          {
+            "headTilt": 0.0553,
+            "foregroundPixels": 558
+          },
+          {
+            "headTilt": 0.0787,
+            "foregroundPixels": 776
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 836
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 1014
+          },
+          {
+            "headTilt": -0.0845,
+            "foregroundPixels": 1044
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 509
+          },
+          {
+            "headTilt": -0.0186,
+            "foregroundPixels": 860
+          }
+        ]
+      },
+      "attack1": {
+        "path": "male-short/attack1.png",
+        "metadata": [
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1012
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 477
+          },
+          {
+            "headTilt": 0.1273,
+            "foregroundPixels": 814
+          },
+          {
+            "headTilt": 0.1171,
+            "foregroundPixels": 930
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 578
+          },
+          {
+            "headTilt": 0.0553,
+            "foregroundPixels": 338
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 820
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 995
+          }
+        ]
+      },
+      "attack2": {
+        "path": "male-short/attack2.png",
+        "metadata": [
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1281
+          },
+          {
+            "headTilt": -0.0553,
+            "foregroundPixels": 1219
+          },
+          {
+            "headTilt": 0.0553,
+            "foregroundPixels": 1849
+          },
+          {
+            "headTilt": -0.0671,
+            "foregroundPixels": 1368
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 1286
+          },
+          {
+            "headTilt": -0.0186,
+            "foregroundPixels": 1366
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 685
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1221
+          }
+        ]
+      },
+      "archer-attack": {
+        "path": "male-short/archer-attack.png",
+        "metadata": [
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 1215
+          },
+          {
+            "headTilt": -0.0248,
+            "foregroundPixels": 1077
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1493
+          },
+          {
+            "headTilt": -0.0845,
+            "foregroundPixels": 1507
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1406
+          },
+          {
+            "headTilt": -0.0553,
+            "foregroundPixels": 1118
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1033
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1243
+          }
+        ]
+      },
+      "mage-attack": {
+        "path": "male-short/mage-attack.png",
+        "metadata": [
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 1215
+          },
+          {
+            "headTilt": -0.0248,
+            "foregroundPixels": 1077
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1493
+          },
+          {
+            "headTilt": -0.0845,
+            "foregroundPixels": 1507
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1406
+          },
+          {
+            "headTilt": -0.0553,
+            "foregroundPixels": 1118
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1033
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1243
+          }
+        ]
+      }
+    },
+    "male-spiky": {
+      "idle": {
+        "path": "male-spiky/idle.png",
+        "metadata": [
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 766
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 812
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 821
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 857
+          }
+        ]
+      },
+      "hurt": {
+        "path": "male-spiky/hurt.png",
+        "metadata": [
+          {
+            "headTilt": -0.0612,
+            "foregroundPixels": 648
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 474
+          },
+          {
+            "headTilt": 0.0553,
+            "foregroundPixels": 520
+          },
+          {
+            "headTilt": -0.0186,
+            "foregroundPixels": 801
+          }
+        ]
+      },
+      "walk": {
+        "path": "male-spiky/walk.png",
+        "metadata": [
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 826
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 691
+          },
+          {
+            "headTilt": -0.0186,
+            "foregroundPixels": 808
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 772
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 952
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 666
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 881
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 373
+          }
+        ]
+      },
+      "run": {
+        "path": "male-spiky/run.png",
+        "metadata": [
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 835
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 522
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 507
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 277
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 596
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 559
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 546
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 478
+          }
+        ]
+      },
+      "jump": {
+        "path": "male-spiky/jump.png",
+        "metadata": [
+          {
+            "headTilt": 0.1171,
+            "foregroundPixels": 412
+          },
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 604
+          },
+          {
+            "headTilt": 0.0432,
+            "foregroundPixels": 899
+          },
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 978
+          },
+          {
+            "headTilt": 0.0787,
+            "foregroundPixels": 830
+          },
+          {
+            "headTilt": 0.0671,
+            "foregroundPixels": 786
+          },
+          {
+            "headTilt": 0.1273,
+            "foregroundPixels": 643
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 706
+          }
+        ]
+      },
+      "attack0": {
+        "path": "male-spiky/attack0.png",
+        "metadata": [
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 701
+          },
+          {
+            "headTilt": 0.0553,
+            "foregroundPixels": 457
+          },
+          {
+            "headTilt": 0.0787,
+            "foregroundPixels": 700
+          },
+          {
+            "headTilt": 0.1119,
+            "foregroundPixels": 731
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 814
+          },
+          {
+            "headTilt": -0.073,
+            "foregroundPixels": 821
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 361
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 674
+          }
+        ]
+      },
+      "attack1": {
+        "path": "male-spiky/attack1.png",
+        "metadata": [
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 665
+          },
+          {
+            "headTilt": 0.073,
+            "foregroundPixels": 434
+          },
+          {
+            "headTilt": 0.1323,
+            "foregroundPixels": 352
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 707
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 464
+          },
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 313
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 437
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 685
+          }
+        ]
+      },
+      "attack2": {
+        "path": "male-spiky/attack2.png",
+        "metadata": [
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 980
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 961
+          },
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 1480
+          },
+          {
+            "headTilt": -0.0493,
+            "foregroundPixels": 1047
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1056
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1080
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 573
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 979
+          }
+        ]
+      },
+      "archer-attack": {
+        "path": "male-spiky/archer-attack.png",
+        "metadata": [
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 972
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 849
+          },
+          {
+            "headTilt": -0.0248,
+            "foregroundPixels": 1228
+          },
+          {
+            "headTilt": -0.073,
+            "foregroundPixels": 846
+          },
+          {
+            "headTilt": -0.0371,
+            "foregroundPixels": 1097
+          },
+          {
+            "headTilt": -0.0493,
+            "foregroundPixels": 885
+          },
+          {
+            "headTilt": -0.0371,
+            "foregroundPixels": 739
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 929
+          }
+        ]
+      },
+      "mage-attack": {
+        "path": "male-spiky/mage-attack.png",
+        "metadata": [
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 972
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 849
+          },
+          {
+            "headTilt": -0.0248,
+            "foregroundPixels": 1228
+          },
+          {
+            "headTilt": -0.073,
+            "foregroundPixels": 846
+          },
+          {
+            "headTilt": -0.0371,
+            "foregroundPixels": 1097
+          },
+          {
+            "headTilt": -0.0493,
+            "foregroundPixels": 885
+          },
+          {
+            "headTilt": -0.0371,
+            "foregroundPixels": 739
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 929
+          }
+        ]
+      }
+    },
+    "female-short": {
+      "idle": {
+        "path": "female-short/idle.png",
+        "metadata": [
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1213
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 958
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 1091
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1080
+          }
+        ]
+      },
+      "hurt": {
+        "path": "female-short/hurt.png",
+        "metadata": [
+          {
+            "headTilt": -0.0493,
+            "foregroundPixels": 944
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 889
+          },
+          {
+            "headTilt": 0.073,
+            "foregroundPixels": 566
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 995
+          }
+        ]
+      },
+      "walk": {
+        "path": "female-short/walk.png",
+        "metadata": [
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1265
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 1185
+          },
+          {
+            "headTilt": 0.0371,
+            "foregroundPixels": 613
+          },
+          {
+            "headTilt": 0.0371,
+            "foregroundPixels": 1097
+          },
+          {
+            "headTilt": 0.0432,
+            "foregroundPixels": 1235
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 989
+          },
+          {
+            "headTilt": -0.0248,
+            "foregroundPixels": 1457
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 610
+          }
+        ]
+      },
+      "run": {
+        "path": "female-short/run.png",
+        "metadata": [
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 1123
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 643
+          },
+          {
+            "headTilt": 0.1171,
+            "foregroundPixels": 796
+          },
+          {
+            "headTilt": 0.1119,
+            "foregroundPixels": 419
+          },
+          {
+            "headTilt": 0.0845,
+            "foregroundPixels": 749
+          },
+          {
+            "headTilt": 0.0671,
+            "foregroundPixels": 803
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 775
+          },
+          {
+            "headTilt": 0.0845,
+            "foregroundPixels": 855
+          }
+        ]
+      },
+      "jump": {
+        "path": "female-short/jump.png",
+        "metadata": [
+          {
+            "headTilt": 0.0845,
+            "foregroundPixels": 1010
+          },
+          {
+            "headTilt": 0.073,
+            "foregroundPixels": 894
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1199
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 1172
+          },
+          {
+            "headTilt": 0.0787,
+            "foregroundPixels": 1410
+          },
+          {
+            "headTilt": 0.0787,
+            "foregroundPixels": 818
+          },
+          {
+            "headTilt": 0.1323,
+            "foregroundPixels": 696
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1004
+          }
+        ]
+      },
+      "attack0": {
+        "path": "female-short/attack0.png",
+        "metadata": [
+          {
+            "headTilt": -0.0186,
+            "foregroundPixels": 1129
+          },
+          {
+            "headTilt": 0.0671,
+            "foregroundPixels": 326
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 1345
+          },
+          {
+            "headTilt": 0.0553,
+            "foregroundPixels": 482
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 1020
+          },
+          {
+            "headTilt": -0.0493,
+            "foregroundPixels": 1085
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 617
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 989
+          }
+        ]
+      },
+      "attack1": {
+        "path": "female-short/attack1.png",
+        "metadata": [
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 975
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 727
+          },
+          {
+            "headTilt": 0.14,
+            "foregroundPixels": 806
+          },
+          {
+            "headTilt": 0.1223,
+            "foregroundPixels": 915
+          },
+          {
+            "headTilt": 0.0432,
+            "foregroundPixels": 412
+          },
+          {
+            "headTilt": -0.0186,
+            "foregroundPixels": 1169
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 569
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 975
+          }
+        ]
+      },
+      "attack2": {
+        "path": "female-short/attack2.png",
+        "metadata": [
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1267
+          },
+          {
+            "headTilt": -0.0553,
+            "foregroundPixels": 1368
+          },
+          {
+            "headTilt": -0.1372,
+            "foregroundPixels": 1868
+          },
+          {
+            "headTilt": -0.0371,
+            "foregroundPixels": 1474
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1435
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 1343
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 837
+          },
+          {
+            "headTilt": -0.0787,
+            "foregroundPixels": 1574
+          }
+        ]
+      },
+      "archer-attack": {
+        "path": "female-short/archer-attack.png",
+        "metadata": [
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 1434
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1137
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1468
+          },
+          {
+            "headTilt": -0.0671,
+            "foregroundPixels": 1553
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1906
+          },
+          {
+            "headTilt": -0.1223,
+            "foregroundPixels": 1246
+          },
+          {
+            "headTilt": -0.031,
+            "foregroundPixels": 1098
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 1121
+          }
+        ]
+      },
+      "mage-attack": {
+        "path": "female-short/mage-attack.png",
+        "metadata": [
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 1434
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1137
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1468
+          },
+          {
+            "headTilt": -0.0671,
+            "foregroundPixels": 1553
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1906
+          },
+          {
+            "headTilt": -0.1223,
+            "foregroundPixels": 1246
+          },
+          {
+            "headTilt": -0.031,
+            "foregroundPixels": 1098
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 1121
+          }
+        ]
+      }
+    },
+    "female-bob": {
+      "idle": {
+        "path": "female-bob/idle.png",
+        "metadata": [
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 953
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 971
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 990
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 962
+          }
+        ]
+      },
+      "hurt": {
+        "path": "female-bob/hurt.png",
+        "metadata": [
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 768
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 671
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 643
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1031
+          }
+        ]
+      },
+      "walk": {
+        "path": "female-bob/walk.png",
+        "metadata": [
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 839
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 952
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 492
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 962
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 476
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 848
+          },
+          {
+            "headTilt": 0.0371,
+            "foregroundPixels": 586
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 502
+          }
+        ]
+      },
+      "run": {
+        "path": "female-bob/run.png",
+        "metadata": [
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 1032
+          },
+          {
+            "headTilt": 0.1119,
+            "foregroundPixels": 728
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 746
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 526
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 644
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 694
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 675
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 684
+          }
+        ]
+      },
+      "jump": {
+        "path": "female-bob/jump.png",
+        "metadata": [
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 923
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 1066
+          },
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 1105
+          },
+          {
+            "headTilt": 0.073,
+            "foregroundPixels": 1068
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 948
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 778
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 773
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 895
+          }
+        ]
+      },
+      "attack0": {
+        "path": "female-bob/attack0.png",
+        "metadata": [
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 903
+          },
+          {
+            "headTilt": 0.0671,
+            "foregroundPixels": 342
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 838
+          },
+          {
+            "headTilt": 0.1273,
+            "foregroundPixels": 871
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 968
+          },
+          {
+            "headTilt": -0.0493,
+            "foregroundPixels": 1008
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 545
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 832
+          }
+        ]
+      },
+      "attack1": {
+        "path": "female-bob/attack1.png",
+        "metadata": [
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 934
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 621
+          },
+          {
+            "headTilt": 0.1372,
+            "foregroundPixels": 819
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 730
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 625
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 439
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 531
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 926
+          }
+        ]
+      },
+      "attack2": {
+        "path": "female-bob/attack2.png",
+        "metadata": [
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1099
+          },
+          {
+            "headTilt": -0.0248,
+            "foregroundPixels": 1122
+          },
+          {
+            "headTilt": 0.0432,
+            "foregroundPixels": 1522
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1239
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 1261
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1194
+          },
+          {
+            "headTilt": 0.0062,
+            "foregroundPixels": 781
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 1046
+          }
+        ]
+      },
+      "archer-attack": {
+        "path": "female-bob/archer-attack.png",
+        "metadata": [
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1191
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1161
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1375
+          },
+          {
+            "headTilt": -0.0493,
+            "foregroundPixels": 1437
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 1319
+          },
+          {
+            "headTilt": -0.0371,
+            "foregroundPixels": 1123
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 1001
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1056
+          }
+        ]
+      },
+      "mage-attack": {
+        "path": "female-bob/mage-attack.png",
+        "metadata": [
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1191
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1161
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1375
+          },
+          {
+            "headTilt": -0.0493,
+            "foregroundPixels": 1437
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 1319
+          },
+          {
+            "headTilt": -0.0371,
+            "foregroundPixels": 1123
+          },
+          {
+            "headTilt": -0.0124,
+            "foregroundPixels": 1001
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1056
+          }
+        ]
+      }
+    },
+    "female-pony": {
+      "idle": {
+        "path": "female-pony/idle.png",
+        "metadata": [
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 1118
+          },
+          {
+            "headTilt": 0.0432,
+            "foregroundPixels": 998
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 1169
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 1097
+          }
+        ]
+      },
+      "hurt": {
+        "path": "female-pony/hurt.png",
+        "metadata": [
+          {
+            "headTilt": -0.031,
+            "foregroundPixels": 875
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 870
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 807
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1115
+          }
+        ]
+      },
+      "walk": {
+        "path": "female-pony/walk.png",
+        "metadata": [
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 1062
+          },
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 1035
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 1013
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 1144
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 1089
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 634
+          },
+          {
+            "headTilt": 0.073,
+            "foregroundPixels": 1243
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 1138
+          }
+        ]
+      },
+      "run": {
+        "path": "female-pony/run.png",
+        "metadata": [
+          {
+            "headTilt": 0.1119,
+            "foregroundPixels": 1064
+          },
+          {
+            "headTilt": 0.1171,
+            "foregroundPixels": 774
+          },
+          {
+            "headTilt": 0.1372,
+            "foregroundPixels": 734
+          },
+          {
+            "headTilt": 0.1223,
+            "foregroundPixels": 433
+          },
+          {
+            "headTilt": 0.1223,
+            "foregroundPixels": 761
+          },
+          {
+            "headTilt": 0.1171,
+            "foregroundPixels": 695
+          },
+          {
+            "headTilt": 0.14,
+            "foregroundPixels": 672
+          },
+          {
+            "headTilt": 0.1171,
+            "foregroundPixels": 595
+          }
+        ]
+      },
+      "jump": {
+        "path": "female-pony/jump.png",
+        "metadata": [
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 894
+          },
+          {
+            "headTilt": 0.1119,
+            "foregroundPixels": 1002
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 1091
+          },
+          {
+            "headTilt": 0.073,
+            "foregroundPixels": 1117
+          },
+          {
+            "headTilt": 0.1273,
+            "foregroundPixels": 1141
+          },
+          {
+            "headTilt": 0.1011,
+            "foregroundPixels": 1033
+          },
+          {
+            "headTilt": 0.1372,
+            "foregroundPixels": 851
+          },
+          {
+            "headTilt": 0.0186,
+            "foregroundPixels": 1008
+          }
+        ]
+      },
+      "attack0": {
+        "path": "female-pony/attack0.png",
+        "metadata": [
+          {
+            "headTilt": 0.0371,
+            "foregroundPixels": 999
+          },
+          {
+            "headTilt": 0.0957,
+            "foregroundPixels": 493
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 468
+          },
+          {
+            "headTilt": 0.14,
+            "foregroundPixels": 504
+          },
+          {
+            "headTilt": 0.1223,
+            "foregroundPixels": 987
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1129
+          },
+          {
+            "headTilt": 0.0612,
+            "foregroundPixels": 576
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 946
+          }
+        ]
+      },
+      "attack1": {
+        "path": "female-pony/attack1.png",
+        "metadata": [
+          {
+            "headTilt": 0.0371,
+            "foregroundPixels": 888
+          },
+          {
+            "headTilt": 0.1119,
+            "foregroundPixels": 661
+          },
+          {
+            "headTilt": 0.14,
+            "foregroundPixels": 991
+          },
+          {
+            "headTilt": 0.1323,
+            "foregroundPixels": 909
+          },
+          {
+            "headTilt": 0.0901,
+            "foregroundPixels": 578
+          },
+          {
+            "headTilt": 0.1065,
+            "foregroundPixels": 473
+          },
+          {
+            "headTilt": 0.0432,
+            "foregroundPixels": 672
+          },
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 988
+          }
+        ]
+      },
+      "attack2": {
+        "path": "female-pony/attack2.png",
+        "metadata": [
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1068
+          },
+          {
+            "headTilt": -0.0553,
+            "foregroundPixels": 1267
+          },
+          {
+            "headTilt": 0.0553,
+            "foregroundPixels": 1177
+          },
+          {
+            "headTilt": -0.0186,
+            "foregroundPixels": 1366
+          },
+          {
+            "headTilt": 0.0671,
+            "foregroundPixels": 1178
+          },
+          {
+            "headTilt": 0.0493,
+            "foregroundPixels": 1182
+          },
+          {
+            "headTilt": 0.0371,
+            "foregroundPixels": 841
+          },
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 1132
+          }
+        ]
+      },
+      "archer-attack": {
+        "path": "female-pony/archer-attack.png",
+        "metadata": [
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 1298
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1031
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1115
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1508
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1301
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1082
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1099
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1083
+          }
+        ]
+      },
+      "mage-attack": {
+        "path": "female-pony/mage-attack.png",
+        "metadata": [
+          {
+            "headTilt": 0.031,
+            "foregroundPixels": 1298
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1031
+          },
+          {
+            "headTilt": 0.0124,
+            "foregroundPixels": 1115
+          },
+          {
+            "headTilt": -0.0432,
+            "foregroundPixels": 1508
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1301
+          },
+          {
+            "headTilt": 0.0,
+            "foregroundPixels": 1082
+          },
+          {
+            "headTilt": -0.0062,
+            "foregroundPixels": 1099
+          },
+          {
+            "headTilt": 0.0248,
+            "foregroundPixels": 1083
+          }
+        ]
+      }
+    }
+  }
+}

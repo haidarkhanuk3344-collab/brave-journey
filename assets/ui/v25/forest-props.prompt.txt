@@ -1,0 +1,13 @@
+Use case: stylized-concept.
+Asset type: six separate original 2D side-scrolling RPG scenery sprites in one transparent PNG atlas, landscape 1536x1024, exactly two rows by three columns.
+Reference roles: image 1 the new original forest backdrop establishes material and palette; image 2 the user's existing town establishes crisp pixel-sensed hand-painted texture density. Match these references. Never use the rounded smooth blob style of modern children's cartoons.
+Primary request: produce six richly detailed, finely shaded classic 2010 browser RPG scenery sprites, fully isolated on genuine transparent background:
+Top row left: broad old oak tree with visible angular twisting trunk, fine fissured bark and roots, deep emerald irregular small leaf clusters with warm-green tips; whole tree visible.
+Top row middle: tall narrow fir tree with asymmetric twig detail and irregular layered needle groups, fine brown trunk, no smooth triangle icon silhouette.
+Top row right: medium gray mossy boulder cluster with jagged weathered planes, crevices, compact hanging moss and a few tiny ferns, no smooth toy pebbles.
+Bottom row left: compact dense woodland shrub with many individually indicated leaf clusters, a few grasses and tiny stones, no big sticker leaves.
+Bottom row middle: aged timber signpost with two blank rectangular wood boards, iron nailheads and detailed woodgrain, a simple buried foot, NO TEXT or symbol.
+Bottom row right: an ancient broken stone arch doorway, individual weathered gray stone blocks with shallow carvings, cracks, moss, trailing vines and a dark open hole which MUST be fully transparent; grounded foot supports.
+Composition: strict 2x3 grid. Each of 6 slots is 512x512. Top row assets fit safely inside x slot+40..slot+470 and y40..465; bottom assets fit inside x slot+40..slot+470 and y570..980. Leave genuine transparent gutters at ALL edges and between every asset; assets never touch or overlap. Each asset has a clean clear bottom foot/ground anchor, tiny grass at the roots only, no shared floor. Draw each full object with no crop. Similar medium contrast and lit upper-left consistent with references.
+Materials: muted ochre wood, slate gray rocks, shaded warm emerald and teal greenery, compact dappled highlights, thin dark contours, intricate crisp local paint clusters, slightly stepped/pixel-sensed contours. 2D painted game graphics, no photography or 3D rendering.
+Constraints: actual native RGBA transparency, never white/black/checkered painted background, no glow or shadow halo around sprites, no labels or UI or title, no background landscape, no grid lines. Avoid bubbly canopies, thick black smooth cartoon contours, giant scalloped leaves, flat vector filling, childish toy shapes.

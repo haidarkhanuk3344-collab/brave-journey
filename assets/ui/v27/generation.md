@@ -1,0 +1,9 @@
+# 青灰石刻按钮
+
+内置 image_gen 生成透明背景原始素材，项目保存为 stone-button.png。网页中使用原始 alpha 素材与独立可访问文字，图片本身没有文字。
+
+用户已确认方案 A：青灰石刻、不规则石边、雕刻凹槽、少量苔痕。标题和两个首页按钮整体缩小 20%，删除青岚镇 · 林地篇小字。
+
+## 最终生成提示词
+
+Use case: stylized-concept. Asset type: ONE isolated horizontal blue-gray carved stone game-menu button, transparent background. Make a wide landscape 3:1 image canvas, entirely transparent outside the object. The object is one low, long irregular stone plaque, fully visible, taking 94% of canvas width and 75% height. Its total silhouette aspect ratio is about 4.5:1, with a flat broad front face suitable for a short text label to be added later in HTML. Hand-painted 2D fantasy adventure game art, richly tactile but clean readable at small sizes. Cool muted blue-gray slate like mountain rocks, light upper-left stone bevel, dark teal lower beveled thickness, slightly asymmetrical chipped/clipped corners and natural uneven rock ends, subtly curved long edges; small worn engraved recessed border groove, sparse weathering and thin cracks only near outer edges. A little soft moss on the top-left and far right, tiny green fern sprig on left edge. Front-face center is DARK muted blue-gray stone, smooth subdued texture, EMPTY and uncluttered, so ivory lettering can contrast. Tangible carved stone depth, upper-left daylight coherent with a sunny mountainous scene. Orthographic frontal view with visible shallow top ledge and bottom thickness. Natural organic silhouette, refined fantasy game asset, NOT a rounded rectangle CSS card, not pixel art, not photorealism, not glossy 3D. NO lettering, NO runes, NO symbols, NO icons, NO gold metallic frame, NO gems, NO wooden parts, NO screws. No drop shadow beyond a tiny contact shade underneath. Real alpha transparency, no checkerboard drawn, no scenery. Single button only.

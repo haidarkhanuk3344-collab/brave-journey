@@ -1,0 +1,12 @@
+Create a production-ready transparent sprite sheet for THIS EXACT small 2D side-view warrior shown in the reference: brown short hair, youthful chibi face, grey shoulder armour, grey breastplate, black trousers, brown boots, short red cape, short grey sword held low in his right hand. Reference is CHARACTER IDENTITY ONLY, not a pose template.
+Eight genuinely DIFFERENT WALK-cycle key poses, facing RIGHT, arranged evenly 4 columns by 2 rows, reading left to right then next row. Same body/head/limb scale in all eight. Clean light-pixel hand-drawn outlines like reference. No text, labels, shadows, scenery, guides. Real transparent background.
+Biomechanics matter: alternate NEAR and FAR leg each half-cycle, with one grounded foot driving the body and the other lifting and swinging through. Sword hand rocks gently, free arm counter-swings. Subtle torso lean and red cape lag, no static puppet arms. Keep face and head shape exactly consistent.
+Frame1: CONTACT: near/front-facing dark boot ahead, far boot behind, heels separated.
+Frame2: DOWN: near boot grounded under forward torso; knees bend and head drops 4px, far leg begins trailing lift.
+Frame3: PASSING: near leg nearly straight grounded vertically, far knee raised and bent moving forward; feet close horizontally, far boot CLEARLY OFF GROUND.
+Frame4: UP: near leg extended behind body pushing off on toe, far knee FORWARD and BENT, far boot off ground well ahead; legs NOT splayed in straight contact pose, head rises 3px.
+Frame5: OPPOSITE CONTACT: far shaded leg extended ahead, near bright leg behind; unambiguous exchanged leg identity.
+Frame6: OPPOSITE DOWN: far foot grounded, near leg begins lift, head drops 4px.
+Frame7: OPPOSITE PASSING: far leg vertical supporting torso, near knee raised sharply forward, near boot visibly lifted; feet close horizontally.
+Frame8: OPPOSITE UP: far leg extended rear toe push-off, near knee FORWARD and BENT with lifted boot; no straight wide stance.
+Full figure and sword in each separate cell with generous clear margins. Show all 8 clear poses. Draw actual knee/ankle changes, no copied repeated contact frames. Grounded boots share a horizontal baseline; raised boots vary naturally.

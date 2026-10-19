@@ -1,0 +1,82 @@
+{
+  "id": "map_04",
+  "name_suggestion": "林心遗迹",
+  "name_status": "suggestion",
+  "canvas": [
+    1920,
+    640
+  ],
+  "dimensions_status": "preview_provisional",
+  "layers": {
+    "far": "environments/forest_region/layouts/map_04/far.png",
+    "mid": "environments/forest_region/layouts/map_04/mid.png",
+    "ground": "environments/forest_region/layouts/map_04/ground.png",
+    "props": "environments/forest_region/layouts/map_04/props.png",
+    "actors": "environments/forest_region/layouts/map_04/actors.png",
+    "foreground": "environments/forest_region/layouts/map_04/foreground.png"
+  },
+  "layer_order": [
+    "far",
+    "mid",
+    "ground",
+    "props",
+    "actors",
+    "foreground"
+  ],
+  "parallax_suggestion": {
+    "far": 0.2,
+    "mid": 0.5,
+    "ground": 1,
+    "props": 1,
+    "actors": 1,
+    "foreground": 1.1
+  },
+  "collisions": [
+    {
+      "x": 0,
+      "y": 520,
+      "width": 1920,
+      "height": 120,
+      "kind": "solid_ground",
+      "note": "map02 stream shown as decoration; no unconfirmed lethal water rule"
+    },
+    {
+      "x": 200,
+      "y": 408,
+      "width": 192,
+      "height": 24,
+      "kind": "platform",
+      "one_way": "TBD"
+    }
+  ],
+  "elite": "ancient_tree",
+  "spawn_root": [
+    110,
+    520
+  ],
+  "next_unlock": null,
+  "enemy_respawn": "on_reentry",
+  "props": [
+    {
+      "id": "rune_stone",
+      "root": [
+        390,
+        520
+      ]
+    },
+    {
+      "id": "ruin_arch",
+      "root": [
+        1650,
+        520
+      ]
+    },
+    {
+      "id": "root",
+      "root": [
+        1750,
+        520
+      ]
+    }
+  ]
+}

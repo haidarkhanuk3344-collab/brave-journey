@@ -1,0 +1,226 @@
+[
+  {
+    "name": "warrior-walk.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "warrior-run.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "warrior-attack0.png",
+    "frames": 40,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "warrior-attack1.png",
+    "frames": 40,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "warrior-attack2.png",
+    "frames": 40,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "warrior-jump.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "archer-walk.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "archer-run.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "archer-attack0.png",
+    "frames": 40,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "archer-jump.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "mage-walk.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "mage-run.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "mage-attack0.png",
+    "frames": 40,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  },
+  {
+    "name": "mage-jump.png",
+    "frames": 32,
+    "canvas": [
+      256,
+      256
+    ],
+    "pivot": [
+      128,
+      224
+    ],
+    "columns": 8,
+    "direction": "right",
+    "left": "mirror",
+    "source": "character-motion.js continuous pose tracks"
+  }
+]

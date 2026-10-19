@@ -1,0 +1,11 @@
+Create an AIRBORNE SWORD CUT animation for the exact armored brown-haired warrior reference. Same small face, short brown hair, grey steel armor, red cape, dark pants, brown boots, short sword, consistent 3.5-head proportions and detailed crisp pixel art. Eight complete sprites in FOUR columns x TWO rows, equal cells, chronological order, facing RIGHT. TRUE transparent background, empty alpha-zero margins, no glow/fog/backdrop/particles/motion trails/text/grid. Every blade and boot visible.
+All poses are MID-AIR, no grounded wide stance: legs compact and naturally bent under hips, front knee forward below waist, rear heel folded behind, head/torso mass stable. Eight poses:
+1 balanced airborne tuck, sword low down/back near hip.
+2 chest coils backward while near elbow draws blade back behind shoulder; tucked legs counterbalance.
+3 windup with blade behind/above head, knees gathered and cape trailing.
+4 accelerate toward forward cut, near shoulder/chest twist, legs still bent in air.
+5 CONTACT with sword extended FORWARD/DOWN in front of chest, torso drives forward, knee/hip counterbalance and cape delayed.
+6 follow-through with blade lower in front/right, near knee opens a little, rear foot remains folded.
+7 recover wrist/elbow toward hip, compact legs relax preparing descent.
+8 balanced falling tuck, sword controlled down/back beside hip ready to return to jump pose.
+Keep distinct whole-body redraws, realistic bent elbows/knees, no stick limbs, no upright standing feet mid-air, no copied grounded attack pose, no giant sword or multiple hands. Common body-root around pelvis, consistent face/body size.

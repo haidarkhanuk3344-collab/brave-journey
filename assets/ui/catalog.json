@@ -1,0 +1,293 @@
+{
+  "components": [
+    {
+      "id": "window",
+      "path": "ui/components/window.png",
+      "canvas": [
+        96,
+        96
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "tooltip",
+      "path": "ui/components/tooltip.png",
+      "canvas": [
+        96,
+        64
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "selected",
+      "path": "ui/components/selected.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "slot",
+      "path": "ui/components/slot.png",
+      "canvas": [
+        64,
+        64
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "textfield",
+      "path": "ui/components/textfield.png",
+      "canvas": [
+        96,
+        40
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        16,
+        16,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "button_normal",
+      "path": "ui/buttons/normal.png",
+      "canvas": [
+        96,
+        40
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        12,
+        8,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "button_hover",
+      "path": "ui/buttons/hover.png",
+      "canvas": [
+        96,
+        40
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        12,
+        8,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "button_pressed",
+      "path": "ui/buttons/pressed.png",
+      "canvas": [
+        96,
+        40
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        12,
+        8,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "button_disabled",
+      "path": "ui/buttons/disabled.png",
+      "canvas": [
+        96,
+        40
+      ],
+      "nine_slice": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "text_inset": [
+        12,
+        8,
+        12,
+        8
+      ]
+    },
+    {
+      "id": "hp_bar",
+      "track": "ui/hud/hp_track.png",
+      "fill": "ui/hud/hp_fill.png",
+      "fill_origin": [
+        8,
+        7
+      ],
+      "fill_mode": "crop_width",
+      "canvas": [
+        128,
+        24
+      ]
+    },
+    {
+      "id": "mp_bar",
+      "track": "ui/hud/mp_track.png",
+      "fill": "ui/hud/mp_fill.png",
+      "fill_origin": [
+        8,
+        7
+      ],
+      "fill_mode": "crop_width",
+      "canvas": [
+        128,
+        24
+      ]
+    },
+    {
+      "id": "xp_bar",
+      "track": "ui/hud/xp_track.png",
+      "fill": "ui/hud/xp_fill.png",
+      "fill_origin": [
+        8,
+        7
+      ],
+      "fill_mode": "crop_width",
+      "canvas": [
+        128,
+        24
+      ]
+    },
+    {
+      "id": "lock",
+      "path": "icons/items/lock.png",
+      "canvas": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "unlock",
+      "path": "icons/items/unlock.png",
+      "canvas": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "sell",
+      "path": "icons/items/sell.png",
+      "canvas": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "recycle",
+      "path": "icons/items/recycle.png",
+      "canvas": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "bounty",
+      "path": "icons/items/bounty.png",
+      "canvas": [
+        64,
+        64
+      ]
+    },
+    {
+      "id": "enhance",
+      "path": "icons/items/enhance.png",
+      "canvas": [
+        64,
+        64
+      ]
+    }
+  ],
+  "font": "UI runtime renders Chinese; no text baked in these PNGs",
+  "window_examples": [
+    "character_creation",
+    "inventory_equipment",
+    "skill_tree",
+    "shop",
+    "bounty",
+    "map_select",
+    "enhance",
+    "recast"
+  ],
+  "recast_fields": [
+    "effect_lock_state",
+    "cost",
+    "old_result",
+    "new_result",
+    "keep_or_replace"
+  ],
+  "quality_status": "suggested colors; labels required"
+}

@@ -1,0 +1,12 @@
+Make a proper 8-frame full-body RUN cycle sprite sheet for the same armored brown-haired warrior. Input image 1 preserves EXACT warrior identity and pixel style, his face and hair, steel armor, brown boots, dark trousers, red cape, sword. Input image 2 supplies the natural RUN posture/motion reference. Sword carried low and trailing back, torso leaning forward, bent elbows, balanced athletic sprint. Small head and longer legs ~3.5 heads tall.
+Exactly FOUR COLUMNS x TWO ROWS with eight full sprites facing RIGHT, equal-sized cells, row-major chronological reading. TRUE transparent background; no letters, numbers, lines, shadows, or labels; ample space around sword and feet. All frames same character size and body mass.
+Eight distinct anatomically correct phases in chronological order:
+Frame1 right/near foot lands below chest, left/far thigh pointing backward and lower leg folding up behind hip.
+Frame2 right supporting knee compresses below hip, left bent knee starts crossing forward from behind, chest lowers.
+Frame3 right foot extends behind on toe PUSH-OFF, LEFT THIGH clearly drives FORWARD, left knee bent 90 degrees, left boot BELOW knee; arms counter-swing.
+Frame4 AIRBORNE: left thigh forward, LEFT SHIN opens forward, RIGHT heel folds upward behind buttocks. Both feet above ground. Chest high.
+Frame5 left/far foot lands below chest, right/near thigh behind and heel tucked up behind hip. Foreground and background leg positions switch! Free arm reverses.
+Frame6 left supporting knee compresses below hip, right knee crossing forward from behind.
+Frame7 left foot extends behind on toe push-off, RIGHT THIGH drives forward, RIGHT knee bent, boot below knee. Opposite arm swing.
+Frame8 opposite AIRBORNE: right thigh and shin forward, LEFT heel folded up behind buttocks, both feet above ground.
+Do not hold same stride silhouette across multiple consecutive cells. Four grounded/weight and two push-off and two airborne phases; no straight stick knees; organic changing shoulder/waist and boot shapes drawn individually. Cape delays and flutters naturally, head stabilizes. Complete head, shoes, cape, blade in every cell. Consistent common imaginary baseline, local cell body-root center, flying frames noticeably higher by a small amount. Smooth loop into frame1. This is actual painted sequential motion, never rigid paper doll rotations.

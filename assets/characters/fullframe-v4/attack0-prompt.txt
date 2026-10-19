@@ -1,0 +1,16 @@
+Create a fluid ONE-HANDED DIAGONAL SWORD CUT animation for the exact warrior in image1. Image2 is only full-body dynamic posture reference. Preserve face, short brown hair, grey armor, red cape, dark pants, boots and SHORT steel sword, ~3.5 heads tall, crisp light pixel art.
+EXACTLY TWELVE complete character sprites, FOUR columns x THREE rows, equal cells, row-major chronological order, all facing RIGHT. TRUE TRANSPARENT background, no labels/numbers/grid, no floor/shadows, no painted motion trails or flashes. Full blade, head, cape and feet visible with margins in each cell. Consistent anatomy/scale and imaginary ground baseline; a moderate rooted step, no translation across cells. Redraw natural silhouettes per frame, shoulder/chest/pelvis rotate, bent elbows, knees carry weight.
+12 poses:
+1 relaxed idle, sword hangs DOWN/BACK beside hip, both boots on floor, matches image1.
+2 gather: left shoulder rotates back, near wrist lifts sword from low position, knees soften.
+3 windup: sword goes back behind near shoulder, elbow bends, hips counterrotate, weight rear foot.
+4 fully loaded: blade points UP/BACK behind head, front knee soft, chest slightly coils; free arm counterbalances.
+5 accelerate: near elbow opens and blade moves from high/back toward forward diagonal, chest starts driving forward, lead heel begins planted lunge.
+6 CONTACT: full powerful downward diagonal cut from upper-right to lower-right in front of chest, blade extends FORWARD/DOWN, front knee flexes, rear heel pushes, pelvis/shoulders drive visibly.
+7 follow-through: blade lowers forward to thigh height, wrist crosses through arc, cape lags behind.
+8 follow-through low: blade near knee height pointing down/front, lead foot planted, rear heel raised, torso forward.
+9 recoil/settle: front knee absorbs force, sword hand relaxes toward side, rear boot steps inward.
+10 withdraw: chest begins upright, elbow bends slightly bringing sword beside hip.
+11 settle: stance narrows and shoulders relax, sword returns down/back.
+12 reference idle again: same face/body/outfit/root and low sword position as frame1.
+CRITICAL: frames3/4 and 6/7 have clearly DIFFERENT silhouettes. Feet remain planted or pushing toes, no cycling walk posture. Body actually coils and follows blade, no frozen torso with an arm rotating. Keep sword length/body size consistent, no multiple swords or disjoint hands, no blurred smeared body, no giant head. Do not return identical standing poses across all cells.

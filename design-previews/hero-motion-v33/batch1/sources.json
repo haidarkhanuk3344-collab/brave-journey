@@ -1,0 +1,10 @@
+{
+  "warrior-move": "5ea96efe-68ec-4979-9d1e-6874d8d89ce0",
+  "archer-move": "8b6e25a1-4001-410b-8e80-627b67a7914b",
+  "mage-move": "deced5ca-6ad8-428d-8482-f66af2ccd941",
+  "warrior-states": "ef173e32-31d3-4d0c-b97f-4c362c736500",
+  "archer-states": "10053a8f-4cc3-4d24-a0ee-1c6f045c46f7",
+  "mage-states": "1bdde918-f400-4dca-b9dd-064908ce7fad",
+  "warrior-attack1": "be798c53-eb4d-4f6a-82cf-47a348bb516d",
+  "warrior-attack2": "a5248f66-1625-4789-8a75-0c300e2f7e10"
+}

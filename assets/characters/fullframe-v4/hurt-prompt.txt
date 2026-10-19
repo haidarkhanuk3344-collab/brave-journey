@@ -1,0 +1,6 @@
+Make FOUR distinct full-body HIT REACTION/recovery sprites for this exact warrior, in FOUR equal columns and ONE row. Same small face, short brown hair, grey armor, red cape, boots and steel sword; same crisp pixel style and proportions. Facing RIGHT, all boots grounded, complete head/weapon/boots with margins. Actual TRUE transparent background outside isolated cutouts, no decorative fog, glow, gradients, shadows, particles, ground, text or grid.
+1 sharp recoil: shoulders/chest lean back, head turns slightly away from impact in front, knees soften, sword wrist draws nearer hip, free arm reacts.
+2 recoil peak: weight rear foot, chest arches backward moderately, front knee bent, cape catches forward slightly; body remains natural.
+3 recovery: chest comes toward center, front foot replants, sword low, shoulders soften.
+4 near reference idle: body upright, knees relaxed and sword hangs down/back.
+Preserve identity, no blood, no falling or death. Redraw whole silhouettes, never rotate the entire rigid sprite or its limbs like a puppet.

@@ -1,0 +1,15 @@
+Asset: TWELVE-frame full-body horizontal WHIRLWIND SWORD SWEEP sprite animation for this exact reference warrior. Brown short hair, grey armor, red cape, brown boots, dark pants, short steel sword. Same face and ~3.5-head tall proportions in every frame; natural light pixel style. FOUR columns x THREE rows, equal-sized cells, row-major chronology, common ground baseline and body root. TRUE transparent background, alpha ZERO outside sprites, no glow/fog/background/shadows/motion trails/text/grid. Complete weapon and body within each cell.
+This is an energetic SWEEP of the blade AROUND the torso through a broad horizontal arc, using hip/shoulder pivot and weight transfer; keep face mostly looking RIGHT so it matches the side-scrolling game. Twisting torso shows three-quarter chest or shoulder/cape side at key frames, NOT rigid static torso.
+1 relaxed reference idle low sword beside hip.
+2 gather low sword behind hip, near elbow back, front toe pivots inward and knees soften.
+3 shoulders/hips coil backward, blade horizontal behind upper torso, free arm extended for balance.
+4 fully loaded shoulder twist and planted pivot stance, blade behind waist ready to sweep.
+5 accelerating broad horizontal arc from behind across the body, torso starts unwinding.
+6 CONTACT: sword extended fully FORWARD/RIGHT at chest-to-waist height, arm out, near knee loaded, cape thrown behind.
+7 broad sweep continues around front and lower right, shoulders turn toward camera in three-quarter view and free hand counterbalances.
+8 blade follows across lower front, hips pivot and weight shifts between bent legs.
+9 blade sweeps back down toward side, shoulders finish unwind and feet pivot toward relaxed stance.
+10 settle weight, elbow bends, blade comes to hip.
+11 relax chest/shoulders, low sword down/back.
+12 same relaxed reference idle.
+Every pose individually drawn with organic knees, elbow bends, cape lag and hip/chest changes; no stick limbs, no only-wrist turning, no cloned heavy vertical overhead attack, no extra sword.

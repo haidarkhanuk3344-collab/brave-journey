@@ -1,0 +1,130 @@
+{
+  "width": 1536,
+  "height": 1024,
+  "layout": "six isolated props in two rows; measured rectangles, NOT an assumed 512 grid",
+  "alphaThresholdForBounds": 80,
+  "alphaPolicy": "Native generated RGBA kept unchanged; measurements ignore negligible edge alpha when locating main silhouette. Outside sprite gutters and arch interior are transparent.",
+  "sprites": [
+    {
+      "name": "oak",
+      "subject": "old oak",
+      "measuredBounds": {
+        "x": 8,
+        "y": 7,
+        "width": 595,
+        "height": 551
+      },
+      "source": {
+        "x": 2,
+        "y": 1,
+        "width": 607,
+        "height": 563
+      },
+      "foot": {
+        "x": 271,
+        "y": 556
+      }
+    },
+    {
+      "name": "pine",
+      "subject": "fir",
+      "measuredBounds": {
+        "x": 626,
+        "y": 7,
+        "width": 346,
+        "height": 547
+      },
+      "source": {
+        "x": 620,
+        "y": 1,
+        "width": 358,
+        "height": 559
+      },
+      "foot": {
+        "x": 171,
+        "y": 552
+      }
+    },
+    {
+      "name": "rock",
+      "subject": "mossy boulder",
+      "measuredBounds": {
+        "x": 986,
+        "y": 188,
+        "width": 535,
+        "height": 371
+      },
+      "source": {
+        "x": 980,
+        "y": 182,
+        "width": 547,
+        "height": 383
+      },
+      "foot": {
+        "x": 273,
+        "y": 376
+      }
+    },
+    {
+      "name": "shrub",
+      "subject": "woodland shrub",
+      "measuredBounds": {
+        "x": 11,
+        "y": 675,
+        "width": 544,
+        "height": 324
+      },
+      "source": {
+        "x": 5,
+        "y": 669,
+        "width": 556,
+        "height": 336
+      },
+      "foot": {
+        "x": 265,
+        "y": 329
+      }
+    },
+    {
+      "name": "sign",
+      "subject": "weathered timber sign",
+      "measuredBounds": {
+        "x": 612,
+        "y": 575,
+        "width": 337,
+        "height": 430
+      },
+      "source": {
+        "x": 606,
+        "y": 569,
+        "width": 349,
+        "height": 442
+      },
+      "foot": {
+        "x": 174,
+        "y": 435
+      }
+    },
+    {
+      "name": "arch",
+      "subject": "ruin arch",
+      "measuredBounds": {
+        "x": 959,
+        "y": 570,
+        "width": 567,
+        "height": 428
+      },
+      "source": {
+        "x": 953,
+        "y": 564,
+        "width": 579,
+        "height": 440
+      },
+      "foot": {
+        "x": 290,
+        "y": 433
+      }
+    }
+  ],
+  "measurement": "Main connected components of alpha >80, with six-pixel safe margins; foot y is the visible bottom row, foot x the supporting base or centered two-foot arch."
+}

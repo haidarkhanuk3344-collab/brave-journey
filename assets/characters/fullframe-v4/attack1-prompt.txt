@@ -1,0 +1,16 @@
+Create the SECOND COMBO attack: a rising sword cut, for the EXACT short brown-haired warrior in the reference. Grey armor, red cape, dark pants, brown boots, short steel sword. Preserve the face, ~3.5-head tall anatomy and crisp light pixel style, same mass each pose.
+EXACTLY TWELVE complete sprites, FOUR columns x THREE rows, chronological row-major reading. Every character facing RIGHT, equal cell size, common planted-floor baseline. TRUE transparent RGBA background, no decorative glow/fog/shadow, no labels, no grid, no trails. Full sword, feet, head fit cell with padding.
+12 different natural full-body poses:
+1 relaxed low-sword idle like reference.
+2 gather: knees flex, wrist starts moving forward/down, shoulder coils toward rear.
+3 low windup: sword held near front knee with tip down/right, elbow bent, pelvis lowers slightly.
+4 loaded spring: chest tilts forward, rear heel anchors, blade at lowest position in FRONT of body, free elbow behind.
+5 acceleration: front shoulder rises, wrist starts scooping upward from knee level; hips begin to extend.
+6 CONTACT: upward diagonal blade extended FORWARD and UP, cutting across chest height; near shoulder/hip drive forward and front foot receives force. Clearly distinct from downward slash.
+7 follow: sword high toward upper-right, near arm extends upward/forward, chest opens, rear heel pushes.
+8 peak follow: blade steeply UP in front/right, wrist above shoulder, torso extended but knees remain soft.
+9 stop/absorb: near elbow bends to slow blade, shoulder relaxes, stance settles.
+10 withdrawal: blade comes down beside hip, torso straightens.
+11 soft settle back to low sword by side, foot returns near idle stance.
+12 exact relaxed reference idle again, blade trailing DOWN/BACK.
+Natural whole-body twist and spring, distinct bent-knee/support silhouettes and cape lag. Never reuse the downward slash poses; it must visibly travel LOW-to-HIGH. No paper-doll arm rotation, no rigid chest or stiff legs. Twelve actual painted full poses, consistent single character and single blade.

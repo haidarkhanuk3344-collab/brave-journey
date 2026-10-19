@@ -1,0 +1,28 @@
+{
+  "asset": "terrain-strip.png",
+  "tool": "built-in image_gen.imagegen",
+  "original_path": "exec-de083667-3b86-4b95-b43a-7a9494b0d7ab.png",
+  "dimensions": {
+    "width": 2172,
+    "height": 724
+  },
+  "alpha": false,
+  "saved_at_utc": "2026-10-14T04:13:50Z",
+  "saved_at_asia_shanghai": "2026-10-14T12:13:50+08:00",
+  "prompt_files": [
+    "terrain-strip.prompt.txt"
+  ],
+  "recommended_source_rect": {
+    "x": 0,
+    "y": 30,
+    "width": 2172,
+    "height": 694
+  },
+  "qa": {
+    "no_text_or_ui": true,
+    "no_characters": true,
+    "style": "clean cartoon grass edge and warm soil cutaway",
+    "full_ground": true,
+    "note": "Generated at 3:1 rather than requested 5:1. A 30px pale-green band exists above grass; use recommended source crop when anchoring collision-top grass edge. No pixel transformations were performed."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "brave-journey",
+  "version": "0.1.0",
+  "private": true,
+  "description": "勇者旅途：单机横版冒险游戏原型",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs"
+  }
+}

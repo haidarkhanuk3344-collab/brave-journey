@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),R=require('../rules.js'),S=require('../save-system.js'),V=require('../equipment-visuals.js');
+const roles=['warrior','archer','mage'].map(cls=>R.newCharacter(cls,cls,{hair:'short',color:'brown',skin:'peach'})),legacy={version:1,characters:roles,lastId:roles[0].id};
+assert.deepEqual(S.parse(JSON.stringify(legacy)),legacy,'old v1 role data stays intact');
+const originalId=roles[0].id;const before=structuredClone(roles[0]);S.stamp(roles[0],{scene:2,x:730,hp:68,mp:29},12345);assert.equal(roles[0].savedAt,12345);assert.equal(roles[0].checkpoint.x,730);assert.deepEqual(roles[0].bag,before.bag);assert.deepEqual(roles[0].equipped,before.equipped);
+assert(S.remove(legacy,roles[1].id));assert.equal(legacy.characters.length,2);assert(!S.remove(legacy,'missing'));assert.equal(legacy.characters[0].id,roles[0].id);
+assert.equal(S.merge(legacy,{version:1,characters:[structuredClone(roles[0])],lastId:null},()=> 'imported-id'),1);assert.equal(legacy.characters.at(-1).id,'imported-id');
+assert.throws(()=>S.parse('{invalid'));assert.throws(()=>S.parse(JSON.stringify({version:1,characters:[{cls:'mage',bag:[]}]})));
+const count=legacy.characters.length;assert.throws(()=>S.merge(legacy,{version:1,characters:[roles[2],{bad:true}]},()=> 'bad'));assert.equal(legacy.characters.length,count,'bad imports cannot partially append roles');
+S.remove(legacy,originalId);assert.notEqual(legacy.lastId,originalId);assert(!legacy.characters.some(c=>c.id===originalId),'deleted role is absent from saved serialization');
+for(const t of R.TEMPLATES)assert(V.items[t.id],'every current item has a visual definition');
+console.log('PASS: v1 preservation, saved checkpoint, scoped delete, duplicate import, atomic validation, current gear registry');

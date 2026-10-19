@@ -1,0 +1,25 @@
+# 三职业服装与握持样张
+
+状态：供用户确认的设计样张，尚未接入游戏、尚未制作动画或男女全套适配。
+
+用户已选择 A：保留当前脸与手绘质感，重做整套服装、手型和武器。用户批准先生成 1 张，需要修正时再增加 1 次。本轮实际使用内置 image_gen 1 次，未进行第二次生成。
+
+参考：assets/characters/detail-v29/source.png 的男主形象。以同一男主展示三职业装备，服装仍按既有规则三职业通用。
+
+
+视觉复核：三套服装具备独立结构，护甲含胸甲肩甲和腰甲；皮衣有裁片与护臂；法袍上下连贯。武器接触处表现完整的手掌与手指。此图仅验证静态设计，不能据此判定动作中不存在穿模、接缝或握持漂移。后续仍需审核弓弦与箭尾细节，以及实际游戏尺寸下的轮廓可读性。
+
+## 最终提示词
+
+Use case: identity-preserve.
+Create ONE high-resolution production concept sheet for the existing 2D side-scrolling game 勇者旅途, exactly THREE full-body heroes in one horizontal row, generous gutters, all feet on the same baseline, genuinely transparent background.
+REFERENCE: the supplied atlas is the existing game's character identity and rendering reference. Use ONLY its FIRST, short-haired MALE hero as the identity for all three outfits. Preserve his recognizable exact face, brown eyes, short chestnut hair, skin, chibi head/body proportions, age, and softly hand-painted 2D appearance. This is the same hero demonstrating three classes, not three new people. No helmets. Keep the small red neck scarf and gold leaf insignia as shared identity cues, integrated into each garment.
+CRITICAL PURPOSE: replace the bad recolored-shirt costumes, pasted skirt, floating weapons and disembodied cartoon-dot hands with genuinely constructed full costumes and anatomically coherent grips. Every visible hand must belong to its forearm, with clear wrist alignment, a thumb opposing curled fingers, and correct front/back occlusion around the handle. Hand size and painted shading match the reference face. Hands small and natural, not oversized. No detached finger blobs, no circles standing in for fingers, no hidden missing grip.
+
+LEFT: warrior, relaxed ready stance facing right three-quarter. A real fitted steel breastplate with visibly shaped curved chest volume, separate small overlapping shoulder plates, leather side fastening, cloth underlayer and a short articulated waist edge over charcoal trousers and brown boots. Steel muted blue-grey, restrained bronze fittings. The silhouette and construction visibly differ from a tunic. Hold a slender straight one-handed sword in the near hand, blade angled upward/right away from face, a simple crossguard, leather-wrapped hilt and visible pommel. Four fingers wrap around the grip BELOW the crossguard, thumb secures the opposite side; handle is partly occluded by fingers but visible above and below. Forearm flows naturally into the wrist. Free arm relaxed. No giant blade, no dagger reverse grip.
+
+CENTER: archer, same face and proportions, clear side-three-quarter shooting stance aiming RIGHT. Complete forest-green leather jerkin with a distinct sleeveless cut, fitted chest panels, visible stitched seams, brown side gussets, shoulder straps, short split hip panels, cloth undershirt and leather forearm bracer. A believable graceful WOODEN RECURVE BOW with two slender symmetrical bending limbs, defined narrow central leather grip and ONE taut bowstring connecting the two limb tips. Bow is a simple elegant practical weapon, not a club, snake or thick decorative branch. Front arm extends toward the target and grips ONLY the central riser; rear hand draws the string to the cheek with fingers, rear elbow pulled back. ONE straight arrow nocked to the string, arrow shaft supported at the bow rest, point to the right. Drawn string forms a clear V from limb tips to rear drawing hand. Hands, arrow, string, shoulders and bow must have physically coherent geometry. The bow and arrow stay within this column.
+
+RIGHT: mage, same face and proportions, composed three-quarter ready stance facing right. A COMPLETE deep plum-purple long cloth robe, constructed continuously from shoulders/chest through waist down toward the boots, distinct long sleeves with fitted cuffs, a proper fabric collar around the little red scarf, restrained embroidered gold edging, natural continuous folds and overlapping open front skirt panels. A narrow leather belt gathers the robe at the waist. The lower garment shares precisely the upper garment's painted texture, shading, contour softness, light direction and fabric weight. No pasted-on skirt, no vector blocks or separately outlined hem. Near hand securely curls around a slender wooden staff at waist/chest height, staff upright with a small simple amber gem setting. Thumb and fingers enclose the cylindrical shaft with a contact shadow; shaft passes behind fingers and in front of the palm. Other hand relaxed, no spell effect hiding the grip.
+
+UNIFIED ART DIRECTION: same warm thin dark-brown contours as reference, soft hand-painted pigment, gentle cloth texture, coherent diffuse upper-left lighting, subtle contact shadows at grip and clothing overlaps. Readable silhouette at small gameplay sizes. Metal looks like painted metal, leather like painted leather, robe like painted cloth, all by the SAME illustrator as the reference. No change to face or body scale, no photorealism, no 3D render, no flat vector replacement. No scenery, no UI, no cards, no captions, no watermark, no decorative effects. Show every entire figure, entire weapon and boots without clipping.

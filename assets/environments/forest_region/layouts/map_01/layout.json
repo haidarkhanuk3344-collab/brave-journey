@@ -1,0 +1,97 @@
+{
+  "id": "map_01",
+  "name_suggestion": "林缘小径",
+  "name_status": "suggestion",
+  "canvas": [
+    1920,
+    640
+  ],
+  "dimensions_status": "preview_provisional",
+  "layers": {
+    "far": "environments/forest_region/layouts/map_01/far.png",
+    "mid": "environments/forest_region/layouts/map_01/mid.png",
+    "ground": "environments/forest_region/layouts/map_01/ground.png",
+    "props": "environments/forest_region/layouts/map_01/props.png",
+    "actors": "environments/forest_region/layouts/map_01/actors.png",
+    "foreground": "environments/forest_region/layouts/map_01/foreground.png"
+  },
+  "layer_order": [
+    "far",
+    "mid",
+    "ground",
+    "props",
+    "actors",
+    "foreground"
+  ],
+  "parallax_suggestion": {
+    "far": 0.2,
+    "mid": 0.5,
+    "ground": 1,
+    "props": 1,
+    "actors": 1,
+    "foreground": 1.1
+  },
+  "collisions": [
+    {
+      "x": 0,
+      "y": 520,
+      "width": 1920,
+      "height": 120,
+      "kind": "solid_ground",
+      "note": "map02 stream shown as decoration; no unconfirmed lethal water rule"
+    },
+    {
+      "x": 430,
+      "y": 404,
+      "width": 256,
+      "height": 24,
+      "kind": "platform",
+      "one_way": "TBD"
+    },
+    {
+      "x": 1030,
+      "y": 340,
+      "width": 256,
+      "height": 24,
+      "kind": "platform",
+      "one_way": "TBD"
+    }
+  ],
+  "elite": "boar",
+  "spawn_root": [
+    110,
+    520
+  ],
+  "next_unlock": "permanent_on_elite_defeat",
+  "enemy_respawn": "on_reentry",
+  "props": [
+    {
+      "id": "oak",
+      "root": [
+        240,
+        520
+      ]
+    },
+    {
+      "id": "fir",
+      "root": [
+        650,
+        520
+      ]
+    },
+    {
+      "id": "sign",
+      "root": [
+        900,
+        520
+      ]
+    },
+    {
+      "id": "gate_closed",
+      "root": [
+        1740,
+        520
+      ]
+    }
+  ]
+}

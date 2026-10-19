@@ -1,0 +1,13 @@
+Use case: stylized-concept
+Asset type: original 2D side-scrolling forest prop sprite atlas PNG, transparent background; target canvas 1536 x 1024 pixels, exact 3 columns by 2 rows, six equally sized square cells.
+Primary request: Create SIX separate cute cartoon forest scenery props as a clean 3x2 sprite sheet. Real alpha-transparent empty background, no checkerboard baked into the image.
+Style/medium: Smooth polished 2D hand-drawn Chinese Flash fantasy adventure art. Thin but clear dark-brown outlines, rounded chunky shapes, crisp edges, simple 2-3 shade cel-shading, little texture. Original designs compatible with chibi heroes, warm greens and browns, top-left warm light. NO painterly leaf noise, pixel art, realistic detail or 3D.
+Layout: Exact 3-column, 2-row invisible uniform grid. Each cell is 512 x 512 in a 1536 x 1024 atlas. Center each isolated prop horizontally within its own cell. Align the bottom contact point of EVERY prop at local cell y=440 (first-row global y=440; second-row global y=952). Empty transparent margin at least 40 pixels on left/right/top and at least 60 below. Every pixel of each prop stays fully inside its own grid cell. No grid lines. Do not touch or overlap between cells. No cast-shadow blobs outside the object.
+Six cells, strictly ordered left to right:
+TOP LEFT: one broad-canopy oak tree, thick brown trunk, rounded green crown, roughly 420 px tall.
+TOP MIDDLE: one slender pine tree, simple layered pointed evergreen silhouette, visible trunk, roughly 420 px tall.
+TOP RIGHT: one low grey rock with some green moss on top, roughly 180 px tall.
+BOTTOM LEFT: one low shrub and grass clump combined into a compact single prop, roughly 170 px tall.
+BOTTOM MIDDLE: one wooden road sign with a blank empty rectangular wooden signboard on a single wooden post, roughly 290 px tall. The signboard is entirely BLANK wood, NO arrow symbol, writing, letters, numbers or carving.
+BOTTOM RIGHT: one small damaged grey stone archway, ancient simple chunky masonry with a broken corner, green moss lightly at base, roughly 340 px tall.
+Constraints: Orthographic side/front view suitable for 2D platformer. Genuine fully transparent background alpha. SIX props only. Absolutely no text, labels, title, letters, numbers, logo, watermark, UI, border, characters, enemies, ground plane, cast shadows, background landscape, separator lines.

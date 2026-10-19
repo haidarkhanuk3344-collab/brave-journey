@@ -1,0 +1,6 @@
+Use case: style-transfer
+Asset type: original 2D side-scrolling game background PNG, landscape 16:9.
+Input image: the forest backdrop is the EDIT TARGET.
+Primary request: Keep the existing composition, blue-cyan distance, warm daylight, mountains, tree positions, open lower gameplay area and opaque background; change ONLY the rendering language to simpler clean cartoon game art.
+Required style change: Reduce leaf detail dramatically. Every canopy should be about 6-10 large rounded lobes and 2-3 broad flat/cel-shaded green color regions, with a clean thin dark-brown outline, no hundreds of painted leaf flecks. Tree bark should have only a few clear chunky curves, not realistic texture. Mountains simple silhouette planes. Use polished thick-outlined cute Chinese Flash action-adventure illustration compatible with a chibi armored hero. Crisp, smooth, playful, clean. No watercolor, painterly speckling, brush noise, fine leaves, photorealism, 3D, pixel art.
+Constraints: Keep lower 45% airy, pale and open with no physical ground/road/platforms. No characters, enemies, UI, text, logos. Keep both edges comparable in foliage color and brightness. Full-bleed opaque wide background.

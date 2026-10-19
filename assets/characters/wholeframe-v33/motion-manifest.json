@@ -1,0 +1,204 @@
+{
+  "cell": 512,
+  "root": [
+    256,
+    448
+  ],
+  "status": "review-only",
+  "classes": {
+    "warrior": {
+      "walk": {
+        "path": "warrior-walk.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/warrior-move.png",
+        "sourceFrames": [
+          0,
+          7
+        ]
+      },
+      "run": {
+        "path": "warrior-run.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/warrior-move.png",
+        "sourceFrames": [
+          8,
+          15
+        ]
+      },
+      "idle": {
+        "path": "warrior-idle.png",
+        "frames": 4,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/warrior-states.png",
+        "sourceFrames": [
+          0,
+          3
+        ]
+      },
+      "jump": {
+        "path": "warrior-jump.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/warrior-states.png",
+        "sourceFrames": [
+          4,
+          11
+        ]
+      },
+      "hurt": {
+        "path": "warrior-hurt.png",
+        "frames": 4,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/warrior-states.png",
+        "sourceFrames": [
+          12,
+          15
+        ]
+      },
+      "attack1": {
+        "path": "warrior-attack1.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/warrior-attack1.png",
+        "sourceFrames": [
+          0,
+          7
+        ]
+      },
+      "attack2": {
+        "path": "warrior-attack2.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/warrior-attack2.png",
+        "sourceFrames": [
+          0,
+          7
+        ]
+      },
+      "attack0": {
+        "path": "warrior-attack.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "previous batch"
+      }
+    },
+    "archer": {
+      "walk": {
+        "path": "archer-walk.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/archer-move.png",
+        "sourceFrames": [
+          0,
+          7
+        ]
+      },
+      "run": {
+        "path": "archer-run.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/archer-move.png",
+        "sourceFrames": [
+          8,
+          15
+        ]
+      },
+      "idle": {
+        "path": "archer-idle.png",
+        "frames": 4,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/archer-states.png",
+        "sourceFrames": [
+          0,
+          3
+        ]
+      },
+      "jump": {
+        "path": "archer-jump.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/archer-states.png",
+        "sourceFrames": [
+          4,
+          11
+        ]
+      },
+      "hurt": {
+        "path": "archer-hurt.png",
+        "frames": 4,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/archer-states.png",
+        "sourceFrames": [
+          12,
+          15
+        ]
+      },
+      "attack0": {
+        "path": "archer-attack.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "previous batch"
+      }
+    },
+    "mage": {
+      "walk": {
+        "path": "mage-walk.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/mage-move.png",
+        "sourceFrames": [
+          0,
+          7
+        ]
+      },
+      "run": {
+        "path": "mage-run.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/mage-move.png",
+        "sourceFrames": [
+          8,
+          15
+        ]
+      },
+      "idle": {
+        "path": "mage-idle.png",
+        "frames": 4,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/mage-states.png",
+        "sourceFrames": [
+          0,
+          3
+        ]
+      },
+      "jump": {
+        "path": "mage-jump.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/mage-states.png",
+        "sourceFrames": [
+          4,
+          11
+        ]
+      },
+      "hurt": {
+        "path": "mage-hurt.png",
+        "frames": 4,
+        "columns": 4,
+        "source": "design-previews/hero-motion-v33/batch1/mage-states.png",
+        "sourceFrames": [
+          12,
+          15
+        ]
+      },
+      "attack0": {
+        "path": "mage-attack.png",
+        "frames": 8,
+        "columns": 4,
+        "source": "previous batch"
+      }
+    }
+  }
+}

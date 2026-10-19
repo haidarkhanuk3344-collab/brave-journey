@@ -1,0 +1,464 @@
+{
+  "version": 3,
+  "cell": [
+    256,
+    256
+  ],
+  "root": [
+    128,
+    224
+  ],
+  "source": "imagegen complete-pose drawings",
+  "animations": {
+    "walk": {
+      "path": "warrior-walk.png",
+      "frames": 8,
+      "columns": 4,
+      "durations": [
+        85,
+        85,
+        85,
+        85,
+        85,
+        85,
+        85,
+        85
+      ],
+      "stride": 92,
+      "metadata": [
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            80,
+            58,
+            382,
+            415
+          ],
+          "flight": 0,
+          "bounds": [
+            56,
+            77,
+            182,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            110
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            61,
+            62,
+            324,
+            416
+          ],
+          "flight": 0,
+          "bounds": [
+            55,
+            78,
+            165,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            106
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            65,
+            51,
+            272,
+            416
+          ],
+          "flight": 0,
+          "bounds": [
+            69,
+            74,
+            155,
+            226
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-walk-up-source.png",
+          "sourceBounds": [
+            301,
+            197,
+            776,
+            775
+          ],
+          "flight": 0,
+          "bounds": [
+            53,
+            77,
+            174,
+            224
+          ]
+        },
+        {
+          "head": [
+            134,
+            113
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            79,
+            52,
+            398,
+            398
+          ],
+          "flight": 0,
+          "bounds": [
+            49,
+            81,
+            182,
+            224
+          ]
+        },
+        {
+          "head": [
+            134,
+            111
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            84,
+            46,
+            329,
+            396
+          ],
+          "flight": 0,
+          "bounds": [
+            59,
+            80,
+            161,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            108
+          ],
+          "source": "warrior-walk-source.png",
+          "sourceBounds": [
+            81,
+            40,
+            284,
+            397
+          ],
+          "flight": 0,
+          "bounds": [
+            70,
+            77,
+            155,
+            224
+          ]
+        },
+        {
+          "head": [
+            134,
+            110
+          ],
+          "source": "warrior-walk-up-source.png",
+          "sourceBounds": [
+            40,
+            197,
+            505,
+            775
+          ],
+          "flight": 0,
+          "bounds": [
+            57,
+            77,
+            175,
+            224
+          ]
+        }
+      ]
+    },
+    "run": {
+      "path": "warrior-run.png",
+      "frames": 8,
+      "columns": 4,
+      "durations": [
+        80,
+        75,
+        70,
+        105,
+        80,
+        75,
+        70,
+        105
+      ],
+      "stride": 150,
+      "metadata": [
+        {
+          "head": [
+            146,
+            108
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            50,
+            77,
+            383,
+            437
+          ],
+          "flight": 0,
+          "bounds": [
+            37,
+            73,
+            178,
+            225
+          ]
+        },
+        {
+          "head": [
+            146,
+            111
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            59,
+            88,
+            361,
+            437
+          ],
+          "flight": 0,
+          "bounds": [
+            41,
+            77,
+            168,
+            225
+          ]
+        },
+        {
+          "head": [
+            146,
+            107
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            57,
+            77,
+            375,
+            437
+          ],
+          "flight": 0,
+          "bounds": [
+            40,
+            73,
+            175,
+            225
+          ]
+        },
+        {
+          "head": [
+            146,
+            106
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            48,
+            70,
+            408,
+            391
+          ],
+          "flight": 18,
+          "bounds": [
+            37,
+            71,
+            188,
+            207
+          ]
+        },
+        {
+          "head": [
+            146,
+            111
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            45,
+            50,
+            381,
+            403
+          ],
+          "flight": 0,
+          "bounds": [
+            41,
+            76,
+            183,
+            225
+          ]
+        },
+        {
+          "head": [
+            146,
+            113
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            60,
+            58,
+            353,
+            406
+          ],
+          "flight": 0,
+          "bounds": [
+            47,
+            78,
+            171,
+            225
+          ]
+        },
+        {
+          "head": [
+            146,
+            108
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            45,
+            50,
+            355,
+            410
+          ],
+          "flight": 0,
+          "bounds": [
+            44,
+            73,
+            173,
+            224
+          ]
+        },
+        {
+          "head": [
+            146,
+            105
+          ],
+          "source": "warrior-run-source.png",
+          "sourceBounds": [
+            53,
+            26,
+            414,
+            352
+          ],
+          "flight": 18,
+          "bounds": [
+            43,
+            70,
+            195,
+            207
+          ]
+        }
+      ]
+    },
+    "idle": {
+      "path": "warrior-idle.png",
+      "frames": 4,
+      "columns": 4,
+      "durations": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "stride": 0,
+      "metadata": [
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-idle-source.png",
+          "sourceBounds": [
+            55,
+            96,
+            413,
+            672
+          ],
+          "flight": 0,
+          "bounds": [
+            69,
+            78,
+            161,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-idle-source.png",
+          "sourceBounds": [
+            57,
+            93,
+            413,
+            672
+          ],
+          "flight": 0,
+          "bounds": [
+            70,
+            77,
+            161,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-idle-source.png",
+          "sourceBounds": [
+            56,
+            93,
+            417,
+            672
+          ],
+          "flight": 0,
+          "bounds": [
+            70,
+            77,
+            162,
+            225
+          ]
+        },
+        {
+          "head": [
+            134,
+            109
+          ],
+          "source": "warrior-idle-source.png",
+          "sourceBounds": [
+            54,
+            97,
+            412,
+            672
+          ],
+          "flight": 0,
+          "bounds": [
+            70,
+            78,
+            161,
+            225
+          ]
+        }
+      ]
+    }
+  }
+}

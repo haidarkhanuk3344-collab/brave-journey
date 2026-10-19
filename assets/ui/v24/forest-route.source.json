@@ -1,0 +1,30 @@
+{
+  "asset": "forest-route.png",
+  "tool": "built-in image_gen.imagegen",
+  "original_path": "exec-4319ff39-c3ba-418e-a48d-d34e70777324.png",
+  "edit_target_path": "assets/ui/v6/forest-route.png",
+  "style_reference_path": "assets/ui/v24/forest-backdrop.png",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "alpha": false,
+  "saved_at_utc": "2026-10-14T04:22:49Z",
+  "saved_at_asia_shanghai": "2026-10-14T12:22:49+08:00",
+  "prompt_files": [
+    "forest-route.prompt.txt"
+  ],
+  "qa": {
+    "no_text_or_ui": true,
+    "no_characters": true,
+    "same_dimensions_as_edit_target": true,
+    "village_lower_left": true,
+    "fenced_clearing_upper_left": true,
+    "river_bridge_center_left": true,
+    "stone_ruins_center_right": true,
+    "ancient_tree_upper_right": true,
+    "major_road_connections_preserved": true,
+    "style": "smooth 2D cartoon, rounded tree blocks, crisp contours, three-value shading",
+    "note": "Visual inspection passed; key landmarks and roads retain their relative coordinates. Hotspot alignment to be verified in consuming game UI."
+  }
+}

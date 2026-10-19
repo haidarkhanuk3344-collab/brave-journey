@@ -1,0 +1,58 @@
+{
+  "sword_0": {
+    "path": "assets/characters/cartoon-v15/gear/sword_0.png",
+    "size": [
+      40,
+      102
+    ]
+  },
+  "sword_1": {
+    "path": "assets/characters/cartoon-v15/gear/sword_1.png",
+    "size": [
+      46,
+      102
+    ]
+  },
+  "bow_0": {
+    "path": "assets/characters/cartoon-v15/gear/bow_0.png",
+    "size": [
+      32,
+      102
+    ]
+  },
+  "bow_1": {
+    "path": "assets/characters/cartoon-v15/gear/bow_1.png",
+    "size": [
+      32,
+      102
+    ]
+  },
+  "staff_0": {
+    "path": "assets/characters/cartoon-v15/gear/staff_0.png",
+    "size": [
+      32,
+      124
+    ]
+  },
+  "staff_1": {
+    "path": "assets/characters/cartoon-v15/gear/staff_1.png",
+    "size": [
+      34,
+      124
+    ]
+  },
+  "helmet_steel": {
+    "path": "assets/characters/cartoon-v15/gear/helmet_steel.png",
+    "size": [
+      103,
+      110
+    ]
+  },
+  "helmet_leather": {
+    "path": "assets/characters/cartoon-v15/gear/helmet_leather.png",
+    "size": [
+      114,
+      110
+    ]
+  }
+}
