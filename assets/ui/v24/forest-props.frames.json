@@ -1,0 +1,86 @@
+{
+  "width": 1536,
+  "height": 1024,
+  "layout": "six isolated props; use explicit crop frames rather than 512 grid",
+  "alphaThresholdForBounds": 200,
+  "sprites": [
+    {
+      "name": "oak",
+      "source": {
+        "x": 26,
+        "y": 35,
+        "width": 516,
+        "height": 517
+      },
+      "foot": {
+        "x": 280,
+        "y": 507
+      }
+    },
+    {
+      "name": "pine",
+      "source": {
+        "x": 595,
+        "y": 35,
+        "width": 356,
+        "height": 516
+      },
+      "foot": {
+        "x": 175,
+        "y": 506
+      }
+    },
+    {
+      "name": "rock",
+      "source": {
+        "x": 1046,
+        "y": 323,
+        "width": 443,
+        "height": 229
+      },
+      "foot": {
+        "x": 220,
+        "y": 219
+      }
+    },
+    {
+      "name": "shrub",
+      "source": {
+        "x": 64,
+        "y": 755,
+        "width": 434,
+        "height": 226
+      },
+      "foot": {
+        "x": 214,
+        "y": 216
+      }
+    },
+    {
+      "name": "sign",
+      "source": {
+        "x": 623,
+        "y": 592,
+        "width": 300,
+        "height": 389
+      },
+      "foot": {
+        "x": 150,
+        "y": 379
+      }
+    },
+    {
+      "name": "arch",
+      "source": {
+        "x": 1036,
+        "y": 585,
+        "width": 473,
+        "height": 396
+      },
+      "foot": {
+        "x": 236,
+        "y": 386
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "asset": "assets/ui/v25/forest-backdrop.webp",
+  "producer": "built-in image_gen.imagegen",
+  "intent": "original generation from style references",
+  "generationCount": 1,
+  "sourceGeneratedImage": "exec-8738bcab-31e9-428e-b8fc-fd7d2ccd4900.webp",
+  "sha256": "d390fe2c237e7396687478c6d3ed4397cf4f28a1adbbe4b09e85903d27cd6d68",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "mode": "RGB",
+  "promptFile": "assets/ui/v25/forest-backdrop.prompt.txt",
+  "promptSha256": "334fdaa43dcb8f196be1960aea2263bb0000b2485c598ac9093620a20f8918cf",
+  "referenceImages": [
+    {
+      "path": "adventure-role-choice.webp",
+      "role": "public game screenshot: material and shading reference only; no copied source sprites",
+      "sha256": "c653e17e9303410ffc7cce2e0f95e21a0429757beb4fc52c7fd9a804e19b0fd6"
+    },
+    {
+      "path": "assets/town_user.webp",
+      "role": "user-preserved town: detail, texture, palette reference",
+      "sha256": "4f5b8903a64d607501484a71623d3b941a8e588099867d5dc86a7ef0789a92e1"
+    }
+  ],
+  "provenanceEmbedded": "impeccable embed-prompt, exact prompt",
+  "scope": "Original replacement art. The inspected classic game was its training village; this does not claim a reverse-engineered original forest."
+}

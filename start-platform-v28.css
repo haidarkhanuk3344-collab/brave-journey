@@ -1,0 +1,134 @@
+/* The platform and the journey ledger are destinations, not tabs on a card. */
+#startScreen:not(.is-cover) { --stone-plate:url('assets/ui/v27/stone-button.webp'); color:#f7efd7; background:#263f3a; }
+#startScreen:not(.is-cover) .start-scenery { background:url('assets/ui/v28/mountain-platform.webp') center / cover no-repeat; }
+#startScreen:not(.is-cover) .start-scenery:after { background:transparent; }
+#startScreen .start-layout { display:block; position:relative; margin:0; padding:0; width:100%; max-width:1680px; height:100dvh; min-height:650px; }
+#startScreen .start-world { display:block; position:absolute; top:5%; left:8%; padding:0; z-index:2; }
+#startScreen .start-world h1 { font:900 clamp(36px,4.2vw,64px)/1.15 'STKaiti','KaiTi','Songti SC',serif; color:#fff0c8; letter-spacing:.04em; -webkit-text-stroke:1px #37524b; paint-order:stroke fill; text-shadow:0 3px #294339,0 5px 8px #213a3845; }
+#startScreen .start-view-title { display:block; margin-top:13px; width:168px; padding:9px 12px; background:var(--stone-plate) center / 100% 135% no-repeat; text-align:center; color:#f6edd1; font:600 17px/1.4 var(--ui-font); text-shadow:0 2px #243833; filter:drop-shadow(0 2px 2px #17362e55); }
+#startScreen .start-book { position:static; border:0; outline:0; border-radius:0; background:transparent; box-shadow:none; }
+#startScreen .start-book:before { display:none; }
+#startScreen .start-body { position:static; padding:0; min-height:0; }
+#startScreen .hero-stage { position:absolute; left:8%; top:20%; width:43%; height:60%; }
+#startScreen .hero-model { position:relative; width:100%; height:100%; }
+#startScreen .hero-model:before { content:none; }
+#startScreen .hero-stage canvas { display:block; width:100%; height:100%; max-width:none; margin:0; object-fit:contain; filter:none; image-rendering:auto; }
+#startScreen .platform-classes { position:absolute; display:flex; justify-content:center; gap:10px; left:13%; width:34%; top:77%; }
+#startScreen .class-medallion { display:flex; flex:1; min-width:0; flex-direction:column; align-items:center; gap:0; border:0; background:transparent; padding:0; box-shadow:none; color:#fff0cf; }
+#startScreen .class-medallion:hover, #startScreen .class-medallion:active { border:0; background:transparent; box-shadow:none; }
+#startScreen .class-medallion>span, #startScreen .gender-picks button>span { pointer-events:none; }
+#startScreen .class-emblem { display:block; width:clamp(82px,8.8vw,134px); aspect-ratio:1; background-image:url('assets/ui/v28/class-medallions.webp'); background-size:300% 100%; background-position:calc(var(--emblem) * 50%) center; filter:drop-shadow(0 3px 2px #1a332b80); }
+#startScreen .class-name { display:block; width:90%; padding:6px 5px 8px; margin-top:-7px; background:var(--stone-plate) center / 100% 135% no-repeat; font:700 clamp(15px,1.5vw,20px)/1.2 'STKaiti','KaiTi','Songti SC',serif; text-shadow:0 2px #152c2a; }
+#startScreen .class-emblem { max-width:100%; }
+#startScreen .class-medallion.selected .class-emblem { filter:drop-shadow(0 0 5px #ffeb99) drop-shadow(0 0 12px #e6bd61b0); }
+#startScreen .class-medallion.selected .class-name { color:#ffe7a2; }
+#startScreen .class-medallion:hover .class-emblem { filter:brightness(1.15) drop-shadow(0 3px 3px #183b2c88); }
+#startScreen .platform-options { position:absolute; top:24%; left:57%; width:35%; display:grid; gap:clamp(9px,1.7dvh,16px); }
+#startScreen .stone-rail { min-width:0; min-height:clamp(54px,7.6dvh,78px); display:grid; grid-template-columns:66px minmax(0,1fr); align-items:center; gap:8px; padding:10px 22px; background:var(--stone-plate) center / 100% 139% no-repeat; filter:drop-shadow(0 4px 3px #153a3455); }
+#startScreen .stone-rail label, #startScreen .rail-label { color:#f8efd6; font:700 clamp(15px,1.4vw,20px)/1.4 var(--ui-font); text-shadow:0 2px 1px #152d2e; }
+#startScreen .stone-rail input { min-width:0; width:100%; min-height:37px; padding:6px 12px; color:#273b36; background:#e4dfc5; border:1px solid #8e9480; border-radius:3px; box-shadow:inset 0 2px 4px #18352640,0 1px #d4dfc47a; font:600 clamp(15px,1.35vw,20px)/1.4 var(--ui-font); }
+#startScreen .gender-picks { display:flex; gap:10px; }
+#startScreen .gender-picks button, #startScreen .hair-selector button { color:#f1ead5; background:#233b3a; border:1px solid #7c938a; border-radius:24px; box-shadow:inset 0 2px 3px #10232199,inset 0 -1px #b1c0a733; padding:7px 12px; font:600 17px/1.3 var(--ui-font); }
+#startScreen .gender-picks button { flex:1; }
+#startScreen .gender-picks button span { margin-right:5px; font-size:20px; }
+#startScreen .gender-picks button.selected { color:#fff2be; background:#645c3b; border-color:#e7c77f; box-shadow:inset 0 0 6px #e5bc6938,0 0 5px #e3bf6e99; }
+#startScreen .hair-selector { display:grid; grid-template-columns:36px 1fr 36px; align-items:center; text-align:center; font:600 18px var(--ui-font); }
+#startScreen .hair-selector button { padding:2px 8px; border-radius:4px; font:32px/1 var(--ui-font); }
+#startScreen .color-swatches { display:flex; align-items:center; gap:clamp(12px,1.6vw,26px); justify-content:flex-start; padding:2px 8px; }
+#startScreen .color-swatch { flex:0 0 32px; width:32px; height:32px; min-height:0; padding:0; background:var(--swatch); border:2px solid #c7c4a0; border-radius:50%; box-shadow:inset 0 2px 4px #0b222b77,0 2px 2px #172f2da0; }
+#startScreen .color-swatch:hover { background:var(--swatch); border-color:#fff2ba; }
+#startScreen .color-swatch.selected { outline:2px solid #f9d489; outline-offset:3px; box-shadow:0 0 8px #e2bd7c99; }
+#startScreen .stone-action { width:100%; min-height:72px; margin-top:9px; padding:16px 25px; color:#fff0bb; background:var(--stone-plate) center / 100% 135% no-repeat; border:0; border-radius:0; box-shadow:none; font:800 clamp(24px,2.4vw,34px)/1.2 'STKaiti','KaiTi','Songti SC',serif; letter-spacing:.12em; text-shadow:0 2px #20372d; filter:drop-shadow(0 5px 3px #1d3c3360); }
+#startScreen .stone-action:hover { color:#fff6d5; background:var(--stone-plate) center / 100% 135% no-repeat; border:0; box-shadow:none; filter:brightness(1.15) drop-shadow(0 5px 3px #1d3c3360); }
+#startScreen .stone-action:active { transform:translateY(2px); }
+#startScreen .stone-action:disabled { color:#c0c9bc; background:var(--stone-plate) center / 100% 135% no-repeat; border:0; box-shadow:none; filter:grayscale(.6); opacity:.6; }
+#startScreen .start-error { position:absolute; left:57%; top:88%; width:35%; color:#fff2de; background:#653a2ddf; padding:9px 14px; font-size:13px; border-radius:3px; box-shadow:0 2px 6px #142b2c44; }
+#startScreen .journey-identity { position:absolute; top:92%; left:4%; width:92%; text-align:center; color:#fff1d0; text-shadow:0 2px 2px #122c2c,0 0 8px #0d242ae6; }
+#startScreen .journey-identity h2 { font:700 26px 'STKaiti','KaiTi','Songti SC',serif; margin:5px 0 7px; }
+#startScreen .journey-identity p { font:500 14px var(--ui-font); margin:0; }
+#startScreen[data-view=load] .hero-stage { top:20%; height:58%; }
+#startScreen .journey-ledger { position:absolute; left:54%; top:19%; width:40%; min-height:64%; padding:60px 44px 44px; display:flex; flex-direction:column; background:url('assets/ui/v28/journey-tablet.webp') center / 100% 100% no-repeat; filter:drop-shadow(0 6px 5px #15333255); }
+#startScreen .journey-ledger header { display:flex; justify-content:space-between; align-items:center; padding-bottom:14px; border-bottom:1px solid #8c9e8e7d; }
+#startScreen .journey-ledger h2 { margin:0; color:#f6e8bd; font:700 25px 'STKaiti','KaiTi','Songti SC',serif; }
+#startScreen .journey-ledger header>span { font-size:12px; color:#d6dcc5; }
+#startScreen .journey-ledger .save-list { height:clamp(180px,29dvh,310px); flex:none; padding:12px 0 5px; overflow-y:auto; scrollbar-color:#9cae9b #334949; }
+#startScreen .journey-slot { display:flex; align-items:center; gap:9px; width:100%; padding:11px 9px; margin-bottom:8px; min-height:65px; color:#ede9d3; background:#1e36375e; border:1px solid #80938470; border-radius:3px; box-shadow:inset 0 1px #dce8c01f; text-align:left; }
+#startScreen .journey-slot:hover { color:#fff6da; border-color:#c3c099; background:#50615388; }
+#startScreen .journey-slot.selected { color:#fff1c1; border-color:#e0c181; background:#8d7b4638; box-shadow:inset 0 0 7px #dec27e33; }
+#startScreen .journey-slot>span:nth-child(2) { flex:1; min-width:0; }
+#startScreen .journey-slot strong { display:block; font-size:15px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+#startScreen .journey-slot small { display:block; margin-top:5px; color:#d4d8c7; font-size:10px; }
+#startScreen .journey-slot b { flex:none; color:#efe5ba; font-size:12px; }
+#startScreen .save-class-emblem { flex:0 0 46px; height:46px; background:url('assets/ui/v28/class-medallions.webp') left center / 300% 100%; }
+#startScreen .save-class-emblem.archer { background-position:50% center; } #startScreen .save-class-emblem.mage { background-position:right center; }
+#startScreen .journey-progress { display:flex; justify-content:space-between; padding:14px 0 4px; color:#e1debc; font-size:12px; border-top:1px solid #93a18d60; }
+#startScreen .journey-ledger .load-actions { margin-top:auto; display:flex; align-items:center; gap:10px; }
+#startScreen .journey-ledger .load-actions .stone-action { flex:1; min-width:0; min-height:62px; font-size:25px; padding:13px 18px; }
+#startScreen .stone-small { background:transparent; border:1px solid #a7a286; color:#e4dbbf; padding:9px; box-shadow:none; }
+#startScreen .danger-text { color:#ffc8aa; }
+#startScreen .save-file-tools { display:flex; gap:18px; justify-content:flex-end; margin-top:10px; }
+#startScreen .save-file-tools button { color:#d1d9c8; background:transparent; border:0; border-bottom:1px solid #a7b5a064; border-radius:0; box-shadow:none; padding:3px; font-size:11px; }
+#startScreen .delete-confirm { background:#263d3cf0; border:1px solid #aea17f; padding:12px; margin-top:12px; color:#fff0d0; border-radius:3px; }
+#startScreen .delete-confirm p { font-size:13px; margin:0 0 10px; } #startScreen .delete-confirm>div { display:flex; gap:10px; justify-content:flex-end; }
+#startScreen .delete-confirm button { font-size:12px; background:#536152; color:#f2eed5; border-color:#a3ad90; }
+#startScreen .delete-confirm .danger { background:#7f4a35; }
+#startScreen .save-empty { color:#e3e5cf; background:transparent; text-align:center; padding:60px 10px; font-size:14px; }
+#startScreen .return-game { z-index:3; }
+#journeyVeil { position:fixed; inset:0; z-index:90; background:#effff9; opacity:0; touch-action:none; }
+#journeyFx { position:fixed; inset:0; width:100vw; height:100dvh; z-index:80; pointer-events:none; }
+#journeyStatus { position:fixed; width:1px; height:1px; clip-path:inset(50%); overflow:hidden; }
+#startScreen.is-departing .hero-model canvas { animation:hero-teleport 1550ms ease-in forwards; }
+@keyframes hero-teleport { 0%,30%{opacity:1;filter:brightness(1);} 65%{opacity:.95;filter:brightness(2.4) drop-shadow(0 0 12px #a7fff0);transform:translateY(-7px);} 90%,100%{opacity:0;filter:brightness(4);transform:translateY(-32px) scale(.94,1.04);} }
+@media(max-width:1050px) and (min-aspect-ratio:1/1) {
+ #startScreen .stone-rail { padding-inline:16px; grid-template-columns:44px minmax(0,1fr); gap:6px; }
+ #startScreen .gender-picks { gap:6px; } #startScreen .gender-picks button { padding:6px 8px; font-size:15px; }
+ #startScreen .color-swatch { flex-basis:27px; width:27px; height:27px; }
+ #startScreen .journey-ledger { padding:35px 29px; }
+}
+@media(max-height:700px) and (min-aspect-ratio:1/1) {
+ #startScreen .start-layout { min-height:540px; }
+ #startScreen .start-world { top:3%; } #startScreen .start-world h1 { font-size:38px; }
+ #startScreen .start-view-title { margin-top:7px; font-size:14px; padding-block:7px; width:140px; }
+ #startScreen .platform-options { top:20%; gap:9px; }
+ #startScreen .stone-rail { min-height:48px; padding-block:7px; }
+ #startScreen .stone-action { min-height:60px; font-size:25px; padding-block:11px; margin-top:2px; }
+ #startScreen .platform-classes { top:76%; } #startScreen .class-emblem { width:90px; }
+ #startScreen .journey-ledger { top:16%; min-height:72%; padding-top:33px; }
+ #startScreen .journey-ledger .save-list { height:180px; }
+}
+@media(max-aspect-ratio:1/1) {
+ #startScreen:not(.is-cover) { place-items:start center; }
+ #startScreen:not(.is-cover) .start-scenery { position:absolute; background-position:36% top; background-size:auto 574px; background-color:#263f3a; }
+ #startScreen:not(.is-cover) .start-scenery:after { background:linear-gradient(transparent 350px,#263f3a 550px); }
+ #startScreen .start-layout { height:auto; min-height:100dvh; padding:28px 20px 70px; }
+ #startScreen .start-world { position:relative; inset:auto; text-align:center; }
+ #startScreen .start-world h1 { font-size:38px; } #startScreen .start-view-title { margin:10px auto 0; font-size:15px; }
+ #startScreen .hero-stage { position:relative; inset:auto; width:100%; height:340px; margin:0 auto; }
+ #startScreen .hero-stage canvas { max-width:none; }
+ #startScreen .platform-classes { position:relative; inset:auto; width:100%; max-width:450px; margin:-7px auto 26px; gap:8px; }
+ #startScreen .class-emblem { width:106px; } #startScreen .class-name { font-size:18px; }
+ #startScreen .platform-options { position:relative; inset:auto; width:100%; max-width:500px; margin:0 auto; gap:12px; }
+ #startScreen .stone-rail { min-height:68px; grid-template-columns:60px 1fr; padding:12px 23px; }
+ #startScreen .stone-rail label,#startScreen .rail-label { font-size:17px; }
+ #startScreen .stone-action { min-height:75px; font-size:29px; }
+ #startScreen .start-error { position:relative; inset:auto; width:min(500px,100%); margin:12px auto 0; }
+ #startScreen[data-view=load] .hero-stage { top:auto; height:320px; margin-bottom:70px; }
+ #startScreen .journey-identity { top:92%; }
+ #startScreen .journey-ledger { position:relative; inset:auto; width:100%; max-width:570px; margin:auto; min-height:490px; padding:40px 33px; }
+ #startScreen .journey-ledger .save-list { height:235px; }
+}
+@media(max-width:480px) {
+ #startScreen:not(.is-cover) .start-scenery { background-size:auto 520px; }
+ #startScreen:not(.is-cover) .start-scenery:after { background:linear-gradient(transparent 320px,#263f3a 500px); }
+ #startScreen .start-layout { padding-inline:15px; }
+ #startScreen .hero-stage { height:300px; }
+ #startScreen .class-emblem { width:90px; }
+ #startScreen .stone-rail { min-height:64px; padding-inline:18px; grid-template-columns:48px 1fr; gap:6px; }
+ #startScreen .stone-rail label,#startScreen .rail-label { font-size:16px; }
+ #startScreen .gender-picks button { font-size:15px; }
+ #startScreen .hair-selector { font-size:16px; }
+ #startScreen .color-swatches { gap:19px; }
+ #startScreen .color-swatch { flex-basis:30px; width:30px; height:30px; }
+ #startScreen .journey-ledger { padding:36px 26px; }
+}
+@media(prefers-reduced-motion:reduce) { #startScreen.is-departing .hero-model canvas { animation:none; } }

@@ -1,0 +1,9 @@
+/* Extend the existing material pouch without changing the game UI theme. */
+.panel .material-pouch { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px 10px; }
+.panel .material-pouch .material-entry { display:flex; align-items:center; gap:7px; min-width:0; }
+.panel .material-pouch .material-entry img { width:32px; height:32px; object-fit:contain; flex-shrink:0; }
+.panel .material-pouch .material-entry span { display:flex; flex-direction:column; gap:2px; font-size:11px; }
+.panel .material-pouch .boss-material { color:#725637; }
+.panel .forge-materials { grid-template-columns:repeat(7,minmax(0,1fr)); margin:0 0 16px; padding:8px 0 12px; border-top:0; border-bottom:1px solid #ae9462; }
+.panel .forge-materials .material-entry { flex-direction:column; align-items:center; text-align:center; }
+@media(max-width:800px){.panel .forge-materials{grid-template-columns:repeat(4,minmax(0,1fr));}.panel .material-pouch .material-entry img{width:26px;height:26px;}}

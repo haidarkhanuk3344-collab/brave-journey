@@ -1,0 +1,40 @@
+{
+  "asset": "assets/ui/v25/forest-props.webp",
+  "producer": "built-in image_gen.imagegen",
+  "intent": "original generation from style references",
+  "generationCount": 1,
+  "sourceGeneratedImage": "exec-f375d52a-6f5c-4d4b-bb14-23bab256c1cd.webp",
+  "sha256": "e8968f09c662879f06e704fbdb7bc70d59c626b925fe6b4dca19ce9985bd2f14",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "mode": "RGBA",
+  "promptFile": "assets/ui/v25/forest-props.prompt.txt",
+  "promptSha256": "93308e87f38d59c6098e00267f10ac54a199c83fae4534de480451fed0f77e62",
+  "referenceImages": [
+    {
+      "path": "assets/town_user.webp",
+      "role": "user-preserved town: detail, texture, palette reference",
+      "sha256": "4f5b8903a64d607501484a71623d3b941a8e588099867d5dc86a7ef0789a92e1"
+    },
+    {
+      "path": "assets/ui/v25/forest-backdrop.webp",
+      "role": "new original forest: material/palette cohesion",
+      "sha256": "d390fe2c237e7396687478c6d3ed4397cf4f28a1adbbe4b09e85903d27cd6d68"
+    }
+  ],
+  "provenanceEmbedded": "impeccable embed-prompt, exact prompt",
+  "scope": "Original replacement art. The inspected classic game was its training village; this does not claim a reverse-engineered original forest.",
+  "alphaValidation": {
+    "extrema": [
+      0,
+      254
+    ],
+    "fullyTransparentPixels": 669442,
+    "archHoleAlpha": 0,
+    "outsideGutterAlpha": 0,
+    "unchangedNativeAlpha": true,
+    "framesFile": "assets/ui/v25/forest-props.frames.json"
+  }
+}

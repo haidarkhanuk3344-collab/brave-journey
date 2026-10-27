@@ -1,0 +1,85 @@
+{
+  "source": "design-previews/hero-v35/town-residents.webp",
+  "residents": {
+    "blacksmith": {
+      "path": "blacksmith.webp",
+      "frames": [
+        [
+          0,
+          0,
+          387,
+          620
+        ]
+      ],
+      "anchor": [
+        193.5,
+        616
+      ],
+      "height": 96
+    },
+    "merchant": {
+      "path": "merchant.webp",
+      "frames": [
+        [
+          0,
+          0,
+          342,
+          606
+        ]
+      ],
+      "anchor": [
+        171,
+        602
+      ],
+      "height": 92
+    },
+    "bounty_keeper": {
+      "path": "bounty_keeper.webp",
+      "frames": [
+        [
+          0,
+          0,
+          280,
+          596
+        ]
+      ],
+      "anchor": [
+        140,
+        592
+      ],
+      "height": 90
+    },
+    "warehouse_keeper": {
+      "path": "warehouse_keeper.webp",
+      "frames": [
+        [
+          0,
+          0,
+          350,
+          590
+        ]
+      ],
+      "anchor": [
+        175,
+        586
+      ],
+      "height": 92
+    },
+    "guide": {
+      "path": "guide.webp",
+      "frames": [
+        [
+          0,
+          0,
+          335,
+          596
+        ]
+      ],
+      "anchor": [
+        167.5,
+        592
+      ],
+      "height": 94
+    }
+  }
+}

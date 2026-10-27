@@ -1,0 +1,370 @@
+{
+  "icons": [
+    {
+      "id": "gold",
+      "path": "icons/items/gold.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "hp_potion",
+      "path": "icons/items/hp_potion.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "mp_potion",
+      "path": "icons/items/mp_potion.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "material_basic",
+      "path": "icons/items/material_basic.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "material_tiers_suggestion"
+    },
+    {
+      "id": "material_mid",
+      "path": "icons/items/material_mid.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "material_tiers_suggestion"
+    },
+    {
+      "id": "material_high",
+      "path": "icons/items/material_high.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "material_tiers_suggestion"
+    },
+    {
+      "id": "bounty",
+      "path": "icons/items/bounty.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "lock",
+      "path": "icons/items/lock.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "unlock",
+      "path": "icons/items/unlock.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "enhance",
+      "path": "icons/items/enhance.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "sell",
+      "path": "icons/items/sell.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "recycle",
+      "path": "icons/items/recycle.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "warrior_skill_01",
+      "path": "icons/skills/warrior_skill_01.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "warrior_skill_02",
+      "path": "icons/skills/warrior_skill_02.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "warrior_skill_03",
+      "path": "icons/skills/warrior_skill_03.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "archer_skill_01",
+      "path": "icons/skills/archer_skill_01.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "archer_skill_02",
+      "path": "icons/skills/archer_skill_02.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "archer_skill_03",
+      "path": "icons/skills/archer_skill_03.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "mage_skill_01",
+      "path": "icons/skills/mage_skill_01.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "mage_skill_02",
+      "path": "icons/skills/mage_skill_02.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "mage_skill_03",
+      "path": "icons/skills/mage_skill_03.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "skill_placeholder_design"
+    },
+    {
+      "id": "heart",
+      "path": "icons/items/heart.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "mana",
+      "path": "icons/items/mana.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "experience",
+      "path": "icons/items/experience.webp",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "ready_for_art_review"
+    },
+    {
+      "id": "tunic",
+      "path": "icons/equipment/tunic.webp",
+      "wearable_path": "equipment/clothes/tunic/tunic.webp",
+      "wearable_id": "tunic",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "robe",
+      "path": "icons/equipment/robe.webp",
+      "wearable_path": "equipment/clothes/robe/robe.webp",
+      "wearable_id": "robe",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "armor",
+      "path": "icons/equipment/armor.webp",
+      "wearable_path": "equipment/clothes/armor/armor.webp",
+      "wearable_id": "armor",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "helmet_steel",
+      "path": "icons/equipment/helmet_steel.webp",
+      "wearable_path": "equipment/helmets/helmet_steel/helmet_steel.webp",
+      "wearable_id": "helmet_steel",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "helmet_leather",
+      "path": "icons/equipment/helmet_leather.webp",
+      "wearable_path": "equipment/helmets/helmet_leather/helmet_leather.webp",
+      "wearable_id": "helmet_leather",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "sword_1",
+      "path": "icons/equipment/sword_1.webp",
+      "wearable_path": "equipment/swords/sword_1/sword_1.webp",
+      "wearable_id": "sword_1",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "sword_0",
+      "path": "icons/equipment/sword_0.webp",
+      "wearable_path": "equipment/swords/sword_0/sword_0.webp",
+      "wearable_id": "sword_0",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "bow_0",
+      "path": "icons/equipment/bow_0.webp",
+      "wearable_path": "equipment/bows/bow_0/bow_0.webp",
+      "wearable_id": "bow_0",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "bow_1",
+      "path": "icons/equipment/bow_1.webp",
+      "wearable_path": "equipment/bows/bow_1/bow_1.webp",
+      "wearable_id": "bow_1",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "staff_0",
+      "path": "icons/equipment/staff_0.webp",
+      "wearable_path": "equipment/staffs/staff_0/staff_0.webp",
+      "wearable_id": "staff_0",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    },
+    {
+      "id": "staff_1",
+      "path": "icons/equipment/staff_1.webp",
+      "wearable_path": "equipment/staffs/staff_1/staff_1.webp",
+      "wearable_id": "staff_1",
+      "canvas": [
+        64,
+        64
+      ],
+      "status": "matches_actual_wearable"
+    }
+  ],
+  "quality_palette_suggestion": {
+    "common": [
+      155,
+      162,
+      165
+    ],
+    "uncommon": [
+      82,
+      164,
+      102
+    ],
+    "rare": [
+      73,
+      133,
+      209
+    ],
+    "epic": [
+      163,
+      94,
+      201
+    ],
+    "legendary": [
+      227,
+      173,
+      64
+    ]
+  },
+  "material_tiers": "3 visual suggestions; actual tier count TBD",
+  "skills": "9 reserved visual designs; names/effects/count TBD"
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>勇者旅途 · 单机横版冒险</title><link rel="stylesheet" href="style.css?v=9"><link rel="stylesheet" href="interface-v9.css?v=15"><link rel="stylesheet" href="interface-v24.css?v=24"><link rel="stylesheet" href="interface-v25.css?v=41"><link rel="stylesheet" href="start-cover-v26.css?v=26"><link rel="stylesheet" href="start-cover-v27.css?v=27"><link rel="stylesheet" href="start-platform-v28.css?v=29"><link rel="stylesheet" href="town-npcs.css?v=35"><link rel="stylesheet" href="source-world.css?v=37"><link rel="stylesheet" href="items-v38.css?v=38">
+</head>
+<body>
+<main class="game-frame">
+ <header class="topbar"><div class="brand"><div><strong>勇者旅途</strong></div></div><div class="top-tools"><span id="saveStatus" role="status">本地存档</span><button data-action="save">保存</button><button data-action="characters">开始界面</button><button data-action="practice">练习</button><button data-action="sound" id="soundToggle" aria-pressed="true">音效 开</button><button data-action="help">按键</button><button data-action="fullscreen" aria-label="全屏">⛶</button></div></header>
+ <section class="stage" id="stage"><canvas id="game" width="1280" height="720" tabindex="0" aria-label="横版冒险游戏：AD移动，K跳跃，J攻击，双击A或D冲刺"></canvas>
+  <div id="hud" class="hud"><div class="hud-portrait"><canvas id="hudPortrait" width="96" height="104"></canvas></div><div class="hud-vitals"><div class="hero-line"><span id="heroName"></span><span id="heroLevel"></span></div><div class="bar hp"><i id="hpFill"></i><span id="hpText"></span></div><div class="bar mp"><i id="mpFill"></i><span id="mpText"></span></div><div class="bar xp"><i id="xpFill"></i></div><div class="currencies"><span>金币 <b id="goldText"></b></span><span id="pointsText"></span></div></div></div>
+  <div class="location"><span id="areaName">青岚镇</span><small id="areaGoal">准备装备，启程冒险</small></div>
+  <div class="stage-tools"><button data-action="map">关卡 M</button><button data-action="inventory">背包 B</button><button data-action="skills">技能 I</button><button data-action="town">回城 T</button></div>
+  <div id="bossBar" class="boss-bar" hidden><strong id="bossName"></strong><div><i id="bossFill"></i></div></div>
+  <div id="interaction" class="interaction" hidden></div><div id="toasts" class="toasts" aria-live="polite"></div>
+  <div id="dock" class="dock"><button class="action-slot" data-action="attack"><kbd>J</kbd><img id="attackIcon" src="assets/icons/equipment/sword_0.webp" alt=""><span>普通攻击</span></button><div id="skillSlots" class="skill-slots"></div><button class="action-slot potion" data-action="hp"><kbd>1</kbd><img src="assets/icons/items/hp_potion.webp" alt=""><span id="hpCount"></span></button><button class="action-slot potion" data-action="mp"><kbd>2</kbd><img src="assets/icons/items/mp_potion.webp" alt=""><span id="mpCount"></span></button></div>
+  <div id="loading" class="loading"><span class="loader"></span><strong>正在准备冒险</strong><small>读取人物与地图素材…</small></div>
+ </section>
+ <footer hidden><span></span><span id="footerNote"></span></footer>
+</main>
+<section id="startScreen" class="start-screen" aria-label="开始游戏" hidden>
+ <div class="start-scenery" aria-hidden="true"></div>
+ <div id="startCover" class="journey-cover">
+  <div class="cover-heading"><span class="cover-crest" aria-hidden="true">✦</span><h1 aria-label="勇者旅途"><span>勇者</span><span>旅途</span></h1></div>
+  <nav class="cover-actions" aria-label="开始旅途"><button id="coverNew"><span>新的开始</span><i aria-hidden="true">➜</i></button><button id="coverLoad"><span>读档</span><i aria-hidden="true">➜</i></button></nav>
+ </div>
+ <div id="startDetails" class="start-layout" hidden>
+  <div class="start-world"><h1>勇者旅途</h1><span id="startViewTitle" class="start-view-title"></span></div>
+  <div class="start-book">
+   <div id="startBody" class="start-body"></div>
+   <div id="startError" class="start-error" role="alert" hidden></div>
+
+  </div>
+ </div>
+ <button id="returnGame" class="return-game" hidden>返回游戏</button>
+</section>
+<canvas id="journeyFx" aria-hidden="true" hidden></canvas>
+<div id="journeyVeil" aria-hidden="true" hidden></div>
+<div id="journeyStatus" role="status" aria-live="polite"></div>
+<input id="importSave" type="file" accept=".json" hidden>
+<div id="modal" class="modal" hidden><div class="modal-shade"></div><section class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle"><header class="panel-header"><div><h1 id="panelTitle"></h1></div><button id="closePanel" aria-label="关闭窗口">×</button></header><div id="panelBody" class="panel-body"></div></section></div>
+<script src="asset-data.js"></script><script src="source-world-data.js?v=37"></script>
+<script src="woodland-routes.js?v=45"></script>
+<script src="woodland-world.js?v=45"></script>
+<script src="source-world.js?v=45"></script>
+<script src="source-enemy-art.js?v=37"></script>
+<script src="source-effect-art.js?v=37"></script>
+<script src="woodland-enemies.js?v=43"></script>
+<script src="source-enemies.js?v=43"></script>
+<script src="material-economy.js?v=38"></script><script src="rules.js?v=40"></script><script src="save-system.js?v=39"></script><script src="player-controls.js?v=37"></script><script src="level-layout.js?v=37"></script><script src="forest-renderer.js?v=25"></script><script src="encounter-waves.js?v=37"></script><script src="vendor/combat-vector.js?v=12"></script><script src="vendor/camera-damping.js?v=12"></script><script src="skill-combat.js?v=40"></script><script src="skill-effects.js?v=41"></script><script src="combat-feel.js?v=40"></script><script src="combat-space.js?v=37"></script><script src="game-sound.js?v=12"></script><script src="equipment-visuals.js?v=38"></script><script src="outfit-motion.js?v=30"></script><script src="hand-grip.js?v=23"></script><script src="wholeframe-character.js?v=39"></script><script src="fullframe-motion.js?v=36"></script><script src="character-motion.js?v=36"></script><script src="game-ui.js?v=25"></script><script src="start-journey.js?v=28"></script><script src="start-menu-v28.js?v=37"></script><script src="enemy-combat.js?v=14"></script><script src="enemy-visuals.js?v=15"></script><script src="enemy-effects.js?v=14"></script><script src="town-npcs.js?v=35"></script><script src="mage-orb-effects.js?v=40"></script><script src="game.js?v=45"></script>
+</body></html>

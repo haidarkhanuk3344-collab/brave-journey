@@ -1,0 +1,105 @@
+{
+  "version": 40,
+  "source": "source/components-original.webp",
+  "generator": "builtin image_gen",
+  "calls": 1,
+  "tailLengthMultiplier": 0.7,
+  "records": {
+    "soft-core": {
+      "file": "soft-core.webp",
+      "rect": [
+        0,
+        0,
+        430,
+        530
+      ],
+      "visible": [
+        97,
+        147,
+        289,
+        290
+      ],
+      "edgeMax": 1
+    },
+    "soft-tail": {
+      "file": "soft-tail.webp",
+      "rect": [
+        430,
+        0,
+        585,
+        530
+      ],
+      "visible": [
+        21,
+        184,
+        540,
+        238
+      ],
+      "edgeMax": 1
+    },
+    "soft-impact": {
+      "file": "soft-impact.webp",
+      "rect": [
+        1015,
+        0,
+        521,
+        530
+      ],
+      "visible": [
+        17,
+        72,
+        478,
+        423
+      ],
+      "edgeMax": 2
+    },
+    "frost-core": {
+      "file": "frost-core.webp",
+      "rect": [
+        0,
+        530,
+        430,
+        494
+      ],
+      "visible": [
+        79,
+        66,
+        316,
+        303
+      ],
+      "edgeMax": 1
+    },
+    "frost-tail": {
+      "file": "frost-tail.webp",
+      "rect": [
+        430,
+        530,
+        585,
+        494
+      ],
+      "visible": [
+        39,
+        116,
+        521,
+        201
+      ],
+      "edgeMax": 1
+    },
+    "frost-impact": {
+      "file": "frost-impact.webp",
+      "rect": [
+        1015,
+        530,
+        521,
+        494
+      ],
+      "visible": [
+        12,
+        13,
+        492,
+        414
+      ],
+      "edgeMax": 2
+    }
+  }
+}

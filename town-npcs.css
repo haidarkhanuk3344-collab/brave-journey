@@ -1,0 +1,6 @@
+.panel[data-kind="npc"] { width:min(660px,92vw); }
+.npc-conversation { display:grid;grid-template-columns:160px minmax(0,1fr);gap:24px;align-items:center;padding:16px 8px 8px; }
+.npc-conversation img { display:block;width:150px;height:210px;object-fit:contain;filter:drop-shadow(0 7px 5px #071f2433); }
+.npc-conversation p { font-size:17px;line-height:1.8;margin:0 0 24px;color:var(--ink,#30483f); }
+.npc-conversation .panel-actions { flex-wrap:wrap;gap:12px; }
+@media(max-width:560px) { .npc-conversation{grid-template-columns:100px minmax(0,1fr);gap:12px}.npc-conversation img{width:100px;height:160px}.npc-conversation p{font-size:15px} }

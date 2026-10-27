@@ -1,0 +1,47 @@
+/* Mountain stone: transparent painted plaque matches the illustrated world. */
+#startScreen .cover-heading h1 {
+ transform:rotate(-4deg) scale(.8);
+ transform-origin:50% 0;
+ color:#ecf0db;
+ -webkit-text-stroke:2px #3c5a51;
+ text-shadow:0 2px 0 #819e8b,0 5px 0 #29463e,0 8px 12px #143c345c;
+}
+#startScreen .cover-actions { transform:scale(.8); transform-origin:50% 0; }
+#startScreen .cover-actions button,
+#startScreen .cover-actions #coverLoad {
+ border:0;
+ border-radius:0;
+ outline:0;
+ padding:12px 34px;
+ color:#f0edda;
+ background:transparent url('assets/ui/v27/stone-button.webp') center / 100% 135% no-repeat;
+ box-shadow:none;
+ filter:drop-shadow(0 4px 3px #112d2c70);
+ text-shadow:0 -1px 1px #142b30,0 1px 0 #8eaaa078,0 2px 2px #0e2529;
+}
+#startScreen .cover-actions button:before,
+#startScreen .cover-actions button:after,
+#startScreen .cover-actions i { display:none; }
+#startScreen .cover-actions button:hover,
+#startScreen .cover-actions #coverLoad:hover {
+ color:#fff8df;
+ background:transparent url('assets/ui/v27/stone-button.webp') center / 100% 135% no-repeat;
+ border:0;
+ box-shadow:none;
+ filter:brightness(1.14) drop-shadow(0 4px 3px #112d2c70);
+}
+#startScreen .cover-actions button:active,
+#startScreen .cover-actions #coverLoad:active {
+ transform:translateY(2px);
+ background:transparent url('assets/ui/v27/stone-button.webp') center / 100% 135% no-repeat;
+ box-shadow:none;
+ filter:brightness(.94) drop-shadow(0 1px 1px #112d2c70);
+}
+#startScreen .cover-actions button:focus-visible {
+ outline:2px solid #e7f3d8;
+ outline-offset:4px;
+ border-radius:5px;
+}
+@media(max-aspect-ratio:1/1) {
+ #startScreen .cover-actions { transform:translateX(-50%) scale(.8); }
+}

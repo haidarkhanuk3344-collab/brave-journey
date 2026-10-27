@@ -1,0 +1,35 @@
+{
+  "asset": "forest-props.webp",
+  "tool": "built-in image_gen.imagegen",
+  "original_path": "exec-bdc4434b-f4a1-4b03-94af-e039b36267c9.webp",
+  "initial_generation_path": "exec-ebfce519-35af-4e7e-8661-71de688e5929.webp",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "mode": "RGBA",
+  "saved_at_utc": "2026-10-14T04:11:44Z",
+  "saved_at_asia_shanghai": "2026-10-14T12:11:44+08:00",
+  "prompt_files": [
+    "forest-props.prompt.txt",
+    "forest-props.correction.prompt.txt"
+  ],
+  "crop_frames_file": "forest-props.frames.json",
+  "qa": {
+    "no_text_or_ui": true,
+    "six_props_present": true,
+    "alpha_range": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 1021266,
+    "total_pixels": 1572864,
+    "fixed_512_cell_grid": false,
+    "requested_baselines_y440_y952": false,
+    "actual_baselines": [
+      542,
+      971
+    ],
+    "note": "Generator did not obey exact grid after one correction. Explicit sprite crop coordinates preserve whole props. Some faint alpha pixels extend beyond silhouettes; do not use whole atlas as a background."
+  }
+}

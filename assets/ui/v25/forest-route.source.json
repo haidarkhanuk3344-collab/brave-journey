@@ -1,0 +1,34 @@
+{
+  "asset": "assets/ui/v25/forest-route.webp",
+  "producer": "built-in image_gen.imagegen",
+  "intent": "style-transfer of user-owned map",
+  "generationCount": 1,
+  "sourceGeneratedImage": "exec-1d2cbc3a-3714-416c-b2b8-d903d2050aee.webp",
+  "sha256": "9891330d5043907fcd8b5f0693fd66ea34e2887295c365ce69d5aaa9590f3134",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "mode": "RGB",
+  "promptFile": "assets/ui/v25/forest-route.prompt.txt",
+  "promptSha256": "bdaba1b2a320feac27a1c1859fa572651680dc6938158a0e669fc9b2e47cc8f1",
+  "referenceImages": [
+    {
+      "path": "assets/ui/v24/forest-route.webp",
+      "role": "user-owned original edit target: exact geography and layout authority",
+      "sha256": "e7f8e259e83efdf8b0d18faf1f4f346ca5aae07449c913981fcd0abb6a6fb523"
+    },
+    {
+      "path": "assets/town_user.webp",
+      "role": "user-preserved town: detail, texture, palette reference",
+      "sha256": "4f5b8903a64d607501484a71623d3b941a8e588099867d5dc86a7ef0789a92e1"
+    },
+    {
+      "path": "assets/ui/v25/forest-backdrop.webp",
+      "role": "new original forest: material/palette cohesion",
+      "sha256": "d390fe2c237e7396687478c6d3ed4397cf4f28a1adbbe4b09e85903d27cd6d68"
+    }
+  ],
+  "provenanceEmbedded": "impeccable embed-prompt, exact prompt",
+  "scope": "Original replacement art. The inspected classic game was its training village; this does not claim a reverse-engineered original forest."
+}

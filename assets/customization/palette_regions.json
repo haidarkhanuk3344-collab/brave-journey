@@ -1,0 +1,74 @@
+{
+  "masks": [
+    {
+      "part": "head",
+      "mask": "customization/color_masks/head_mask.webp",
+      "region": "skin"
+    },
+    {
+      "part": "upper_arm",
+      "mask": "customization/color_masks/upper_arm_mask.webp",
+      "region": "skin"
+    },
+    {
+      "part": "forearm",
+      "mask": "customization/color_masks/forearm_mask.webp",
+      "region": "skin"
+    },
+    {
+      "part": "thigh",
+      "mask": "customization/color_masks/thigh_mask.webp",
+      "region": "skin"
+    },
+    {
+      "part": "hair_short",
+      "mask": "customization/color_masks/hair_short_mask.webp",
+      "region": "hair"
+    },
+    {
+      "part": "hair_pony",
+      "mask": "customization/color_masks/hair_pony_mask.webp",
+      "region": "hair"
+    },
+    {
+      "part": "hair_bob",
+      "mask": "customization/color_masks/hair_bob_mask.webp",
+      "region": "hair"
+    }
+  ],
+  "skin_targets": {
+    "peach": [
+      245,
+      180,
+      137
+    ],
+    "tan": [
+      192,
+      127,
+      87
+    ],
+    "deep": [
+      133,
+      82,
+      58
+    ]
+  },
+  "hair_targets": {
+    "brown": [
+      110,
+      68,
+      44
+    ],
+    "gold": [
+      194,
+      154,
+      65
+    ],
+    "violet": [
+      126,
+      67,
+      158
+    ]
+  },
+  "note": "Precolored full layer sheets are final playable layers. These masks refer to local editable source parts; not whole-character hue shifts."
+}

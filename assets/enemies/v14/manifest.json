@@ -1,0 +1,292 @@
+{
+  "version": 14,
+  "cell": [
+    256,
+    256
+  ],
+  "pivot": [
+    128,
+    232
+  ],
+  "frames": [
+    "idle",
+    "move",
+    "windup",
+    "strike"
+  ],
+  "types": {
+    "slime": {
+      "path": "slime.webp",
+      "nativeHeight": 177,
+      "nativeWidth": 182,
+      "metadata": [
+        {
+          "bounds": [
+            40,
+            55,
+            222,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            48,
+            43,
+            230,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            15,
+            74,
+            225,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            10,
+            71,
+            228,
+            232
+          ]
+        }
+      ]
+    },
+    "wolf": {
+      "path": "wolf.webp",
+      "nativeHeight": 111,
+      "nativeWidth": 108,
+      "metadata": [
+        {
+          "bounds": [
+            71,
+            121,
+            179,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            69,
+            121,
+            180,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            69,
+            127,
+            188,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            105,
+            115,
+            246,
+            232
+          ]
+        }
+      ]
+    },
+    "goblin": {
+      "path": "goblin.webp",
+      "nativeHeight": 144,
+      "nativeWidth": 159,
+      "metadata": [
+        {
+          "bounds": [
+            56,
+            88,
+            215,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            43,
+            97,
+            219,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            71,
+            97,
+            246,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            72,
+            98,
+            216,
+            232
+          ]
+        }
+      ]
+    },
+    "boar": {
+      "path": "boar.webp",
+      "nativeHeight": 138,
+      "nativeWidth": 173,
+      "metadata": [
+        {
+          "bounds": [
+            59,
+            94,
+            232,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            64,
+            91,
+            236,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            34,
+            100,
+            213,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            10,
+            95,
+            206,
+            232
+          ]
+        }
+      ]
+    },
+    "stone_chief": {
+      "path": "stone_chief.webp",
+      "nativeHeight": 165,
+      "nativeWidth": 161,
+      "metadata": [
+        {
+          "bounds": [
+            63,
+            67,
+            224,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            50,
+            66,
+            216,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            22,
+            43,
+            193,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            10,
+            62,
+            191,
+            232
+          ]
+        }
+      ]
+    },
+    "vine_guard": {
+      "path": "vine_guard.webp",
+      "nativeHeight": 168,
+      "nativeWidth": 156,
+      "metadata": [
+        {
+          "bounds": [
+            59,
+            64,
+            215,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            63,
+            69,
+            226,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            51,
+            64,
+            229,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            10,
+            81,
+            205,
+            232
+          ]
+        }
+      ]
+    },
+    "ancient_tree": {
+      "path": "ancient_tree.webp",
+      "nativeHeight": 184,
+      "nativeWidth": 159,
+      "metadata": [
+        {
+          "bounds": [
+            62,
+            48,
+            221,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            74,
+            50,
+            228,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            67,
+            18,
+            213,
+            232
+          ]
+        },
+        {
+          "bounds": [
+            21,
+            49,
+            188,
+            232
+          ]
+        }
+      ]
+    }
+  }
+}

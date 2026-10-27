@@ -1,0 +1,763 @@
+{
+  "effects": [
+    {
+      "id": "sword_slash",
+      "frames": [
+        "effects/sword_slash/sword_slash_01.webp",
+        "effects/sword_slash/sword_slash_02.webp",
+        "effects/sword_slash/sword_slash_03.webp",
+        "effects/sword_slash/sword_slash_04.webp",
+        "effects/sword_slash/sword_slash_05.webp",
+        "effects/sword_slash/sword_slash_06.webp",
+        "effects/sword_slash/sword_slash_07.webp",
+        "effects/sword_slash/sword_slash_08.webp"
+      ],
+      "sheet": "effects/sword_slash/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "sword_impact",
+      "frames": [
+        "effects/sword_impact/sword_impact_01.webp",
+        "effects/sword_impact/sword_impact_02.webp",
+        "effects/sword_impact/sword_impact_03.webp",
+        "effects/sword_impact/sword_impact_04.webp",
+        "effects/sword_impact/sword_impact_05.webp",
+        "effects/sword_impact/sword_impact_06.webp",
+        "effects/sword_impact/sword_impact_07.webp",
+        "effects/sword_impact/sword_impact_08.webp"
+      ],
+      "sheet": "effects/sword_impact/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "arrow_projectile",
+      "frames": [
+        "effects/arrow_projectile/arrow_projectile_01.webp",
+        "effects/arrow_projectile/arrow_projectile_02.webp",
+        "effects/arrow_projectile/arrow_projectile_03.webp",
+        "effects/arrow_projectile/arrow_projectile_04.webp"
+      ],
+      "sheet": "effects/arrow_projectile/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 4,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "projectile",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "arrow_impact",
+      "frames": [
+        "effects/arrow_impact/arrow_impact_01.webp",
+        "effects/arrow_impact/arrow_impact_02.webp",
+        "effects/arrow_impact/arrow_impact_03.webp",
+        "effects/arrow_impact/arrow_impact_04.webp",
+        "effects/arrow_impact/arrow_impact_05.webp",
+        "effects/arrow_impact/arrow_impact_06.webp",
+        "effects/arrow_impact/arrow_impact_07.webp",
+        "effects/arrow_impact/arrow_impact_08.webp"
+      ],
+      "sheet": "effects/arrow_impact/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "magic_projectile",
+      "frames": [
+        "effects/magic_projectile/magic_projectile_01.webp",
+        "effects/magic_projectile/magic_projectile_02.webp",
+        "effects/magic_projectile/magic_projectile_03.webp",
+        "effects/magic_projectile/magic_projectile_04.webp",
+        "effects/magic_projectile/magic_projectile_05.webp",
+        "effects/magic_projectile/magic_projectile_06.webp",
+        "effects/magic_projectile/magic_projectile_07.webp",
+        "effects/magic_projectile/magic_projectile_08.webp"
+      ],
+      "sheet": "effects/magic_projectile/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "projectile",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "magic_impact",
+      "frames": [
+        "effects/magic_impact/magic_impact_01.webp",
+        "effects/magic_impact/magic_impact_02.webp",
+        "effects/magic_impact/magic_impact_03.webp",
+        "effects/magic_impact/magic_impact_04.webp",
+        "effects/magic_impact/magic_impact_05.webp",
+        "effects/magic_impact/magic_impact_06.webp",
+        "effects/magic_impact/magic_impact_07.webp",
+        "effects/magic_impact/magic_impact_08.webp"
+      ],
+      "sheet": "effects/magic_impact/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "hit_flash",
+      "frames": [
+        "effects/hit_flash/hit_flash_01.webp",
+        "effects/hit_flash/hit_flash_02.webp",
+        "effects/hit_flash/hit_flash_03.webp",
+        "effects/hit_flash/hit_flash_04.webp",
+        "effects/hit_flash/hit_flash_05.webp",
+        "effects/hit_flash/hit_flash_06.webp",
+        "effects/hit_flash/hit_flash_07.webp",
+        "effects/hit_flash/hit_flash_08.webp"
+      ],
+      "sheet": "effects/hit_flash/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "pickup",
+      "frames": [
+        "effects/pickup/pickup_01.webp",
+        "effects/pickup/pickup_02.webp",
+        "effects/pickup/pickup_03.webp",
+        "effects/pickup/pickup_04.webp",
+        "effects/pickup/pickup_05.webp",
+        "effects/pickup/pickup_06.webp",
+        "effects/pickup/pickup_07.webp",
+        "effects/pickup/pickup_08.webp"
+      ],
+      "sheet": "effects/pickup/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "level_up",
+      "frames": [
+        "effects/level_up/level_up_01.webp",
+        "effects/level_up/level_up_02.webp",
+        "effects/level_up/level_up_03.webp",
+        "effects/level_up/level_up_04.webp",
+        "effects/level_up/level_up_05.webp",
+        "effects/level_up/level_up_06.webp",
+        "effects/level_up/level_up_07.webp",
+        "effects/level_up/level_up_08.webp"
+      ],
+      "sheet": "effects/level_up/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "enhance_success",
+      "frames": [
+        "effects/enhance_success/enhance_success_01.webp",
+        "effects/enhance_success/enhance_success_02.webp",
+        "effects/enhance_success/enhance_success_03.webp",
+        "effects/enhance_success/enhance_success_04.webp",
+        "effects/enhance_success/enhance_success_05.webp",
+        "effects/enhance_success/enhance_success_06.webp",
+        "effects/enhance_success/enhance_success_07.webp",
+        "effects/enhance_success/enhance_success_08.webp"
+      ],
+      "sheet": "effects/enhance_success/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "recast_complete",
+      "frames": [
+        "effects/recast_complete/recast_complete_01.webp",
+        "effects/recast_complete/recast_complete_02.webp",
+        "effects/recast_complete/recast_complete_03.webp",
+        "effects/recast_complete/recast_complete_04.webp",
+        "effects/recast_complete/recast_complete_05.webp",
+        "effects/recast_complete/recast_complete_06.webp",
+        "effects/recast_complete/recast_complete_07.webp",
+        "effects/recast_complete/recast_complete_08.webp"
+      ],
+      "sheet": "effects/recast_complete/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "warning_area",
+      "frames": [
+        "effects/warning_area/warning_area_01.webp",
+        "effects/warning_area/warning_area_02.webp",
+        "effects/warning_area/warning_area_03.webp",
+        "effects/warning_area/warning_area_04.webp",
+        "effects/warning_area/warning_area_05.webp",
+        "effects/warning_area/warning_area_06.webp",
+        "effects/warning_area/warning_area_07.webp",
+        "effects/warning_area/warning_area_08.webp"
+      ],
+      "sheet": "effects/warning_area/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        140
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "persistent_area",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "root_area",
+      "frames": [
+        "effects/root_area/root_area_01.webp",
+        "effects/root_area/root_area_02.webp",
+        "effects/root_area/root_area_03.webp",
+        "effects/root_area/root_area_04.webp",
+        "effects/root_area/root_area_05.webp",
+        "effects/root_area/root_area_06.webp",
+        "effects/root_area/root_area_07.webp",
+        "effects/root_area/root_area_08.webp"
+      ],
+      "sheet": "effects/root_area/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        140
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "persistent_area",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "stone_projectile",
+      "frames": [
+        "effects/stone_projectile/stone_projectile_01.webp",
+        "effects/stone_projectile/stone_projectile_02.webp",
+        "effects/stone_projectile/stone_projectile_03.webp",
+        "effects/stone_projectile/stone_projectile_04.webp"
+      ],
+      "sheet": "effects/stone_projectile/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 4,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "projectile",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "boulder_projectile",
+      "frames": [
+        "effects/boulder_projectile/boulder_projectile_01.webp",
+        "effects/boulder_projectile/boulder_projectile_02.webp",
+        "effects/boulder_projectile/boulder_projectile_03.webp",
+        "effects/boulder_projectile/boulder_projectile_04.webp"
+      ],
+      "sheet": "effects/boulder_projectile/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 4,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "projectile",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "slam_wave",
+      "frames": [
+        "effects/slam_wave/slam_wave_01.webp",
+        "effects/slam_wave/slam_wave_02.webp",
+        "effects/slam_wave/slam_wave_03.webp",
+        "effects/slam_wave/slam_wave_04.webp",
+        "effects/slam_wave/slam_wave_05.webp",
+        "effects/slam_wave/slam_wave_06.webp",
+        "effects/slam_wave/slam_wave_07.webp",
+        "effects/slam_wave/slam_wave_08.webp"
+      ],
+      "sheet": "effects/slam_wave/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        140
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "preview_provisional",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "mage_control",
+      "frames": [
+        "effects/mage_control/mage_control_01.webp",
+        "effects/mage_control/mage_control_02.webp",
+        "effects/mage_control/mage_control_03.webp",
+        "effects/mage_control/mage_control_04.webp",
+        "effects/mage_control/mage_control_05.webp",
+        "effects/mage_control/mage_control_06.webp",
+        "effects/mage_control/mage_control_07.webp",
+        "effects/mage_control/mage_control_08.webp"
+      ],
+      "sheet": "effects/mage_control/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "role": "persistent_area",
+      "design_status": "skill_visual_placeholder",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "warrior_skill",
+      "frames": [
+        "effects/warrior_skill/warrior_skill_01.webp",
+        "effects/warrior_skill/warrior_skill_02.webp",
+        "effects/warrior_skill/warrior_skill_03.webp",
+        "effects/warrior_skill/warrior_skill_04.webp",
+        "effects/warrior_skill/warrior_skill_05.webp",
+        "effects/warrior_skill/warrior_skill_06.webp",
+        "effects/warrior_skill/warrior_skill_07.webp",
+        "effects/warrior_skill/warrior_skill_08.webp"
+      ],
+      "sheet": "effects/warrior_skill/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "skill_visual_placeholder",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "archer_skill",
+      "frames": [
+        "effects/archer_skill/archer_skill_01.webp",
+        "effects/archer_skill/archer_skill_02.webp",
+        "effects/archer_skill/archer_skill_03.webp",
+        "effects/archer_skill/archer_skill_04.webp",
+        "effects/archer_skill/archer_skill_05.webp",
+        "effects/archer_skill/archer_skill_06.webp",
+        "effects/archer_skill/archer_skill_07.webp",
+        "effects/archer_skill/archer_skill_08.webp"
+      ],
+      "sheet": "effects/archer_skill/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "skill_visual_placeholder",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    },
+    {
+      "id": "mage_skill",
+      "frames": [
+        "effects/mage_skill/mage_skill_01.webp",
+        "effects/mage_skill/mage_skill_02.webp",
+        "effects/mage_skill/mage_skill_03.webp",
+        "effects/mage_skill/mage_skill_04.webp",
+        "effects/mage_skill/mage_skill_05.webp",
+        "effects/mage_skill/mage_skill_06.webp",
+        "effects/mage_skill/mage_skill_07.webp",
+        "effects/mage_skill/mage_skill_08.webp"
+      ],
+      "sheet": "effects/mage_skill/sheet.webp",
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frame_count": 8,
+      "sheet_columns": 8,
+      "durations_ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "role": "feedback",
+      "design_status": "skill_visual_placeholder",
+      "method": "Deterministically authored pixel VFX; transparent standalone frames",
+      "damage_radius_duration": "TBD"
+    }
+  ],
+  "no_slow_affix": true,
+  "control_note": "mage_control is a class effect suggestion; equipment hit-slow not added",
+  "warning_visibility": "Warnings are independent below characters and foreground VFX"
+}

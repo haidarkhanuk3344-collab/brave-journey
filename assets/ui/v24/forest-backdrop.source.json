@@ -1,0 +1,24 @@
+{
+  "asset": "forest-backdrop.webp",
+  "tool": "built-in image_gen.imagegen",
+  "original_path": "exec-dfa62ee8-c60c-441a-9fa3-0f3af3cd7e06.webp",
+  "initial_generation_path": "exec-732c18a3-3048-490e-8984-d52a14de1958.webp",
+  "dimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "alpha": false,
+  "saved_at_utc": "2026-10-14T04:08:40Z",
+  "saved_at_asia_shanghai": "2026-10-14T12:08:40+08:00",
+  "prompt_files": [
+    "forest-backdrop.prompt.txt",
+    "forest-backdrop.correction.prompt.txt"
+  ],
+  "qa": {
+    "no_text_or_ui": true,
+    "no_characters": true,
+    "no_walkable_ground": true,
+    "style": "simplified clean 2D cartoon, corrected once",
+    "tiling": "edges have comparable foliage colors but are not guaranteed seamless"
+  }
+}

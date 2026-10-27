@@ -1,0 +1,708 @@
+{
+  "version": 38,
+  "items": [
+    {
+      "id": "starter_sword",
+      "name": "训练铁剑",
+      "path": "items/v38/starter_sword.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        49,
+        68,
+        285,
+        235
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "starter_bow",
+      "name": "林木短弓",
+      "path": "items/v38/starter_bow.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        366,
+        31,
+        250,
+        283
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "starter_staff",
+      "name": "学徒木杖",
+      "path": "items/v38/starter_staff.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        703,
+        32,
+        212,
+        281
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "starter_clothes",
+      "name": "初行布衣",
+      "path": "items/v38/starter_clothes.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        981,
+        61,
+        284,
+        237
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "starter_helmet",
+      "name": "旅行布帽",
+      "path": "items/v38/starter_helmet.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        1329,
+        89,
+        260,
+        186
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "woodland_sword",
+      "name": "叶柄钢剑",
+      "path": "items/v38/woodland_sword.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        43,
+        358,
+        300,
+        260
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "woodland_bow",
+      "name": "藤木猎弓",
+      "path": "items/v38/woodland_bow.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        399,
+        321,
+        215,
+        322
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "woodland_staff",
+      "name": "青芽木杖",
+      "path": "items/v38/woodland_staff.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        700,
+        324,
+        213,
+        322
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "woodland_clothes",
+      "name": "林地短衣",
+      "path": "items/v38/woodland_clothes.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        982,
+        352,
+        303,
+        268
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "woodland_helmet",
+      "name": "林地皮帽",
+      "path": "items/v38/woodland_helmet.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        1331,
+        397,
+        268,
+        176
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "steel_sword",
+      "name": "精钢长剑",
+      "path": "items/v38/steel_sword.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        47,
+        654,
+        334,
+        280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "steel_bow",
+      "name": "钢翼长弓",
+      "path": "items/v38/steel_bow.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        397,
+        629,
+        230,
+        319
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "steel_staff",
+      "name": "镶银法杖",
+      "path": "items/v38/steel_staff.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        706,
+        629,
+        211,
+        320
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "steel_clothes",
+      "name": "精钢护衣",
+      "path": "items/v38/steel_clothes.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        991,
+        655,
+        277,
+        275
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "steel_helmet",
+      "name": "精钢头盔",
+      "path": "items/v38/steel_helmet.webp",
+      "source": "equipment-early.webp",
+      "sourceSha256": "665f7897718f886f8e04242469c4e56916511b71792b3dd72ec4418597746a46",
+      "sourceRect": [
+        1332,
+        691,
+        260,
+        234
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "stone_sword",
+      "name": "岩晶重剑",
+      "path": "items/v38/stone_sword.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        47,
+        40,
+        286,
+        279
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "stone_bow",
+      "name": "岩角长弓",
+      "path": "items/v38/stone_bow.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        380,
+        14,
+        268,
+        299
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "stone_staff",
+      "name": "岩心法杖",
+      "path": "items/v38/stone_staff.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        743,
+        17,
+        197,
+        305
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "stone_clothes",
+      "name": "岩谷护衣",
+      "path": "items/v38/stone_clothes.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        1004,
+        57,
+        271,
+        260
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "stone_helmet",
+      "name": "岩谷战盔",
+      "path": "items/v38/stone_helmet.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        1366,
+        96,
+        212,
+        211
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "dusk_sword",
+      "name": "刻纹长剑",
+      "path": "items/v38/dusk_sword.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        43,
+        358,
+        290,
+        285
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "dusk_bow",
+      "name": "暗纹战弓",
+      "path": "items/v38/dusk_bow.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        371,
+        336,
+        270,
+        311
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "dusk_staff",
+      "name": "幽晶法杖",
+      "path": "items/v38/dusk_staff.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        758,
+        326,
+        148,
+        322
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "dusk_clothes",
+      "name": "魔殿战衣",
+      "path": "items/v38/dusk_clothes.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        1016,
+        379,
+        266,
+        261
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "dusk_helmet",
+      "name": "魔殿护盔",
+      "path": "items/v38/dusk_helmet.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        1368,
+        413,
+        212,
+        221
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "sanctum_sword",
+      "name": "圣殿长剑",
+      "path": "items/v38/sanctum_sword.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        41,
+        670,
+        301,
+        265
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "sanctum_bow",
+      "name": "辉金长弓",
+      "path": "items/v38/sanctum_bow.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        377,
+        641,
+        264,
+        302
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "sanctum_staff",
+      "name": "晨辉法杖",
+      "path": "items/v38/sanctum_staff.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        764,
+        644,
+        150,
+        301
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "sanctum_clothes",
+      "name": "圣殿护衣",
+      "path": "items/v38/sanctum_clothes.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        1017,
+        681,
+        290,
+        256
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "sanctum_helmet",
+      "name": "圣殿冠盔",
+      "path": "items/v38/sanctum_helmet.webp",
+      "source": "equipment-late.webp",
+      "sourceSha256": "5e934339554f86d185051a3c6e274fa2efaac77558395262d801798e146dd215",
+      "sourceRect": [
+        1373,
+        715,
+        216,
+        216
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "equipment",
+      "wearableReady": false
+    },
+    {
+      "id": "material_basic",
+      "name": "锻铁碎片",
+      "path": "items/v38/material_basic.webp",
+      "source": "materials.webp",
+      "sourceSha256": "05e5450fe3161feabb6e16383c2383da4e21d8066f27cd12600742ef1f61371a",
+      "sourceRect": [
+        61,
+        137,
+        348,
+        275
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "material",
+      "wearableReady": false
+    },
+    {
+      "id": "material_mid",
+      "name": "精炼矿晶",
+      "path": "items/v38/material_mid.webp",
+      "source": "materials.webp",
+      "sourceSha256": "05e5450fe3161feabb6e16383c2383da4e21d8066f27cd12600742ef1f61371a",
+      "sourceRect": [
+        521,
+        121,
+        312,
+        312
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "material",
+      "wearableReady": false
+    },
+    {
+      "id": "material_high",
+      "name": "星辉锻晶",
+      "path": "items/v38/material_high.webp",
+      "source": "materials.webp",
+      "sourceSha256": "05e5450fe3161feabb6e16383c2383da4e21d8066f27cd12600742ef1f61371a",
+      "sourceRect": [
+        959,
+        127,
+        325,
+        301
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "material",
+      "wearableReady": false
+    },
+    {
+      "id": "material_mushroom_resin",
+      "name": "菌王凝露",
+      "path": "items/v38/material_mushroom_resin.webp",
+      "source": "materials.webp",
+      "sourceSha256": "05e5450fe3161feabb6e16383c2383da4e21d8066f27cd12600742ef1f61371a",
+      "sourceRect": [
+        1396,
+        135,
+        292,
+        295
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "material",
+      "wearableReady": false
+    },
+    {
+      "id": "material_stone_heart",
+      "name": "岩心结晶",
+      "path": "items/v38/material_stone_heart.webp",
+      "source": "materials.webp",
+      "sourceSha256": "05e5450fe3161feabb6e16383c2383da4e21d8066f27cd12600742ef1f61371a",
+      "sourceRect": [
+        80,
+        513,
+        314,
+        307
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "material",
+      "wearableReady": false
+    },
+    {
+      "id": "material_sword_soul",
+      "name": "剑魂碎片",
+      "path": "items/v38/material_sword_soul.webp",
+      "source": "materials.webp",
+      "sourceSha256": "05e5450fe3161feabb6e16383c2383da4e21d8066f27cd12600742ef1f61371a",
+      "sourceRect": [
+        516,
+        495,
+        293,
+        337
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "material",
+      "wearableReady": false
+    },
+    {
+      "id": "material_sanctum_core",
+      "name": "圣殿核心",
+      "path": "items/v38/material_sanctum_core.webp",
+      "source": "materials.webp",
+      "sourceSha256": "05e5450fe3161feabb6e16383c2383da4e21d8066f27cd12600742ef1f61371a",
+      "sourceRect": [
+        945,
+        497,
+        322,
+        324
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "kind": "material",
+      "wearableReady": false
+    }
+  ]
+}
